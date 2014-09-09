@@ -1,0 +1,9812 @@
+0 HEAD
+1 SOUR Gramps
+2 VERS 3.3.1-1
+2 NAME Gramps
+1 DATE 20 APR 2013
+2 TIME 08:58:03
+1 SUBM @SUBM@
+1 FILE /home/deepak/illam_workspace/Gedcom-master/Gedcom-1.18/illam/illam.ged
+1 COPR Copyright (c) 2013 Not Provided.
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG English
+0 @SUBM@ SUBM
+1 NAME Not Provided
+1 ADDR Not Provided
+2 CONT Not Provided
+2 ADR1 Not Provided
+0 @I0000@ INDI
+1 NAME Jathavedan Parameswaran /Thottara Kazhiyakandam/
+2 GIVN Jathavedan Parameswaran
+2 SURN Thottara Kazhiyakandam
+2 NPFX Namboothiri
+1 SEX M
+1 BIRT
+2 DATE 1840
+2 PLAC Thottara Desam
+1 FAMS @F0001@
+1 FAMS @F0000@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:35:46
+0 @I0001@ INDI
+1 NAME Unknown /Edappalam Pidikkapparamba/
+2 GIVN Unknown
+2 SURN Edappalam Pidikkapparamba
+1 SEX F
+1 FAMS @F0000@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 23:54:18
+0 @I0002@ INDI
+1 NAME Arya Unknown /Athippatta/
+2 GIVN Arya Unknown
+2 SURN Athippatta
+1 SEX F
+1 FAMS @F0001@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 23:54:50
+0 @I0003@ INDI
+1 NAME Parameswaran Jathavedan /Thottara Vadakkedam/
+2 GIVN Parameswaran Jathavedan
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0001@
+1 FAMS @F0002@
+1 FAMS @F0003@
+1 FAMS @F0004@
+1 FAMS @F0005@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:10
+0 @I0004@ INDI
+1 NAME Jathavedan Jathavedan /Thottara Vadakkedam/
+2 GIVN Jathavedan Jathavedan
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0001@
+1 FAMS @F0006@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:35:16
+0 @I0005@ INDI
+1 NAME Narayanan Jathavedan /Thottara Vadakkedam/
+2 GIVN Narayanan Jathavedan
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0001@
+1 FAMS @F0007@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:35
+0 @I0009@ INDI
+1 NAME Unikkaali Unknown /Paanakkattu/
+2 GIVN Unikkaali Unknown
+2 SURN Paanakkattu
+1 SEX F
+1 FAMS @F0002@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:10:30
+0 @I0010@ INDI
+1 NAME Arya Parameswaran /Thottara Vadakkedam/
+2 GIVN Arya Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0002@
+1 FAMS @F0008@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:35:25
+0 @I0011@ INDI
+1 NAME ShreeDevi Parameswaran /Thottara Vadakkedam/
+2 GIVN ShreeDevi Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0002@
+1 FAMS @F0071@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:31
+0 @I0012@ INDI
+1 NAME Unikkaali Parameswaran /Thottara Vadakkedam/
+2 GIVN Unikkaali Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0002@
+1 FAMS @F0163@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:06
+0 @I0013@ INDI
+1 NAME Paappi Parameswaran /Thottara Vadakkedam/
+2 GIVN Paappi Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX F
+1 FAMC @F0002@
+1 FAMS @F0164@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:22
+0 @I0014@ INDI
+1 NAME Narayanan Parameswaran /Thottara Vadakkedam/
+2 GIVN Narayanan Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0002@
+1 FAMS @F0170@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:31
+0 @I0015@ INDI
+1 NAME Krishnan Parameswaran /Thottara Vadakkedam/
+2 GIVN Krishnan Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0002@
+1 FAMS @F0171@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:54
+0 @I0016@ INDI
+1 NAME Neelakantan Parameswaran /Thottara Vadakkedam/
+2 GIVN Neelakantan Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: Unmarried
+1 FAMC @F0002@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:27
+0 @I0017@ INDI
+1 NAME Damodaran Parameswaran /Thottara Vadakkedam/
+2 GIVN Damodaran Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0002@
+1 FAMS @F0175@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:35:21
+0 @I0018@ INDI
+1 NAME Ittichiry Unknown /Eledam/
+2 GIVN Ittichiry Unknown
+2 SURN Eledam
+1 SEX F
+1 FAMS @F0003@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:10:21
+0 @I0019@ INDI
+1 NAME Thethi Parameswaran /Thottara Vadakkedam/
+2 GIVN Thethi Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0003@
+1 FAMS @F0183@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:13:47
+0 @I0020@ INDI
+1 NAME Jathavedan Parameswaran /Thottara Vadakkedam/
+2 GIVN Jathavedan Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+2 NICK Chaatha
+1 SEX M
+1 FAMC @F0003@
+1 FAMS @F0192@
+1 FAMS @F0243@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:54
+0 @I0021@ INDI
+1 NAME Parameswaran Parameswaran /Thottara Vadakkedam/
+2 GIVN Parameswaran Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0003@
+1 FAMS @F0264@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @I0022@ INDI
+1 NAME Thathri Parameswaran /Thottara Vadakkedam/
+2 GIVN Thathri Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0003@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:19
+0 @I0023@ INDI
+1 NAME Unneema Parameswaran /Thottara Vadakkedam/
+2 GIVN Unneema Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0003@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:00
+0 @I0024@ INDI
+1 NAME Nangeely Parameswaran /Thottara Vadakkedam/
+2 GIVN Nangeely Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0003@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:40
+0 @I0025@ INDI
+1 NAME Unneema Unknown /Pindaaly/
+2 GIVN Unneema Unknown
+2 SURN Pindaaly
+1 SEX F
+1 FAMS @F0004@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:14:23
+0 @I0026@ INDI
+1 NAME Raman Parameswaran /Thottara Vadakkedam/
+2 GIVN Raman Parameswaran
+2 SURN Thottara Vadakkedam
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0004@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:58
+0 @I0027@ INDI
+1 NAME Nangatha Parameswaran /Thottara Vadakkedam/
+2 GIVN Nangatha Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0004@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:44
+0 @I0028@ INDI
+1 NAME Nangely Unknown /Cherumittam/
+2 GIVN Nangely Unknown
+2 SURN Cherumittam
+1 SEX F
+1 FAMS @F0005@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:18:34
+0 @I0029@ INDI
+1 NAME Unknown (Sambandham) /Pulaappatta Kurithavarmathu/
+2 GIVN Unknown (Sambandham)
+2 SURN Pulaappatta Kurithavarmathu
+1 SEX F
+1 FAMS @F0006@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:23:30
+0 @I0030@ INDI
+1 NAME Unknown (Sambandham) /Pulaappatta Kurithavarmathu/
+2 GIVN Unknown (Sambandham)
+2 SURN Pulaappatta Kurithavarmathu
+1 SEX F
+1 FAMS @F0007@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:23:13
+0 @I0031@ INDI
+1 NAME Krishnan /Cheruvalloor/
+2 GIVN Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0008@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:24:18
+0 @I0032@ INDI
+1 NAME Subrahmanyan Krishnan /Cheruvalloor/
+2 GIVN Subrahmanyan Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0008@
+1 FAMS @F0009@
+1 FAMS @F0010@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:24:46
+0 @I0033@ INDI
+1 NAME Parameswaran Krishnan /Cheruvalloor/
+2 GIVN Parameswaran Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0008@
+1 FAMS @F0024@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:25:06
+0 @I0034@ INDI
+1 NAME Ravi Krishnan /Cheruvalloor/
+2 GIVN Ravi Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0008@
+1 FAMS @F0036@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:44:22
+0 @I0035@ INDI
+1 NAME Vishnu Krishnan /Cheruvalloor/
+2 GIVN Vishnu Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 DEAT
+2 TYPE At young age
+1 FAMC @F0008@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:03:02
+0 @I0036@ INDI
+1 NAME Krishnan Krishnan /Cheruvalloor/
+2 GIVN Krishnan Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 DEAT
+2 TYPE At young age
+1 FAMC @F0008@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:03:20
+0 @I0037@ INDI
+1 NAME Arya Krishnan /Cheruvalloor/
+2 GIVN Arya Krishnan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0008@
+1 FAMS @F0056@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:11:58
+0 @I0038@ INDI
+1 NAME Narayanan Krishnan /Cheruvalloor/
+2 GIVN Narayanan Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0008@
+1 FAMS @F0052@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:05:26
+0 @I0039@ INDI
+1 NAME Parvathy Unknown /Thaazhenkottathu/
+2 GIVN Parvathy Unknown
+2 SURN Thaazhenkottathu
+1 SEX F
+1 FAMS @F0009@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:28:15
+0 @I0040@ INDI
+1 NAME Krishnan Subrahmanyan /Cheruvalloor/
+2 GIVN Krishnan Subrahmanyan
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0009@
+1 FAMS @F0011@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:29:03
+0 @I0041@ INDI
+1 NAME Unikkaali Unknown /Kongoorpally/
+2 GIVN Unikkaali Unknown
+2 SURN Kongoorpally
+1 SEX F
+1 FAMS @F0010@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:31:48
+0 @I0042@ INDI
+1 NAME Parameswaran Subrahmanyan /Cheruvalloor/
+2 GIVN Parameswaran Subrahmanyan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0010@
+1 FAMS @F0014@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:32:34
+0 @I0043@ INDI
+1 NAME Nalini Subrahmanyan /Cheruvalloor/
+2 GIVN Nalini Subrahmanyan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0010@
+1 FAMS @F0016@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:33:08
+0 @I0044@ INDI
+1 NAME Sukumaran Subrahmanyan /Cheruvalloor/
+2 GIVN Sukumaran Subrahmanyan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0010@
+1 FAMS @F0019@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:33:34
+0 @I0045@ INDI
+1 NAME Narayanan Subrahmanyan /Cheruvalloor/
+2 GIVN Narayanan Subrahmanyan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0010@
+1 FAMS @F0022@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:33:59
+0 @I0046@ INDI
+1 NAME Vasudevan Subrahmanyan /Cheruvalloor/
+2 GIVN Vasudevan Subrahmanyan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0010@
+1 FAMS @F0023@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:34:20
+0 @I0047@ INDI
+1 NAME Vinodam Unknown /Malliyoor/
+2 GIVN Vinodam Unknown
+2 SURN Malliyoor
+1 SEX F
+1 FAMS @F0011@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:35:07
+0 @I0048@ INDI
+1 NAME Kala Krishnan /Cheruvalloor/
+2 GIVN Kala Krishnan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0011@
+1 FAMS @F0012@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:36:06
+0 @I0049@ INDI
+1 NAME Pradeep  Krishnan /Cheruvalloor/
+2 GIVN Pradeep  Krishnan
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0011@
+1 FAMS @F0013@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:37:07
+0 @I0050@ INDI
+1 NAME Shashi Unknown /Thiruvalla Arayaalkeezhu/
+2 GIVN Shashi Unknown
+2 SURN Thiruvalla Arayaalkeezhu
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0012@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:39:07
+0 @I0051@ INDI
+1 NAME Madhu Shashi /Thiruvalla Arayaalkeezhu/
+2 GIVN Madhu Shashi
+2 SURN Thiruvalla Arayaalkeezhu
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0012@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:39:42
+0 @I0052@ INDI
+1 NAME Manu Shashi /Thiruvalla Arayaalkeezhu/
+2 GIVN Manu Shashi
+2 SURN Thiruvalla Arayaalkeezhu
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0012@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:40:24
+0 @I0053@ INDI
+1 NAME Sudha Unknown /Muryengalam/
+2 GIVN Sudha Unknown
+2 SURN Muryengalam
+1 SEX F
+1 FAMS @F0013@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:42:14
+0 @I0054@ INDI
+1 NAME Mridula Pradeep /Cheruvalloor/
+2 GIVN Mridula Pradeep
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0013@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:43:03
+0 @I0055@ INDI
+1 NAME MidhunKrishnan Pradeep /Cheruvalloor/
+2 GIVN MidhunKrishnan Pradeep
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0013@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:43:28
+0 @I0056@ INDI
+1 NAME Geetha Unknown /Chetakulathu Pattayam/
+2 GIVN Geetha Unknown
+2 SURN Chetakulathu Pattayam
+1 SEX F
+1 FAMS @F0014@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:47:53
+0 @I0057@ INDI
+1 NAME Jayesh Parameshwaran /Cheruvalloor/
+2 GIVN Jayesh Parameshwaran
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0014@
+1 FAMS @F0015@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:48:28
+0 @I0058@ INDI
+1 NAME Shreejesh Parameshwaran /Cheruvalloor/
+2 GIVN Shreejesh Parameshwaran
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0014@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:48:58
+0 @I0059@ INDI
+1 NAME Vrinda Unknown /Vaayikkaakkara/
+2 GIVN Vrinda Unknown
+2 SURN Vaayikkaakkara
+1 SEX F
+1 FAMS @F0015@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:49:45
+0 @I0060@ INDI
+1 NAME Divakaran Unknown /Chittasheery Kapplingaattu/
+2 GIVN Divakaran Unknown
+2 SURN Chittasheery Kapplingaattu
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0016@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:52:52
+0 @I0061@ INDI
+1 NAME Sindhu Divakaran /Chittasheery Kapplingaattu/
+2 GIVN Sindhu Divakaran
+2 SURN Chittasheery Kapplingaattu
+1 SEX F
+1 FAMC @F0016@
+1 FAMS @F0017@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:53:45
+0 @I0062@ INDI
+1 NAME Seena Divakaran /Chittasheery Kapplingaattu/
+2 GIVN Seena Divakaran
+2 SURN Chittasheery Kapplingaattu
+1 SEX F
+1 FAMC @F0016@
+1 FAMS @F0018@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:54:14
+0 @I0063@ INDI
+1 NAME RajeevNarayanan Unknown /Vaarasheery Kunjikkallil/
+2 GIVN RajeevNarayanan Unknown
+2 SURN Vaarasheery Kunjikkallil
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0017@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:56:58
+0 @I0064@ INDI
+1 NAME Anjana Rajeev Narayanan /Vaarasheery Kunjikkallil/
+2 GIVN Anjana Rajeev Narayanan
+2 SURN Vaarasheery Kunjikkallil
+1 SEX F
+1 FAMC @F0017@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:56:03
+0 @I0065@ INDI
+1 NAME SaanuNarayanan Unknown /Maathoor/
+2 GIVN SaanuNarayanan Unknown
+2 SURN Maathoor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0018@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:56:44
+0 @I0066@ INDI
+1 NAME Neelakandan SaanuNarayanan /Maathoor/
+2 GIVN Neelakandan SaanuNarayanan
+2 SURN Maathoor
+2 NICK Sujith Narayanan
+1 SEX M
+1 FAMC @F0018@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 00:59:06
+0 @I0067@ INDI
+1 NAME Sarala Unknown /Vellyaattu/
+2 GIVN Sarala Unknown
+2 SURN Vellyaattu
+1 SEX F
+1 FAMS @F0019@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:02:41
+0 @I0068@ INDI
+1 NAME Swapna Sukumaran /Cheruvalloor/
+2 GIVN Swapna Sukumaran
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0019@
+1 FAMS @F0020@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:04:16
+0 @I0069@ INDI
+1 NAME Smitha Sukumaran /Cheruvalloor/
+2 GIVN Smitha Sukumaran
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0019@
+1 FAMS @F0021@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:05:15
+0 @I0070@ INDI
+1 NAME Dr. Hari Unknown /Vellaani/
+2 GIVN Dr. Hari Unknown
+2 SURN Vellaani
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0020@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:08:42
+0 @I0071@ INDI
+1 NAME Gaury Hari /Vellaani/
+2 GIVN Gaury Hari
+2 SURN Vellaani
+1 SEX F
+1 FAMC @F0020@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:06:49
+0 @I0072@ INDI
+1 NAME Parvathy Hari /Vellaani/
+2 GIVN Parvathy Hari
+2 SURN Vellaani
+1 SEX F
+1 FAMC @F0020@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:07:13
+0 @I0073@ INDI
+1 NAME Praveen Unknown /Veettiyottu/
+2 GIVN Praveen Unknown
+2 SURN Veettiyottu
+2 NPFX Nambothiri
+1 SEX M
+1 FAMS @F0021@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:08:31
+0 @I0074@ INDI
+1 NAME Savithry Unknown /Nedumburakkal Kapplingaattu/
+2 GIVN Savithry Unknown
+2 SURN Nedumburakkal Kapplingaattu
+1 SEX F
+1 FAMS @F0022@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:09:56
+0 @I0075@ INDI
+1 NAME Sneha Narayanan /Cheruvalloor/
+2 GIVN Sneha Narayanan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0022@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:10:30
+0 @I0076@ INDI
+1 NAME Savithry Unknown /Peraattupuram/
+2 GIVN Savithry Unknown
+2 SURN Peraattupuram
+1 SEX F
+1 FAMS @F0023@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:11:40
+0 @I0077@ INDI
+1 NAME ShreeDevi Unknown /Pallippaattu/
+2 GIVN ShreeDevi Unknown
+2 SURN Pallippaattu
+1 SEX F
+1 FAMS @F0024@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:12:45
+0 @I0078@ INDI
+1 NAME Arya Parameshwaran /Cheruvalloor/
+2 GIVN Arya Parameshwaran
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0024@
+1 FAMS @F0025@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:13:02
+0 @I0079@ INDI
+1 NAME Ammini Parameshwaran /Cheruvalloor/
+2 GIVN Ammini Parameshwaran
+2 SURN Cheruvalloor
+1 SEX F
+1 DEAT
+2 TYPE At young age
+1 FAMC @F0024@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:13:17
+0 @I0080@ INDI
+1 NAME Krishnan Parameshwaran /Cheruvalloor/
+2 GIVN Krishnan Parameshwaran
+2 SURN Cheruvalloor
+1 SEX M
+1 DEAT
+2 TYPE At young age
+1 FAMC @F0024@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:13:28
+0 @I0081@ INDI
+1 NAME Saraswathy Parameshwaran /Cheruvalloor/
+2 GIVN Saraswathy Parameshwaran
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0024@
+1 FAMS @F0029@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:13:47
+0 @I0082@ INDI
+1 NAME Savithry Parameshwaran /Cheruvalloor/
+2 GIVN Savithry Parameshwaran
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0024@
+1 FAMS @F0033@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:36:59
+0 @I0083@ INDI
+1 NAME Neelakantan Unknown /Pillanezhy/
+2 GIVN Neelakantan Unknown
+2 SURN Pillanezhy
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0025@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:14:59
+0 @I0084@ INDI
+1 NAME ShreeDevi Neelakantan /Pillanezhy/
+2 GIVN ShreeDevi Neelakantan
+2 SURN Pillanezhy
+1 SEX F
+1 FAMC @F0025@
+1 FAMS @F0026@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:15:23
+0 @I0085@ INDI
+1 NAME Vishnu Neelakantan /Pillanezhy/
+2 GIVN Vishnu Neelakantan
+2 SURN Pillanezhy
+1 SEX M
+1 FAMC @F0025@
+1 FAMS @F0027@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:15:41
+0 @I0086@ INDI
+1 NAME Girija Neelakantan /Pillanezhy/
+2 GIVN Girija Neelakantan
+2 SURN Pillanezhy
+1 SEX F
+1 _MDCL
+2 TYPE Not in good health
+1 FAMC @F0025@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:15:59
+0 @I0087@ INDI
+1 NAME Jalaja Neelakantan /Pillanezhy/
+2 GIVN Jalaja Neelakantan
+2 SURN Pillanezhy
+1 SEX F
+1 FAMC @F0025@
+1 FAMS @F0028@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:16:22
+0 @I0088@ INDI
+1 NAME Jayanthan Unknown /Kaladi Padinjaredathu/
+2 GIVN Jayanthan Unknown
+2 SURN Kaladi Padinjaredathu
+2 NPFX Nmaboothiri
+1 SEX M
+1 FAMS @F0026@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:17:28
+0 @I0089@ INDI
+1 NAME Vasudevan Jayanthan /Kaladi Padinjaredathu/
+2 GIVN Vasudevan Jayanthan
+2 SURN Kaladi Padinjaredathu
+2 NPFX Namboothiri
+2 NICK Saju
+1 SEX M
+1 FAMC @F0026@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:18:30
+0 @I0090@ INDI
+1 NAME Neelakantan Jayanthan /Kaladi Padinjaredathu/
+2 GIVN Neelakantan Jayanthan
+2 SURN Kaladi Padinjaredathu
+2 NPFX Namboothiri
+2 NICK Sabu
+1 SEX M
+1 FAMC @F0026@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:18:35
+0 @I0091@ INDI
+1 NAME ShreeDevi Unknown /Vellilakkaattu/
+2 GIVN ShreeDevi Unknown
+2 SURN Vellilakkaattu
+1 SEX F
+1 FAMS @F0027@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:19:24
+0 @I0092@ INDI
+1 NAME Neeraj Vishnu /Pillanezhy/
+2 GIVN Neeraj Vishnu
+2 SURN Pillanezhy
+1 SEX M
+1 FAMC @F0027@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:19:42
+0 @I0093@ INDI
+1 NAME Divakaran Unknown /Melemullanezhy/
+2 GIVN Divakaran Unknown
+2 SURN Melemullanezhy
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0028@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:20:09
+0 @I0094@ INDI
+1 NAME Arya Divakaran /Melemullanezhy/
+2 GIVN Arya Divakaran
+2 SURN Melemullanezhy
+1 SEX F
+1 FAMC @F0028@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:20:29
+0 @I0095@ INDI
+1 NAME Krishnan Unknown /Kongoorpally/
+2 GIVN Krishnan Unknown
+2 SURN Kongoorpally
+2 NPFX Namboothiri
+1 SEX M
+1 OCCU Likes Kathakali
+1 FAMS @F0029@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:21:07
+0 @I0096@ INDI
+1 NAME Sajeev Krishnan /Kongoorpally/
+2 GIVN Sajeev Krishnan
+2 SURN Kongoorpally
+1 SEX M
+1 FAMC @F0029@
+1 FAMS @F0031@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:21:23
+0 @I0097@ INDI
+1 NAME Mohanakrishnan Krishnan /Kongoorpally/
+2 GIVN Mohanakrishnan Krishnan
+2 SURN Kongoorpally
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0029@
+1 FAMS @F0030@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:21:43
+0 @I0098@ INDI
+1 NAME Sangeetha Krishnan /Kongoorpally/
+2 GIVN Sangeetha Krishnan
+2 SURN Kongoorpally
+1 SEX F
+1 FAMC @F0029@
+1 FAMS @F0032@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:21:55
+0 @I0099@ INDI
+1 NAME Remya /Aattingal Periyamana/
+2 GIVN Remya
+2 SURN Aattingal Periyamana
+1 SEX F
+1 FAMS @F0030@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:22:13
+0 @I0100@ INDI
+1 NAME Saraswathy MohanaKrishnan /Kongoorpally/
+2 GIVN Saraswathy MohanaKrishnan
+2 SURN Kongoorpally
+1 SEX F
+1 BIRT
+2 DATE 2007
+1 FAMC @F0030@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:22:26
+0 @I0101@ INDI
+1 NAME Sindhu Unknown /Kulangara/
+2 GIVN Sindhu Unknown
+2 SURN Kulangara
+1 SEX F
+1 FAMS @F0031@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:23:00
+0 @I0102@ INDI
+1 NAME Vasudevan Unknown /Edamana/
+2 GIVN Vasudevan Unknown
+2 SURN Edamana
+1 SEX M
+1 FAMS @F0032@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:23:10
+0 @I0103@ INDI
+1 NAME Narayanan Vasudevan /Edamana/
+2 GIVN Narayanan Vasudevan
+2 SURN Edamana
+1 SEX M
+1 FAMC @F0032@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:23:27
+0 @I0104@ INDI
+1 NAME Vasudevan Unknown /Kakkaadu/
+2 GIVN Vasudevan Unknown
+2 SURN Kakkaadu
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0033@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:36:59
+0 @I0105@ INDI
+1 NAME Seema Vasudevan /Kakkaadu/
+2 GIVN Seema Vasudevan
+2 SURN Kakkaadu
+1 SEX F
+1 FAMC @F0033@
+1 FAMS @F0034@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:39:10
+0 @I0106@ INDI
+1 NAME Uma Vasudevan /Kakkaadu/
+2 GIVN Uma Vasudevan
+2 SURN Kakkaadu
+1 SEX F
+1 FAMC @F0033@
+1 FAMS @F0035@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:40:09
+0 @I0107@ INDI
+1 NAME Jagadeeshan Unknown /Thottaasheery Kainikkara/
+2 GIVN Jagadeeshan Unknown
+2 SURN Thottaasheery Kainikkara
+2 NPFX Namboothri
+1 SEX M
+1 FAMS @F0034@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:39:10
+0 @I0108@ INDI
+1 NAME Yamini Jagadeeshan /Thottaasheery Kainikkara/
+2 GIVN Yamini Jagadeeshan
+2 SURN Thottaasheery Kainikkara
+1 SEX F
+1 FAMC @F0034@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:39:10
+0 @I0109@ INDI
+1 NAME Ragini Jagadeeshan /Thottaasheery Kainikkara/
+2 GIVN Ragini Jagadeeshan
+2 SURN Thottaasheery Kainikkara
+1 SEX F
+1 FAMC @F0034@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:39:10
+0 @I0110@ INDI
+1 NAME SathyaNarayanan Unknown /Tamil Brahmin/
+2 GIVN SathyaNarayanan Unknown
+2 SURN Tamil Brahmin
+1 SEX M
+1 FAMS @F0035@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:40:09
+0 @I0111@ INDI
+1 NAME Savithry Unknown /Thrikkaarana Pattery/
+2 GIVN Savithry Unknown
+2 SURN Thrikkaarana Pattery
+1 SEX F
+1 FAMS @F0036@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:44:22
+0 @I0112@ INDI
+1 NAME ShreeDevi Ravi /Cheruvalloor/
+2 GIVN ShreeDevi Ravi
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0036@
+1 FAMS @F0037@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:45:24
+0 @I0113@ INDI
+1 NAME Parvathy Ravi /Cheruvalloor/
+2 GIVN Parvathy Ravi
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0036@
+1 FAMS @F0038@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:46:53
+0 @I0114@ INDI
+1 NAME Raveendran Ravi /Cheruvalloor/
+2 GIVN Raveendran Ravi
+2 SURN Cheruvalloor
+2 NPFX Namboothiri
+1 SEX M
+1 FAMC @F0036@
+1 FAMS @F0043@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:54:00
+0 @I0115@ INDI
+1 NAME Narayanan Ravi /Cheruvalloor/
+2 GIVN Narayanan Ravi
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0036@
+1 FAMS @F0045@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:55:59
+0 @I0116@ INDI
+1 NAME Balakrishnan Ravi /Cheruvalloor/
+2 GIVN Balakrishnan Ravi
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0036@
+1 FAMS @F0047@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:57:07
+0 @I0117@ INDI
+1 NAME ShasthraSharman Ravi /Cheruvalloor/
+2 GIVN ShasthraSharman Ravi
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0036@
+1 FAMS @F0048@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:27
+0 @I0118@ INDI
+1 NAME AryaDevi Ravi /Cheruvalloor/
+2 GIVN AryaDevi Ravi
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0036@
+1 FAMS @F0049@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:54
+0 @I0119@ INDI
+1 NAME Parameshwaran Ravi /Cheruvalloor/
+2 GIVN Parameshwaran Ravi
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0036@
+1 FAMS @F0051@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:02:29
+0 @I0120@ INDI
+1 NAME EMS /Erandappurathukaattil/
+2 GIVN EMS
+2 SURN Erandappurathukaattil
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0037@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:45:24
+0 @I0121@ INDI
+1 NAME Vasudevan Unknown /Aathrashery/
+2 GIVN Vasudevan Unknown
+2 SURN Aathrashery
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0038@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:46:53
+0 @I0122@ INDI
+1 NAME Shylaja Vasudevan /Aathrashery/
+2 GIVN Shylaja Vasudevan
+2 SURN Aathrashery
+1 SEX F
+1 FAMC @F0038@
+1 FAMS @F0039@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:48:51
+0 @I0123@ INDI
+1 NAME Sreeja Vasudevan /Aathrashery/
+2 GIVN Sreeja Vasudevan
+2 SURN Aathrashery
+1 SEX F
+1 FAMC @F0038@
+1 FAMS @F0040@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:50:02
+0 @I0124@ INDI
+1 NAME Jayadevan Unknown /Cheruli/
+2 GIVN Jayadevan Unknown
+2 SURN Cheruli
+1 SEX M
+1 FAMS @F0039@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:48:51
+0 @I0125@ INDI
+1 NAME Swathi Jayadevan /Cheruli/
+2 GIVN Swathi Jayadevan
+2 SURN Cheruli
+1 SEX F
+1 FAMC @F0039@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:48:51
+0 @I0126@ INDI
+1 NAME Unknown Jayadevan /Cheruli/
+2 GIVN Unknown Jayadevan
+2 SURN Cheruli
+1 SEX M
+1 FAMC @F0039@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:48:51
+0 @I0127@ INDI
+1 NAME Krishnan Unknown /Kaattilakkodu/
+2 GIVN Krishnan Unknown
+2 SURN Kaattilakkodu
+2 NPFX Namboothiri
+1 SEX M
+1 FAMS @F0040@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:50:02
+0 @I0128@ INDI
+1 NAME Athira Krishnan /Kaattilakkodu/
+2 GIVN Athira Krishnan
+2 SURN Kaattilakkodu
+1 SEX F
+1 FAMC @F0040@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:50:02
+0 @I0129@ INDI
+1 NAME Arya Krishnan /Kaattilakkodu/
+2 GIVN Arya Krishnan
+2 SURN Kaattilakkodu
+1 SEX F
+1 FAMC @F0040@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:50:02
+0 @I0130@ INDI
+1 NAME Shreekala Vasudevan /Aathrashery/
+2 GIVN Shreekala Vasudevan
+2 SURN Aathrashery
+1 SEX F
+1 FAMC @F0038@
+1 FAMS @F0041@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:51:45
+0 @I0131@ INDI
+1 NAME Jayashree Vasudevan /Aathrashery/
+2 GIVN Jayashree Vasudevan
+2 SURN Aathrashery
+1 SEX F
+1 FAMC @F0038@
+1 FAMS @F0042@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:52:10
+0 @I0132@ INDI
+1 NAME Narayanan Unknown /Othalooru/
+2 GIVN Narayanan Unknown
+2 SURN Othalooru
+1 SEX M
+1 FAMS @F0041@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:51:45
+0 @I0133@ INDI
+1 NAME Narayanan Unknown /Animangalam/
+2 GIVN Narayanan Unknown
+2 SURN Animangalam
+1 SEX M
+1 FAMS @F0042@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:52:10
+0 @I0134@ INDI
+1 NAME Vishakhan Narayanan /Animangalam/
+2 GIVN Vishakhan Narayanan
+2 SURN Animangalam
+1 SEX M
+1 FAMC @F0042@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:52:49
+0 @I0135@ INDI
+1 NAME Vaasanthi Unknown /Adiyalloor/
+2 GIVN Vaasanthi Unknown
+2 SURN Adiyalloor
+1 SEX F
+1 FAMS @F0043@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:54:00
+0 @I0136@ INDI
+1 NAME Suresh Raveendran /Cheruvalloor/
+2 GIVN Suresh Raveendran
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0043@
+1 FAMS @F0044@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:54:29
+0 @I0137@ INDI
+1 NAME Latha Unknown /Azhakathu/
+2 GIVN Latha Unknown
+2 SURN Azhakathu
+1 SEX F
+1 FAMS @F0044@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:54:29
+0 @I0138@ INDI
+1 NAME AryaDevi Unknown /Kaithakkottu/
+2 GIVN AryaDevi Unknown
+2 SURN Kaithakkottu
+1 SEX F
+1 FAMS @F0045@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:55:59
+0 @I0139@ INDI
+1 NAME Ravi Narayanan /Cheruvalloor/
+2 GIVN Ravi Narayanan
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0045@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:55:59
+0 @I0140@ INDI
+1 NAME Savithry Narayanan /Cheruvalloor/
+2 GIVN Savithry Narayanan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0045@
+1 FAMS @F0046@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:56:41
+0 @I0141@ INDI
+1 NAME Sujith Unknown /Perumbally/
+2 GIVN Sujith Unknown
+2 SURN Perumbally
+1 SEX M
+1 FAMS @F0046@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:56:41
+0 @I0142@ INDI
+1 NAME Ramani Unknown /Chethala/
+2 GIVN Ramani Unknown
+2 SURN Chethala
+1 SEX F
+1 FAMS @F0047@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:57:07
+0 @I0143@ INDI
+1 NAME Arun Balakrishnan /Cheruvalloor/
+2 GIVN Arun Balakrishnan
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0047@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:57:27
+0 @I0144@ INDI
+1 NAME ShreeDevi Balakrishnan /Cheruvalloor/
+2 GIVN ShreeDevi Balakrishnan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0047@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:57:40
+0 @I0145@ INDI
+1 NAME Nirmala Unknown /Panthaavooru/
+2 GIVN Nirmala Unknown
+2 SURN Panthaavooru
+1 SEX F
+1 FAMS @F0048@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:27
+0 @I0146@ INDI
+1 NAME Soumya ShasthraSharman /Cheruvalloor/
+2 GIVN Soumya ShasthraSharman
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0048@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:27
+0 @I0147@ INDI
+1 NAME Reshmi ShasthraSharman /Cheruvalloor/
+2 GIVN Reshmi ShasthraSharman
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0048@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:27
+0 @I0148@ INDI
+1 NAME Narayanan Unknown /Karippaala/
+2 GIVN Narayanan Unknown
+2 SURN Karippaala
+1 SEX M
+1 FAMS @F0049@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:54
+0 @I0149@ INDI
+1 NAME Lisha Narayanan /Karippaala/
+2 GIVN Lisha Narayanan
+2 SURN Karippaala
+1 SEX F
+1 FAMC @F0049@
+1 FAMS @F0050@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:01:24
+0 @I0150@ INDI
+1 NAME Keshavan Narayanan /Karippaala/
+2 GIVN Keshavan Narayanan
+2 SURN Karippaala
+1 SEX M
+1 FAMC @F0049@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:00:42
+0 @I0151@ INDI
+1 NAME Rudran Unknown /Kulappuram/
+2 GIVN Rudran Unknown
+2 SURN Kulappuram
+1 SEX M
+1 FAMS @F0050@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:01:24
+0 @I0152@ INDI
+1 NAME Gopika Rudran /Kulappuram/
+2 GIVN Gopika Rudran
+2 SURN Kulappuram
+1 SEX F
+1 FAMC @F0050@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:01:24
+0 @I0153@ INDI
+1 NAME Radha Unknown /Kaarthvethu/
+2 GIVN Radha Unknown
+2 SURN Kaarthvethu
+1 SEX F
+1 FAMS @F0051@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:02:29
+0 @I0154@ INDI
+1 NAME Bhadra Unknown /Muryengalam/
+2 GIVN Bhadra Unknown
+2 SURN Muryengalam
+1 SEX F
+1 FAMS @F0052@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:05:26
+0 @I0155@ INDI
+1 NAME Unnikrishnan Narayanan /Cheruvalloor/
+2 GIVN Unnikrishnan Narayanan
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0052@
+1 FAMS @F0053@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:06:12
+0 @I0156@ INDI
+1 NAME Arya Narayanan /Cheruvalloor/
+2 GIVN Arya Narayanan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0052@
+1 FAMS @F0054@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:07:53
+0 @I0157@ INDI
+1 NAME Parameswaran Narayanan /Cheruvalloor/
+2 GIVN Parameswaran Narayanan
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0052@
+1 FAMS @F0055@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:09:37
+0 @I0158@ INDI
+1 NAME Prasannakumari Unknown /Paazhoor Kuroor/
+2 GIVN Prasannakumari Unknown
+2 SURN Paazhoor Kuroor
+1 SEX F
+1 FAMS @F0053@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:06:12
+0 @I0159@ INDI
+1 NAME Usha Unnikrishnan /Cheruvalloor/
+2 GIVN Usha Unnikrishnan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0053@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:06:32
+0 @I0160@ INDI
+1 NAME Nisha Unnikrishnan /Cheruvalloor/
+2 GIVN Nisha Unnikrishnan
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0053@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:06:43
+0 @I0161@ INDI
+1 NAME Narayanan Unknown /Nenminishery/
+2 GIVN Narayanan Unknown
+2 SURN Nenminishery
+1 SEX M
+1 FAMS @F0054@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:07:53
+0 @I0162@ INDI
+1 NAME Anil Narayanan /Nenminishery/
+2 GIVN Anil Narayanan
+2 SURN Nenminishery
+1 SEX M
+1 FAMC @F0054@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:07:53
+0 @I0163@ INDI
+1 NAME Archana Narayanan /Nenminishery/
+2 GIVN Archana Narayanan
+2 SURN Nenminishery
+1 SEX F
+1 FAMC @F0054@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:07:53
+0 @I0164@ INDI
+1 NAME Ramani Unknown /Vanderi Mullapally/
+2 GIVN Ramani Unknown
+2 SURN Vanderi Mullapally
+1 SEX F
+1 FAMS @F0055@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:09:37
+0 @I0165@ INDI
+1 NAME Rema Parameshwaran /Cheruvalloor/
+2 GIVN Rema Parameshwaran
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMC @F0055@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:09:37
+0 @I0166@ INDI
+1 NAME Ramesh Parameswaran /Cheruvalloor/
+2 GIVN Ramesh Parameswaran
+2 SURN Cheruvalloor
+1 SEX M
+1 FAMC @F0055@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:09:37
+0 @I0167@ INDI
+1 NAME Vasudevan Unknown /Arithottam/
+2 GIVN Vasudevan Unknown
+2 SURN Arithottam
+1 SEX M
+1 FAMS @F0056@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:11:58
+0 @I0168@ INDI
+1 NAME Neelakantan Vasudevan /Arithottam/
+2 GIVN Neelakantan Vasudevan
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0056@
+1 FAMS @F0057@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:08
+0 @I0169@ INDI
+1 NAME Krishnan Vasudevan /Arithottam/
+2 GIVN Krishnan Vasudevan
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0056@
+1 FAMS @F0059@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:15
+0 @I0170@ INDI
+1 NAME Vasudevan Vasudevan /Arithottam/
+2 GIVN Vasudevan Vasudevan
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0056@
+1 FAMS @F0061@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:17:46
+0 @I0171@ INDI
+1 NAME ShreeDevi Vasudevan /Arithottam/
+2 GIVN ShreeDevi Vasudevan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0056@
+1 FAMS @F0062@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:18:43
+0 @I0172@ INDI
+1 NAME Raman Vasudevan /Arithottam/
+2 GIVN Raman Vasudevan
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0056@
+1 FAMS @F0063@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:20:23
+0 @I0173@ INDI
+1 NAME Savithry Vasudevan /Arithottam/
+2 GIVN Savithry Vasudevan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0056@
+1 FAMS @F0064@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:21:40
+0 @I0174@ INDI
+1 NAME Leela Vasudevan /Arithottam/
+2 GIVN Leela Vasudevan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0056@
+1 FAMS @F0067@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:11:26
+0 @I0175@ INDI
+1 NAME Usha Vasudevan /Arithottam/
+2 GIVN Usha Vasudevan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0056@
+1 FAMS @F0070@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:23:44
+0 @I0176@ INDI
+1 NAME Rema Unknown /Nenminishery/
+2 GIVN Rema Unknown
+2 SURN Nenminishery
+1 SEX F
+1 FAMS @F0057@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:08
+0 @I0177@ INDI
+1 NAME Vidya Neelakantan /Arithottam/
+2 GIVN Vidya Neelakantan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0057@
+1 FAMS @F0058@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:55
+0 @I0178@ INDI
+1 NAME Vinod Neelakantan /Arithottam/
+2 GIVN Vinod Neelakantan
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0057@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:08
+0 @I0179@ INDI
+1 NAME Vipin Neelakantan /Arithottam/
+2 GIVN Vipin Neelakantan
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0057@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:08
+0 @I0180@ INDI
+1 NAME Balakrishnan Unknown /Chittasheery Kapplingaattu/
+2 GIVN Balakrishnan Unknown
+2 SURN Chittasheery Kapplingaattu
+1 SEX M
+1 FAMS @F0058@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:55
+0 @I0181@ INDI
+1 NAME Sandra Balakrishnan /Chittasheery Kapplingaattu/
+2 GIVN Sandra Balakrishnan
+2 SURN Chittasheery Kapplingaattu
+1 SEX F
+1 FAMC @F0058@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:55
+0 @I0182@ INDI
+1 NAME ShreeDevi Unknown /Vaidikan Cherumukku/
+2 GIVN ShreeDevi Unknown
+2 SURN Vaidikan Cherumukku
+1 SEX F
+1 FAMS @F0059@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:15
+0 @I0183@ INDI
+1 NAME Kripa Krishnan /Arithottam/
+2 GIVN Kripa Krishnan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0059@
+1 FAMS @F0060@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:47
+0 @I0184@ INDI
+1 NAME Keerthy Krishnan /Arithottam/
+2 GIVN Keerthy Krishnan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0059@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:15
+0 @I0185@ INDI
+1 NAME Santhosh Unknown /Kunnappally/
+2 GIVN Santhosh Unknown
+2 SURN Kunnappally
+1 SEX M
+1 FAMS @F0060@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:47
+0 @I0186@ INDI
+1 NAME ShreeDevi Unknown /Cherukulappuram/
+2 GIVN ShreeDevi Unknown
+2 SURN Cherukulappuram
+1 SEX F
+1 FAMS @F0061@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:17:46
+0 @I0187@ INDI
+1 NAME Akhila Vasudevan /Arithottam/
+2 GIVN Akhila Vasudevan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0061@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:17:46
+0 @I0188@ INDI
+1 NAME Nikhila Vasudevan /Arithottam/
+2 GIVN Nikhila Vasudevan
+2 SURN Arithottam
+1 SEX F
+1 FAMC @F0061@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:17:46
+0 @I0189@ INDI
+1 NAME Narayanan Unknown /Vellaani/
+2 GIVN Narayanan Unknown
+2 SURN Vellaani
+1 SEX M
+1 FAMS @F0062@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:18:43
+0 @I0190@ INDI
+1 NAME Sreejith Narayanan /Vellaani/
+2 GIVN Sreejith Narayanan
+2 SURN Vellaani
+1 SEX M
+1 FAMC @F0062@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:18:43
+0 @I0191@ INDI
+1 NAME Jayasree Narayanan /Vellaani/
+2 GIVN Jayasree Narayanan
+2 SURN Vellaani
+1 SEX F
+1 FAMC @F0062@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:18:43
+0 @I0192@ INDI
+1 NAME Jalaja Unknown /Kuni/
+2 GIVN Jalaja Unknown
+2 SURN Kuni
+1 SEX F
+1 FAMS @F0063@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:20:16
+0 @I0193@ INDI
+1 NAME Unnkrishnan Raman /Arithottam/
+2 GIVN Unnkrishnan Raman
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0063@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:20:36
+0 @I0194@ INDI
+1 NAME Achuthan Unknown /Keeranthatta/
+2 GIVN Achuthan Unknown
+2 SURN Keeranthatta
+1 SEX M
+1 FAMS @F0064@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:21:40
+0 @I0195@ INDI
+1 NAME Shreekala Achuthan /Keeranthatta/
+2 GIVN Shreekala Achuthan
+2 SURN Keeranthatta
+1 SEX F
+1 FAMC @F0064@
+1 FAMS @F0065@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:22:43
+0 @I0196@ INDI
+1 NAME Shreelatha Achuthan /Keeranthatta/
+2 GIVN Shreelatha Achuthan
+2 SURN Keeranthatta
+1 SEX F
+1 FAMC @F0064@
+1 FAMS @F0066@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:24:39
+0 @I0197@ INDI
+1 NAME Madhavan Unknown /Haripad Neelamana/
+2 GIVN Madhavan Unknown
+2 SURN Haripad Neelamana
+1 SEX M
+1 FAMS @F0065@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:22:43
+0 @I0198@ INDI
+1 NAME Unnikuttan Madhavan /Haripad Neelamana/
+2 GIVN Unnikuttan Madhavan
+2 SURN Haripad Neelamana
+1 SEX M
+1 FAMC @F0065@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:22:43
+0 @I0199@ INDI
+1 NAME Achukuttan Madhavan /Haripad Neelamana/
+2 GIVN Achukuttan Madhavan
+2 SURN Haripad Neelamana
+1 SEX M
+1 FAMC @F0065@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:22:43
+0 @I0200@ INDI
+1 NAME Raman Unknown /Kudamaaloor Karuthedam/
+2 GIVN Raman Unknown
+2 SURN Kudamaaloor Karuthedam
+1 SEX M
+1 FAMS @F0066@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:24:39
+0 @I0201@ INDI
+1 NAME Vishnudev Raman /Kudamaaloor Karuthedam/
+2 GIVN Vishnudev Raman
+2 SURN Kudamaaloor Karuthedam
+1 SEX M
+1 FAMC @F0066@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:24:39
+0 @I0202@ INDI
+1 NAME Vasudev Raman /Kudamaaloor Karuthedam/
+2 GIVN Vasudev Raman
+2 SURN Kudamaaloor Karuthedam
+1 SEX M
+1 FAMC @F0066@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:24:39
+0 @I0203@ INDI
+1 NAME Krishnan Unknown /Karekkaattu/
+2 GIVN Krishnan Unknown
+2 SURN Karekkaattu
+1 SEX M
+1 FAMS @F0067@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:11:26
+0 @I0204@ INDI
+1 NAME Priya Krishnan /Karekkaattu/
+2 GIVN Priya Krishnan
+2 SURN Karekkaattu
+1 SEX F
+1 FAMC @F0067@
+1 FAMS @F0068@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:13:37
+0 @I0205@ INDI
+1 NAME Bhavana Krishnan /Karekkaattu/
+2 GIVN Bhavana Krishnan
+2 SURN Karekkaattu
+1 SEX F
+1 FAMC @F0067@
+1 FAMS @F0069@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:19:12
+0 @I0206@ INDI
+1 NAME Devan Krishnan /Karekkaattu/
+2 GIVN Devan Krishnan
+2 SURN Karekkaattu
+1 SEX M
+1 FAMC @F0067@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:11:26
+0 @I0207@ INDI
+1 NAME Sreekumaran Unknown /Peraamangalam Pazhedam/
+2 GIVN Sreekumaran Unknown
+2 SURN Peraamangalam Pazhedam
+1 SEX M
+1 FAMS @F0068@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:13:37
+0 @I0208@ INDI
+1 NAME Ammini Sreekumaran /Peraamangalam Pazhedam/
+2 GIVN Ammini Sreekumaran
+2 SURN Peraamangalam Pazhedam
+1 SEX F
+1 FAMC @F0068@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:13:37
+0 @I0209@ INDI
+1 NAME Pattery Unknown /Kunnathu/
+2 GIVN Pattery Unknown
+2 SURN Kunnathu
+1 SEX M
+1 FAMS @F0069@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:19:12
+0 @I0210@ INDI
+1 NAME ShreeDevi Pattery /Kunnathu/
+2 GIVN ShreeDevi Pattery
+2 SURN Kunnathu
+1 SEX F
+1 FAMC @F0069@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:19:12
+0 @I0211@ INDI
+1 NAME ShankaraNarayanan Unknown /Thiyyannoor/
+2 GIVN ShankaraNarayanan Unknown
+2 SURN Thiyyannoor
+1 SEX M
+1 FAMS @F0070@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:23:44
+0 @I0212@ INDI
+1 NAME ShreeDevi ShankaraNarayanan /Thiyyannoor/
+2 GIVN ShreeDevi ShankaraNarayanan
+2 SURN Thiyyannoor
+1 SEX F
+1 FAMC @F0070@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:23:44
+0 @I0213@ INDI
+1 NAME Ganesh ShankaraNarayanan /Thiyyannoor/
+2 GIVN Ganesh ShankaraNarayanan
+2 SURN Thiyyannoor
+1 SEX M
+1 FAMC @F0070@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:23:44
+0 @I0214@ INDI
+1 NAME Keshavan Unknown /Meledam/
+2 GIVN Keshavan Unknown
+2 SURN Meledam
+1 SEX M
+1 FAMS @F0071@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:29:57
+0 @I0215@ INDI
+1 NAME Parameshwaran Keshavan /Meledam/
+2 GIVN Parameshwaran Keshavan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0071@
+1 FAMS @F0084@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:21:02
+0 @I0216@ INDI
+1 NAME Raman Keshavan /Meledam/
+2 GIVN Raman Keshavan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0071@
+1 FAMS @F0101@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:35:59
+0 @I0217@ INDI
+1 NAME Nangayya Keshavan /Meledam/
+2 GIVN Nangayya Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0071@
+1 FAMS @F0072@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:55:38
+0 @I0218@ INDI
+1 NAME Unikkaali Keshavan /Meledam/
+2 GIVN Unikkaali Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0071@
+1 FAMS @F0121@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:36:01
+0 @I0219@ INDI
+1 NAME Narayanan Keshavan /Meledam/
+2 GIVN Narayanan Keshavan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0071@
+1 FAMS @F0143@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:48:00
+0 @I0220@ INDI
+1 NAME ShreeDevi Keshavan /Meledam/
+2 GIVN ShreeDevi Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0071@
+1 FAMS @F0145@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:52:59
+0 @I0221@ INDI
+1 NAME Thrivikraman Keshavan /Meledam/
+2 GIVN Thrivikraman Keshavan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0071@
+1 FAMS @F0147@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:41:10
+0 @I0222@ INDI
+1 NAME Devaki Keshavan /Meledam/
+2 GIVN Devaki Keshavan
+2 SURN Meledam
+1 SEX F
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: No children
+1 FAMC @F0071@
+1 FAMS @F0152@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:05:59
+0 @I0223@ INDI
+1 NAME Umadevi Keshavan /Meledam/
+2 GIVN Umadevi Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0071@
+1 FAMS @F0153@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:13:13
+0 @I0224@ INDI
+1 NAME Leela Keshavan /Meledam/
+2 GIVN Leela Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0071@
+1 FAMS @F0160@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:02:30
+0 @I0225@ INDI
+1 NAME ShankaraNarayanan Unknown /Graamathil Eledam/
+2 GIVN ShankaraNarayanan Unknown
+2 SURN Graamathil Eledam
+1 SEX M
+1 FAMS @F0072@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:55:38
+0 @I0226@ INDI
+1 NAME Thrivikraman ShankaraNarayanan /Graamathil Eledam/
+2 GIVN Thrivikraman ShankaraNarayanan
+2 SURN Graamathil Eledam
+1 SEX M
+1 FAMC @F0072@
+1 FAMS @F0073@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:58:45
+0 @I0227@ INDI
+1 NAME Parvathy ShankaraNarayanan /Graamathil Eledam/
+2 GIVN Parvathy ShankaraNarayanan
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMC @F0072@
+1 FAMS @F0080@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:10:25
+0 @I0228@ INDI
+1 NAME Gaury Unknown /Melemullanezhy/
+2 GIVN Gaury Unknown
+2 SURN Melemullanezhy
+1 SEX F
+1 FAMS @F0073@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:58:45
+0 @I0229@ INDI
+1 NAME Sulaja Thrivikraman /Graamathil Eledam/
+2 GIVN Sulaja Thrivikraman
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMC @F0073@
+1 FAMS @F0074@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:00:46
+0 @I0230@ INDI
+1 NAME Saumini Thrivikraman /Graamathil Eledam/
+2 GIVN Saumini Thrivikraman
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMC @F0073@
+1 FAMS @F0075@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:01:57
+0 @I0231@ INDI
+1 NAME Sujatha Thrivikraman /Graamathil Eledam/
+2 GIVN Sujatha Thrivikraman
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMC @F0073@
+1 FAMS @F0076@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:03:37
+0 @I0232@ INDI
+1 NAME Padmini Thrivikraman /Graamathil Eledam/
+2 GIVN Padmini Thrivikraman
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMC @F0073@
+1 FAMS @F0077@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:04:54
+0 @I0233@ INDI
+1 NAME Shreelatha Thrivikraman /Graamathil Eledam/
+2 GIVN Shreelatha Thrivikraman
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMC @F0073@
+1 FAMS @F0078@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:06:16
+0 @I0234@ INDI
+1 NAME Unnikrishnan Thrivikraman /Graamathil Eledam/
+2 GIVN Unnikrishnan Thrivikraman
+2 SURN Graamathil Eledam
+1 SEX M
+1 FAMC @F0073@
+1 FAMS @F0079@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:07:38
+0 @I0235@ INDI
+1 NAME Mohanan Unknown /Chemmathatta/
+2 GIVN Mohanan Unknown
+2 SURN Chemmathatta
+1 SEX M
+1 FAMS @F0074@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:00:46
+0 @I0236@ INDI
+1 NAME Hari Mohanan /Chemmathatta/
+2 GIVN Hari Mohanan
+2 SURN Chemmathatta
+1 SEX M
+1 FAMC @F0074@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:00:46
+0 @I0237@ INDI
+1 NAME Karthika Mohanan /Chemmathatta/
+2 GIVN Karthika Mohanan
+2 SURN Chemmathatta
+1 SEX F
+1 FAMC @F0074@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:00:46
+0 @I0238@ INDI
+1 NAME Aryan Unknown /Pottakkuzhy/
+2 GIVN Aryan Unknown
+2 SURN Pottakkuzhy
+1 SEX M
+1 FAMS @F0075@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:01:56
+0 @I0239@ INDI
+1 NAME Athira Aryan /Pottakkuzhy/
+2 GIVN Athira Aryan
+2 SURN Pottakkuzhy
+1 SEX F
+1 FAMC @F0075@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:01:57
+0 @I0240@ INDI
+1 NAME Shyama Aryan /Pottakkuzhy/
+2 GIVN Shyama Aryan
+2 SURN Pottakkuzhy
+1 SEX F
+1 FAMC @F0075@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:01:57
+0 @I0241@ INDI
+1 NAME Satheeshan Unknown /Kaarisheery/
+2 GIVN Satheeshan Unknown
+2 SURN Kaarisheery
+1 SEX M
+1 FAMS @F0076@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:03:37
+0 @I0242@ INDI
+1 NAME Sujith Satheeshan /Kaarisheery/
+2 GIVN Sujith Satheeshan
+2 SURN Kaarisheery
+1 SEX M
+1 FAMC @F0076@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:03:37
+0 @I0243@ INDI
+1 NAME Sanjay Satheeshan /Kaarisheery/
+2 GIVN Sanjay Satheeshan
+2 SURN Kaarisheery
+1 SEX M
+1 FAMC @F0076@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:03:37
+0 @I0244@ INDI
+1 NAME Krishnan Unknown /Kappiyoor/
+2 GIVN Krishnan Unknown
+2 SURN Kappiyoor
+1 SEX M
+1 FAMS @F0077@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:04:54
+0 @I0245@ INDI
+1 NAME Yadu Krishnan /Kappiyoor/
+2 GIVN Yadu Krishnan
+2 SURN Kappiyoor
+1 SEX M
+1 FAMC @F0077@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:04:54
+0 @I0246@ INDI
+1 NAME Rudran Unknown /Paarasheery/
+2 GIVN Rudran Unknown
+2 SURN Paarasheery
+1 SEX M
+1 FAMS @F0078@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:06:16
+0 @I0247@ INDI
+1 NAME Indu Unknown /Veetty/
+2 GIVN Indu Unknown
+2 SURN Veetty
+1 SEX F
+1 FAMS @F0079@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:07:38
+0 @I0248@ INDI
+1 NAME Ashtamoorthy Unknown /Melemullanezhy/
+2 GIVN Ashtamoorthy Unknown
+2 SURN Melemullanezhy
+1 SEX M
+1 FAMS @F0080@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:10:25
+0 @I0249@ INDI
+1 NAME Radhakrishnan Ashtamoorthy /Melemullanezhy/
+2 GIVN Radhakrishnan Ashtamoorthy
+2 SURN Melemullanezhy
+1 SEX M
+1 FAMC @F0080@
+1 FAMS @F0081@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:12:32
+0 @I0250@ INDI
+1 NAME Pushpaja Ashtamoorthy /Melemullanezhy/
+2 GIVN Pushpaja Ashtamoorthy
+2 SURN Melemullanezhy
+1 SEX F
+1 FAMC @F0080@
+1 FAMS @F0082@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:13:56
+0 @I0251@ INDI
+1 NAME Satheeshan Ashtamoorthy /Melemullanezhy/
+2 GIVN Satheeshan Ashtamoorthy
+2 SURN Melemullanezhy
+1 SEX M
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: Unmarried
+1 FAMC @F0080@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:15:00
+0 @I0252@ INDI
+1 NAME Eeshwari Ashtamoorthy /Melemullanezhy/
+2 GIVN Eeshwari Ashtamoorthy
+2 SURN Melemullanezhy
+1 SEX F
+1 FAMC @F0080@
+1 FAMS @F0083@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:15:55
+0 @I0253@ INDI
+1 NAME Geetha Unknown /Thaaniyilmathiyathu/
+2 GIVN Geetha Unknown
+2 SURN Thaaniyilmathiyathu
+1 SEX F
+1 FAMS @F0081@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:12:32
+0 @I0254@ INDI
+1 NAME Sooraj Radhakrishnan /Melemullanezhy/
+2 GIVN Sooraj Radhakrishnan
+2 SURN Melemullanezhy
+1 SEX M
+1 FAMC @F0081@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:12:32
+0 @I0255@ INDI
+1 NAME Saayooj Radhakrishnan /Melemullanezhy/
+2 GIVN Saayooj Radhakrishnan
+2 SURN Melemullanezhy
+1 SEX M
+1 FAMC @F0081@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:12:32
+0 @I0256@ INDI
+1 NAME Anil Unknown /Meledam/
+2 GIVN Anil Unknown
+2 SURN Meledam
+1 SEX M
+1 FAMS @F0082@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:13:56
+0 @I0257@ INDI
+1 NAME Sanal Anil /Meledam/
+2 GIVN Sanal Anil
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0082@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:13:56
+0 @I0258@ INDI
+1 NAME Pramod Unknown /Maathoor/
+2 GIVN Pramod Unknown
+2 SURN Maathoor
+1 SEX M
+1 FAMS @F0083@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:15:55
+0 @I0259@ INDI
+1 NAME Umadevi Unknown /Graamathil Eledam/
+2 GIVN Umadevi Unknown
+2 SURN Graamathil Eledam
+1 SEX F
+1 FAMS @F0084@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:21:02
+0 @I0260@ INDI
+1 NAME Keshavan Parameshwaran /Meledam/
+2 GIVN Keshavan Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0084@
+1 FAMS @F0085@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:23:55
+0 @I0261@ INDI
+1 NAME Thrivikraman Parameshwaran /Meledam/
+2 GIVN Thrivikraman Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0084@
+1 FAMS @F0090@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:13:52
+0 @I0262@ INDI
+1 NAME Parameshwaran Parameshwaran /Meledam/
+2 GIVN Parameshwaran Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0084@
+1 FAMS @F0092@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:18:09
+0 @I0263@ INDI
+1 NAME Shankaranarayanan Parameshwaran /Meledam/
+2 GIVN Shankaranarayanan Parameshwaran
+2 SURN Meledam
+2 NICK Dhuo
+1 SEX M
+1 FAMC @F0084@
+1 FAMS @F0094@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:22:28
+0 @I0264@ INDI
+1 NAME Shanthakumari Parameshwaran /Meledam/
+2 GIVN Shanthakumari Parameshwaran
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0084@
+1 FAMS @F0095@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:23:59
+0 @I0265@ INDI
+1 NAME Purushothaman Parameshwaran /Meledam/
+2 GIVN Purushothaman Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0084@
+1 FAMS @F0099@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:56:51
+0 @I0266@ INDI
+1 NAME Anilkumar Parameshwaran /Meledam/
+2 GIVN Anilkumar Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0084@
+1 FAMS @F0100@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:33:11
+0 @I0267@ INDI
+1 NAME Savithry Unknown /Perumbadappumoola/
+2 GIVN Savithry Unknown
+2 SURN Perumbadappumoola
+1 SEX F
+1 FAMS @F0085@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:23:55
+0 @I0268@ INDI
+1 NAME Vaasanthi Keshavan /Meledam/
+2 GIVN Vaasanthi Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0085@
+1 FAMS @F0086@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:26:41
+0 @I0269@ INDI
+1 NAME Prakashan Keshavan /Meledam/
+2 GIVN Prakashan Keshavan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0085@
+1 FAMS @F0089@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:31:53
+0 @I0270@ INDI
+1 NAME Deepa Keshavan /Meledam/
+2 GIVN Deepa Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0085@
+1 FAMS @F0088@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:29:44
+0 @I0271@ INDI
+1 NAME Narayanan Unknown /Vellaambarambu/
+2 GIVN Narayanan Unknown
+2 SURN Vellaambarambu
+1 SEX M
+1 FAMS @F0086@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:26:41
+0 @I0272@ INDI
+1 NAME Manju Narayanan /Vellaambarambu/
+2 GIVN Manju Narayanan
+2 SURN Vellaambarambu
+1 SEX F
+1 FAMC @F0086@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:26:41
+0 @I0273@ INDI
+1 NAME Anjaly Narayanan /Vellaambarambu/
+2 GIVN Anjaly Narayanan
+2 SURN Vellaambarambu
+1 SEX F
+1 FAMC @F0086@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:26:41
+0 @I0274@ INDI
+1 NAME Vishnu Narayanan /Vellaambarambu/
+2 GIVN Vishnu Narayanan
+2 SURN Vellaambarambu
+1 SEX M
+1 FAMC @F0086@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:26:41
+0 @I0275@ INDI
+1 NAME Usha Keshavan /Meledam/
+2 GIVN Usha Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0085@
+1 FAMS @F0087@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:28:30
+0 @I0276@ INDI
+1 NAME Unknown (Vijaathy vivaaham) /Unknown/
+2 GIVN Unknown (Vijaathy vivaaham)
+2 SURN Unknown
+1 SEX M
+1 FAMS @F0087@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:28:30
+0 @I0277@ INDI
+1 NAME Ravi Unknown /Thottara Vadakkedam/
+2 GIVN Ravi Unknown
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMS @F0088@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:52
+0 @I0278@ INDI
+1 NAME Saarang Ravi /Thottara Vadakkedam/
+2 GIVN Saarang Ravi
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0088@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:43
+0 @I0279@ INDI
+1 NAME Divya Unknown /Pothaayathu/
+2 GIVN Divya Unknown
+2 SURN Pothaayathu
+1 SEX F
+1 FAMS @F0089@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:31:53
+0 @I0280@ INDI
+1 NAME Arjun Prakashan /Meledam/
+2 GIVN Arjun Prakashan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0089@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:31:53
+0 @I0281@ INDI
+1 NAME Anakha Prakashan /Meledam/
+2 GIVN Anakha Prakashan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0089@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:31:53
+0 @I0282@ INDI
+1 NAME Arya Unknown /Muryengalam/
+2 GIVN Arya Unknown
+2 SURN Muryengalam
+1 SEX F
+1 FAMS @F0090@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:13:52
+0 @I0283@ INDI
+1 NAME Suresh Thrivikraman /Meledam/
+2 GIVN Suresh Thrivikraman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0090@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:13:52
+0 @I0284@ INDI
+1 NAME Latha Thrivikraman /Meledam/
+2 GIVN Latha Thrivikraman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0090@
+1 FAMS @F0091@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:15:31
+0 @I0285@ INDI
+1 NAME Vasudevan Unknown /Cheruvally/
+2 GIVN Vasudevan Unknown
+2 SURN Cheruvally
+1 SEX M
+1 FAMS @F0091@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:15:31
+0 @I0286@ INDI
+1 NAME Vardhav Vasudevan /Cheruvally/
+2 GIVN Vardhav Vasudevan
+2 SURN Cheruvally
+1 SEX M
+1 FAMC @F0091@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:15:31
+0 @I0287@ INDI
+1 NAME Sulochana Unknown /Pindaaly/
+2 GIVN Sulochana Unknown
+2 SURN Pindaaly
+1 SEX F
+1 FAMS @F0092@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:18:09
+0 @I0288@ INDI
+1 NAME Rajeev Parameshwaran /Meledam/
+2 GIVN Rajeev Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0092@
+1 FAMS @F0093@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:19:07
+0 @I0289@ INDI
+1 NAME Vinod Parameshwaran /Meledam/
+2 GIVN Vinod Parameshwaran
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0092@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:18:09
+0 @I0290@ INDI
+1 NAME Suja Unknown /Areepra Karuthedam/
+2 GIVN Suja Unknown
+2 SURN Areepra Karuthedam
+1 SEX F
+1 FAMS @F0093@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:19:07
+0 @I0291@ INDI
+1 NAME Shaantha Unknown /Pindaalikkara Thekkedam/
+2 GIVN Shaantha Unknown
+2 SURN Pindaalikkara Thekkedam
+1 SEX F
+1 FAMS @F0094@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:22:28
+0 @I0292@ INDI
+1 NAME Sruthi Shankaranarayanan /Meledam/
+2 GIVN Sruthi Shankaranarayanan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0094@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:22:28
+0 @I0293@ INDI
+1 NAME Sreerag Shankaranarayanan /Meledam/
+2 GIVN Sreerag Shankaranarayanan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0094@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:22:28
+0 @I0294@ INDI
+1 NAME Shankaran Unknown /Veettiyottu/
+2 GIVN Shankaran Unknown
+2 SURN Veettiyottu
+1 SEX M
+1 FAMS @F0095@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:23:59
+0 @I0295@ INDI
+1 NAME Pratheesh Shankaran /Veettiyottu/
+2 GIVN Pratheesh Shankaran
+2 SURN Veettiyottu
+1 SEX M
+1 FAMC @F0095@
+1 FAMS @F0096@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:25:14
+0 @I0296@ INDI
+1 NAME Praveen Shankaran /Veettiyottu/
+2 GIVN Praveen Shankaran
+2 SURN Veettiyottu
+1 SEX M
+1 FAMC @F0095@
+1 FAMS @F0097@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:26:17
+0 @I0297@ INDI
+1 NAME Priya Shankaran /Veettiyottu/
+2 GIVN Priya Shankaran
+2 SURN Veettiyottu
+1 SEX F
+1 FAMC @F0095@
+1 FAMS @F0098@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:28:36
+0 @I0298@ INDI
+1 NAME Bindu Unknown /Mangalam/
+2 GIVN Bindu Unknown
+2 SURN Mangalam
+1 SEX F
+1 FAMS @F0096@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:25:14
+0 @I0299@ INDI
+1 NAME Pradyuth Pratheesh /Veettiyottu/
+2 GIVN Pradyuth Pratheesh
+2 SURN Veettiyottu
+1 SEX M
+1 FAMC @F0096@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:25:14
+0 @I0300@ INDI
+1 NAME Smitha Unknown /Cheruvalloor/
+2 GIVN Smitha Unknown
+2 SURN Cheruvalloor
+1 SEX F
+1 FAMS @F0097@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:26:17
+0 @I0301@ INDI
+1 NAME Sajil Keshavan /Perinthakkaattu/
+2 GIVN Sajil Keshavan
+2 SURN Perinthakkaattu
+1 SEX M
+1 FAMS @F0098@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:28:36
+0 @I0303@ INDI
+1 NAME Sreeja Purushothaman /Meledam/
+2 GIVN Sreeja Purushothaman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0099@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:32:00
+0 @I0304@ INDI
+1 NAME Shylaja Purushothaman /Meledam/
+2 GIVN Shylaja Purushothaman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0099@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:32:00
+0 @I0305@ INDI
+1 NAME Prashanth Purushothaman /Meledam/
+2 GIVN Prashanth Purushothaman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0099@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:32:00
+0 @I0306@ INDI
+1 NAME Pushpaja Unknown /Melemullanezhy/
+2 GIVN Pushpaja Unknown
+2 SURN Melemullanezhy
+1 SEX F
+1 FAMS @F0100@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:33:11
+0 @I0307@ INDI
+1 NAME Sanal Anilkumar /Meledam/
+2 GIVN Sanal Anilkumar
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0100@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:33:11
+0 @I0308@ INDI
+1 NAME Parvathy Unknown /Thrikkaarana Pattery/
+2 GIVN Parvathy Unknown
+2 SURN Thrikkaarana Pattery
+1 SEX F
+1 FAMS @F0101@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:35:59
+0 @I0309@ INDI
+1 NAME Narayanan Raman /Meledam/
+2 GIVN Narayanan Raman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0101@
+1 FAMS @F0102@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:38:06
+0 @I0310@ INDI
+1 NAME Arya Raman /Meledam/
+2 GIVN Arya Raman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0101@
+1 FAMS @F0104@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:41:51
+0 @I0311@ INDI
+1 NAME ShreeDevi Raman /Meledam/
+2 GIVN ShreeDevi Raman
+2 SURN Meledam
+2 NICK Dhuo
+1 SEX F
+1 FAMC @F0101@
+1 FAMS @F0108@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:48:53
+0 @I0312@ INDI
+1 NAME Krishnan Raman /Meledam/
+2 GIVN Krishnan Raman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0101@
+1 FAMS @F0113@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:59:18
+0 @I0313@ INDI
+1 NAME Chandrika Raman /Meledam/
+2 GIVN Chandrika Raman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0101@
+1 FAMS @F0115@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:05:36
+0 @I0314@ INDI
+1 NAME Subrahmanyan Raman /Meledam/
+2 GIVN Subrahmanyan Raman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0101@
+1 FAMS @F0118@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:28:47
+0 @I0315@ INDI
+1 NAME Indira Raman /Meledam/
+2 GIVN Indira Raman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0101@
+1 FAMS @F0119@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:31:23
+0 @I0316@ INDI
+1 NAME Parvathy Unknown /Karanjaattu/
+2 GIVN Parvathy Unknown
+2 SURN Karanjaattu
+1 SEX F
+1 FAMS @F0102@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:38:06
+0 @I0317@ INDI
+1 NAME Jawaharlal Narayanan /Meledam/
+2 GIVN Jawaharlal Narayanan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0102@
+1 FAMS @F0103@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:39:41
+0 @I0318@ INDI
+1 NAME Premjith Narayanan /Meledam/
+2 GIVN Premjith Narayanan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0102@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:38:06
+0 @I0319@ INDI
+1 NAME Lal Narayanan /Meledam/
+2 GIVN Lal Narayanan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0102@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:38:06
+0 @I0320@ INDI
+1 NAME Sangeetha Unknown /Irilloor/
+2 GIVN Sangeetha Unknown
+2 SURN Irilloor
+1 SEX F
+1 FAMS @F0103@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:39:41
+0 @I0321@ INDI
+1 NAME PranavNarayanan Jawaharlal /Meledam/
+2 GIVN PranavNarayanan Jawaharlal
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0103@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:39:41
+0 @I0322@ INDI
+1 NAME Sreekumaran Unknown /Poraamangalam Pazhedam/
+2 GIVN Sreekumaran Unknown
+2 SURN Poraamangalam Pazhedam
+1 SEX M
+1 FAMS @F0104@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:41:51
+0 @I0323@ INDI
+1 NAME Radhakrishnan Sreekumaran /Poraamangalam Pazhedam/
+2 GIVN Radhakrishnan Sreekumaran
+2 SURN Poraamangalam Pazhedam
+1 SEX M
+1 FAMC @F0104@
+1 FAMS @F0105@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:42:48
+0 @I0324@ INDI
+1 NAME Sreekumaran Sreekumaran /Poraamangalam Pazhedam/
+2 GIVN Sreekumaran Sreekumaran
+2 SURN Poraamangalam Pazhedam
+1 SEX M
+1 FAMC @F0104@
+1 FAMS @F0106@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:43:50
+0 @I0325@ INDI
+1 NAME Ramadasan Sreekumaran /Poraamangalam Pazhedam/
+2 GIVN Ramadasan Sreekumaran
+2 SURN Poraamangalam Pazhedam
+1 SEX M
+1 FAMC @F0104@
+1 FAMS @F0107@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:45:27
+0 @I0326@ INDI
+1 NAME Latha Unknown /Kumbalam/
+2 GIVN Latha Unknown
+2 SURN Kumbalam
+1 SEX F
+1 FAMS @F0105@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:42:48
+0 @I0327@ INDI
+1 NAME Shyamili Radhakrishnan /Poraamangalam Pazhedam/
+2 GIVN Shyamili Radhakrishnan
+2 SURN Poraamangalam Pazhedam
+1 SEX F
+1 FAMC @F0105@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:42:48
+0 @I0328@ INDI
+1 NAME Jaya Unknown /Maadathu/
+2 GIVN Jaya Unknown
+2 SURN Maadathu
+1 SEX F
+1 FAMS @F0106@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:43:50
+0 @I0329@ INDI
+1 NAME Aswathy Sreekumaran /Poraamangalam Pazhedam/
+2 GIVN Aswathy Sreekumaran
+2 SURN Poraamangalam Pazhedam
+1 SEX F
+1 FAMC @F0106@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:43:50
+0 @I0330@ INDI
+1 NAME Sreeja Unknown /Neelamana/
+2 GIVN Sreeja Unknown
+2 SURN Neelamana
+1 SEX F
+1 FAMS @F0107@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:45:27
+0 @I0331@ INDI
+1 NAME Damodaran Unknown /Kuzhippuram/
+2 GIVN Damodaran Unknown
+2 SURN Kuzhippuram
+2 NICK Dhuo
+1 SEX M
+1 FAMS @F0108@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:48:53
+0 @I0332@ INDI
+1 NAME Baby Damodaran /Kuzhippuram/
+2 GIVN Baby Damodaran
+2 SURN Kuzhippuram
+1 SEX F
+1 FAMC @F0108@
+1 FAMS @F0109@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:50:47
+0 @I0333@ INDI
+1 NAME Shylaja Damodaran /Kuzhippuram/
+2 GIVN Shylaja Damodaran
+2 SURN Kuzhippuram
+1 SEX F
+1 FAMC @F0108@
+1 FAMS @F0110@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:52:39
+0 @I0334@ INDI
+1 NAME Jayashree Damodaran /Kuzhippuram/
+2 GIVN Jayashree Damodaran
+2 SURN Kuzhippuram
+1 SEX F
+1 FAMC @F0108@
+1 FAMS @F0111@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:54:46
+0 @I0335@ INDI
+1 NAME Beena Damodaran /Kuzhippuram/
+2 GIVN Beena Damodaran
+2 SURN Kuzhippuram
+1 SEX F
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: Unmarried
+1 OCCU Advocate
+1 FAMC @F0108@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:56:15
+0 @I0336@ INDI
+1 NAME Vidya Damodaran /Kuzhippuram/
+2 GIVN Vidya Damodaran
+2 SURN Kuzhippuram
+1 SEX F
+1 FAMC @F0108@
+1 FAMS @F0112@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:58:07
+0 @I0337@ INDI
+1 NAME Narayanan Unknown /Puthumana/
+2 GIVN Narayanan Unknown
+2 SURN Puthumana
+1 SEX M
+1 FAMS @F0109@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:50:47
+0 @I0338@ INDI
+1 NAME Manjusha Narayanan /Puthumana/
+2 GIVN Manjusha Narayanan
+2 SURN Puthumana
+1 SEX F
+1 FAMC @F0109@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:50:47
+0 @I0339@ INDI
+1 NAME Raagi Narayanan /Puthumana/
+2 GIVN Raagi Narayanan
+2 SURN Puthumana
+1 SEX F
+1 FAMC @F0109@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:50:47
+0 @I0340@ INDI
+1 NAME Unnikkuttan Narayanan /Puthumana/
+2 GIVN Unnikkuttan Narayanan
+2 SURN Puthumana
+1 SEX M
+1 FAMC @F0109@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:50:47
+0 @I0341@ INDI
+1 NAME Shankaran Unknown /Thaamarakulam/
+2 GIVN Shankaran Unknown
+2 SURN Thaamarakulam
+1 SEX M
+1 FAMS @F0110@
+1 FAMS @F0111@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:54:46
+0 @I0342@ INDI
+1 NAME Pranav Shankaran /Thaamarakulam/
+2 GIVN Pranav Shankaran
+2 SURN Thaamarakulam
+1 SEX M
+1 FAMC @F0110@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:52:47
+0 @I0343@ INDI
+1 NAME Pallavi Shankaran /Thaamarakulam/
+2 GIVN Pallavi Shankaran
+2 SURN Thaamarakulam
+1 SEX F
+1 FAMC @F0110@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:52:39
+0 @I0344@ INDI
+1 NAME Suresh Unknown /Kakkuzhy/
+2 GIVN Suresh Unknown
+2 SURN Kakkuzhy
+1 SEX M
+1 FAMS @F0112@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:58:07
+0 @I0345@ INDI
+1 NAME Unknown Suresh /Kakkuzhy/
+2 GIVN Unknown Suresh
+2 SURN Kakkuzhy
+1 SEX M
+1 FAMC @F0112@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:58:07
+0 @I0346@ INDI
+1 NAME Unknown Suresh /Kakkuzhy/
+2 GIVN Unknown Suresh
+2 SURN Kakkuzhy
+1 SEX M
+1 FAMC @F0112@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:58:07
+0 @I0347@ INDI
+1 NAME Arya Unknown /Pothaayathu/
+2 GIVN Arya Unknown
+2 SURN Pothaayathu
+1 SEX F
+1 FAMS @F0113@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:59:18
+0 @I0348@ INDI
+1 NAME Shaaji Krishnan /Meledam/
+2 GIVN Shaaji Krishnan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0113@
+1 FAMS @F0114@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:01:36
+0 @I0349@ INDI
+1 NAME Ambily Unknown /Areekkara/
+2 GIVN Ambily Unknown
+2 SURN Areekkara
+1 SEX F
+1 FAMS @F0114@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:01:36
+0 @I0350@ INDI
+1 NAME Krishnan Shaaji /Meledam/
+2 GIVN Krishnan Shaaji
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0114@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:01:36
+0 @I0351@ INDI
+1 NAME Krishnan Unknown /Cheruthennaattu/
+2 GIVN Krishnan Unknown
+2 SURN Cheruthennaattu
+1 SEX M
+1 FAMS @F0115@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:05:36
+0 @I0352@ INDI
+1 NAME Leena Krishnan /Cheruthennaattu/
+2 GIVN Leena Krishnan
+2 SURN Cheruthennaattu
+1 SEX F
+1 FAMC @F0115@
+1 FAMS @F0116@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:07:15
+0 @I0353@ INDI
+1 NAME Sathy Krishnan /Cheruthennaattu/
+2 GIVN Sathy Krishnan
+2 SURN Cheruthennaattu
+1 SEX F
+1 FAMC @F0115@
+1 FAMS @F0117@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:09:39
+0 @I0354@ INDI
+1 NAME Narayanan Krishnan /Cheruthennaattu/
+2 GIVN Narayanan Krishnan
+2 SURN Cheruthennaattu
+1 SEX M
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: Unmarried
+1 FAMC @F0115@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:10:28
+0 @I0355@ INDI
+1 NAME Damodaran Unknown /Adimana/
+2 GIVN Damodaran Unknown
+2 SURN Adimana
+1 SEX M
+1 FAMS @F0116@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:07:15
+0 @I0356@ INDI
+1 NAME ShreeDevi Damodaran /Adimana/
+2 GIVN ShreeDevi Damodaran
+2 SURN Adimana
+1 SEX F
+1 FAMC @F0116@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:07:15
+0 @I0357@ INDI
+1 NAME Mohanan Unknown /Kottaarathil/
+2 GIVN Mohanan Unknown
+2 SURN Kottaarathil
+1 SEX M
+1 FAMS @F0117@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:09:39
+0 @I0358@ INDI
+1 NAME Ajaykrishnan Mohanan /Kottaarathil/
+2 GIVN Ajaykrishnan Mohanan
+2 SURN Kottaarathil
+1 SEX M
+1 FAMC @F0117@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:09:39
+0 @I0359@ INDI
+1 NAME Anjaly Mohanan /Kottaarathil/
+2 GIVN Anjaly Mohanan
+2 SURN Kottaarathil
+1 SEX F
+1 FAMC @F0117@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:09:39
+0 @I0360@ INDI
+1 NAME Prabha Unknown /Akkarachittooru/
+2 GIVN Prabha Unknown
+2 SURN Akkarachittooru
+1 SEX F
+1 FAMS @F0118@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:28:47
+0 @I0361@ INDI
+1 NAME Aneesh Subrahmanyan /Meledam/
+2 GIVN Aneesh Subrahmanyan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0118@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:28:47
+0 @I0362@ INDI
+1 NAME Anoop Subrahmanyan /Meledam/
+2 GIVN Anoop Subrahmanyan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0118@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:28:47
+0 @I0363@ INDI
+1 NAME Brahmaduttan Unknown /Pothaayathu/
+2 GIVN Brahmaduttan Unknown
+2 SURN Pothaayathu
+1 SEX M
+1 FAMS @F0119@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:31:23
+0 @I0364@ INDI
+1 NAME Harinarayanan Brahmaduttan /Pothaayathu/
+2 GIVN Harinarayanan Brahmaduttan
+2 SURN Pothaayathu
+1 SEX M
+1 FAMC @F0119@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:31:23
+0 @I0365@ INDI
+1 NAME Maya Brahmaduttan /Pothaayathu/
+2 GIVN Maya Brahmaduttan
+2 SURN Pothaayathu
+1 SEX F
+1 FAMC @F0119@
+1 FAMS @F0120@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:32:53
+0 @I0366@ INDI
+1 NAME Bhavadasan Brahmaduttan /Pothaayathu/
+2 GIVN Bhavadasan Brahmaduttan
+2 SURN Pothaayathu
+1 SEX M
+1 FAMC @F0119@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:31:23
+0 @I0367@ INDI
+1 NAME Manoj Unknown /Chethyaattu/
+2 GIVN Manoj Unknown
+2 SURN Chethyaattu
+1 SEX M
+1 FAMS @F0120@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:32:53
+0 @I0368@ INDI
+1 NAME Namitha Manoj /Chethyaattu/
+2 GIVN Namitha Manoj
+2 SURN Chethyaattu
+1 SEX F
+1 FAMC @F0120@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:32:54
+0 @I0369@ INDI
+1 NAME Narayanan Unknown /Panoru/
+2 GIVN Narayanan Unknown
+2 SURN Panoru
+1 SEX M
+1 FAMS @F0121@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:36:01
+0 @I0370@ INDI
+1 NAME Leela Narayanan /Panoru/
+2 GIVN Leela Narayanan
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0121@
+1 FAMS @F0122@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:39:24
+0 @I0371@ INDI
+1 NAME Parameshwaran Narayanan /Panoru/
+2 GIVN Parameshwaran Narayanan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0121@
+1 FAMS @F0130@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:20:15
+0 @I0372@ INDI
+1 NAME Keshavan Narayanan /Panoru/
+2 GIVN Keshavan Narayanan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0121@
+1 FAMS @F0134@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:29:55
+0 @I0373@ INDI
+1 NAME Subhadra Narayanan /Panoru/
+2 GIVN Subhadra Narayanan
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0121@
+1 FAMS @F0137@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:37:31
+0 @I0374@ INDI
+1 NAME ShreeDevi Narayanan /Panoru/
+2 GIVN ShreeDevi Narayanan
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0121@
+1 FAMS @F0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:42:52
+0 @I0375@ INDI
+1 NAME Krishnan Narayanan /Panoru/
+2 GIVN Krishnan Narayanan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0121@
+1 FAMS @F0141@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:44:57
+0 @I0376@ INDI
+1 NAME Narayanan Unknown /Erandappurathukaattil/
+2 GIVN Narayanan Unknown
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMS @F0122@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:39:24
+0 @I0377@ INDI
+1 NAME Narayanan Narayanan /Erandappurathukaattil/
+2 GIVN Narayanan Narayanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0122@
+1 FAMS @F0125@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:37:19
+0 @I0378@ INDI
+1 NAME Sreedharan Narayanan /Erandappurathukaattil/
+2 GIVN Sreedharan Narayanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0122@
+1 FAMS @F0126@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:38:46
+0 @I0379@ INDI
+1 NAME Mohanan Narayanan /Erandappurathukaattil/
+2 GIVN Mohanan Narayanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0122@
+1 FAMS @F0127@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:17
+0 @I0380@ INDI
+1 NAME Devan Narayanan /Erandappurathukaattil/
+2 GIVN Devan Narayanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0122@
+1 FAMS @F0128@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:56
+0 @I0381@ INDI
+1 NAME Shankaran Narayanan /Erandappurathukaattil/
+2 GIVN Shankaran Narayanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0122@
+1 FAMS @F0129@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:15:28
+0 @I0382@ INDI
+1 NAME Kuttan Narayanan /Erandappurathukaattil/
+2 GIVN Kuttan Narayanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: Unmarried
+1 FAMC @F0122@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:16:00
+0 @I0383@ INDI
+1 NAME Sathy Narayanan /Erandappurathukaattil/
+2 GIVN Sathy Narayanan
+2 SURN Erandappurathukaattil
+1 SEX F
+1 FAMC @F0122@
+1 FAMS @F0123@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:43:52
+0 @I0384@ INDI
+1 NAME Leela Narayanan /Erandappurathukaattil/
+2 GIVN Leela Narayanan
+2 SURN Erandappurathukaattil
+1 SEX F
+1 FAMC @F0122@
+1 FAMS @F0124@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:35:32
+0 @I0385@ INDI
+1 NAME Parameshwaran Unknown /Malliyoor/
+2 GIVN Parameshwaran Unknown
+2 SURN Malliyoor
+1 SEX M
+1 FAMS @F0123@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:43:52
+0 @I0386@ INDI
+1 NAME Sreeshivan Parameshwaran /Malliyoor/
+2 GIVN Sreeshivan Parameshwaran
+2 SURN Malliyoor
+1 SEX M
+1 FAMC @F0123@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:43:52
+0 @I0387@ INDI
+1 NAME Sreebhadra Parameshwaran /Malliyoor/
+2 GIVN Sreebhadra Parameshwaran
+2 SURN Malliyoor
+1 SEX F
+1 FAMC @F0123@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:43:52
+0 @I0388@ INDI
+1 NAME Krishnan Unknown /Analakkaattu/
+2 GIVN Krishnan Unknown
+2 SURN Analakkaattu
+1 SEX M
+1 FAMS @F0124@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:35:32
+0 @I0389@ INDI
+1 NAME Priya Krishnan /Analakkaattu/
+2 GIVN Priya Krishnan
+2 SURN Analakkaattu
+1 SEX F
+1 FAMC @F0124@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:35:32
+0 @I0390@ INDI
+1 NAME Unnikkuttan Krishnan /Analakkaattu/
+2 GIVN Unnikkuttan Krishnan
+2 SURN Analakkaattu
+1 SEX M
+1 FAMC @F0124@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:35:32
+0 @I0391@ INDI
+1 NAME Uma Unknown /Vellooru/
+2 GIVN Uma Unknown
+2 SURN Vellooru
+1 SEX F
+1 FAMS @F0125@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:37:19
+0 @I0392@ INDI
+1 NAME Sasikala Unknown /Unknown/
+2 GIVN Sasikala Unknown
+2 SURN Unknown
+1 SEX F
+1 FAMS @F0126@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:38:46
+0 @I0393@ INDI
+1 NAME Unknown Sreedharan /Erandappurathukaattil/
+2 GIVN Unknown Sreedharan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0126@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:10:24
+0 @I0394@ INDI
+1 NAME Unknown Sreedharan /Erandappurathukaattil/
+2 GIVN Unknown Sreedharan
+2 SURN Erandappurathukaattil
+1 SEX F
+1 FAMC @F0126@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:10:37
+0 @I0395@ INDI
+1 NAME ShreeDevi Unknown /Edakkaattu/
+2 GIVN ShreeDevi Unknown
+2 SURN Edakkaattu
+1 SEX F
+1 FAMS @F0127@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:17
+0 @I0396@ INDI
+1 NAME Unknown Mohanan /Erandappurathukaattil/
+2 GIVN Unknown Mohanan
+2 SURN Erandappurathukaattil
+1 SEX M
+1 FAMC @F0127@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:17
+0 @I0397@ INDI
+1 NAME Unknown Mohanan /Erandappurathukaattil/
+2 GIVN Unknown Mohanan
+2 SURN Erandappurathukaattil
+1 SEX F
+1 FAMC @F0127@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:17
+0 @I0398@ INDI
+1 NAME Asha Unknown /Unknown/
+2 GIVN Asha Unknown
+2 SURN Unknown
+1 SEX F
+1 FAMS @F0128@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:56
+0 @I0399@ INDI
+1 NAME Aswathy Unknown /Thrissur Kizhakkedam/
+2 GIVN Aswathy Unknown
+2 SURN Thrissur Kizhakkedam
+1 SEX F
+1 FAMS @F0129@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:15:28
+0 @I0400@ INDI
+1 NAME Unknown Shankaran /Erandappurathukaattil/
+2 GIVN Unknown Shankaran
+2 SURN Erandappurathukaattil
+1 SEX F
+1 FAMC @F0129@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:15:28
+0 @I0401@ INDI
+1 NAME Unknown Shankaran /Erandappurathukaattil/
+2 GIVN Unknown Shankaran
+2 SURN Erandappurathukaattil
+1 SEX F
+1 FAMC @F0129@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:15:28
+0 @I0402@ INDI
+1 NAME Ammini Unknown /Kuriyedam/
+2 GIVN Ammini Unknown
+2 SURN Kuriyedam
+1 SEX F
+1 FAMS @F0130@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:20:15
+0 @I0403@ INDI
+1 NAME Narayanan Parameshwaran /Panoru/
+2 GIVN Narayanan Parameshwaran
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0130@
+1 FAMS @F0131@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:23:38
+0 @I0404@ INDI
+1 NAME Dineshan Parameshwaran /Panoru/
+2 GIVN Dineshan Parameshwaran
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0130@
+1 FAMS @F0132@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:25:26
+0 @I0405@ INDI
+1 NAME Sandhya Parameshwaran /Panoru/
+2 GIVN Sandhya Parameshwaran
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0130@
+1 FAMS @F0133@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:27:42
+0 @I0406@ INDI
+1 NAME Raaji Unknown /Vailisheery Kizhakkedam/
+2 GIVN Raaji Unknown
+2 SURN Vailisheery Kizhakkedam
+1 SEX F
+1 FAMS @F0131@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:23:38
+0 @I0407@ INDI
+1 NAME Neeraj Narayanan /Panoru/
+2 GIVN Neeraj Narayanan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0131@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:23:38
+0 @I0408@ INDI
+1 NAME Sooraj Narayanan /Panoru/
+2 GIVN Sooraj Narayanan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0131@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:23:38
+0 @I0409@ INDI
+1 NAME Sindhu Unknown /Thottappaaya/
+2 GIVN Sindhu Unknown
+2 SURN Thottappaaya
+1 SEX F
+1 FAMS @F0132@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:25:26
+0 @I0410@ INDI
+1 NAME Sudeep Dineshan /Panoru/
+2 GIVN Sudeep Dineshan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0132@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:25:26
+0 @I0411@ INDI
+1 NAME Siddharth Dineshan /Panoru/
+2 GIVN Siddharth Dineshan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0132@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:25:26
+0 @I0412@ INDI
+1 NAME Narayanan Unknown /Orupulaashery/
+2 GIVN Narayanan Unknown
+2 SURN Orupulaashery
+1 SEX M
+1 FAMS @F0133@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:27:42
+0 @I0413@ INDI
+1 NAME Nived Narayanan /Orupulaashery/
+2 GIVN Nived Narayanan
+2 SURN Orupulaashery
+1 SEX M
+1 FAMC @F0133@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:27:42
+0 @I0414@ INDI
+1 NAME Neeranj Narayanan /Orupulaashery/
+2 GIVN Neeranj Narayanan
+2 SURN Orupulaashery
+1 SEX M
+1 FAMC @F0133@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:27:42
+0 @I0415@ INDI
+1 NAME Radha Unknown /Kannannoor Arikkathu/
+2 GIVN Radha Unknown
+2 SURN Kannannoor Arikkathu
+1 SEX F
+1 FAMS @F0134@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:29:55
+0 @I0416@ INDI
+1 NAME Pradeep Keshavan /Panoru/
+2 GIVN Pradeep Keshavan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0134@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:29:55
+0 @I0417@ INDI
+1 NAME Preethy Keshavan /Panoru/
+2 GIVN Preethy Keshavan
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0134@
+1 FAMS @F0135@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:31:18
+0 @I0418@ INDI
+1 NAME Priya Keshavan /Panoru/
+2 GIVN Priya Keshavan
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0134@
+1 FAMS @F0136@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:33:56
+0 @I0419@ INDI
+1 NAME Mukundan Unknown /Moothedam/
+2 GIVN Mukundan Unknown
+2 SURN Moothedam
+1 SEX M
+1 FAMS @F0135@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:31:18
+0 @I0420@ INDI
+1 NAME Keerthana Mukundan /Moothedam/
+2 GIVN Keerthana Mukundan
+2 SURN Moothedam
+1 SEX F
+1 FAMC @F0135@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:31:18
+0 @I0421@ INDI
+1 NAME Adityan Mukundan /Moothedam/
+2 GIVN Adityan Mukundan
+2 SURN Moothedam
+1 SEX M
+1 FAMC @F0135@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:31:18
+0 @I0422@ INDI
+1 NAME Sreekuttan Unknown /Raamamangalathukalloor/
+2 GIVN Sreekuttan Unknown
+2 SURN Raamamangalathukalloor
+1 SEX M
+1 FAMS @F0136@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:33:56
+0 @I0423@ INDI
+1 NAME Shreya Sreekuttan /Raamamangalathukalloor/
+2 GIVN Shreya Sreekuttan
+2 SURN Raamamangalathukalloor
+1 SEX F
+1 FAMC @F0136@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:33:56
+0 @I0424@ INDI
+1 NAME Madhavan Unknown /Bhasmathil Mekkaattu/
+2 GIVN Madhavan Unknown
+2 SURN Bhasmathil Mekkaattu
+1 SEX M
+1 FAMS @F0137@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:37:31
+0 @I0425@ INDI
+1 NAME Vallabhan Madhavan /Bhasmathil Mekkaattu/
+2 GIVN Vallabhan Madhavan
+2 SURN Bhasmathil Mekkaattu
+1 SEX M
+1 FAMC @F0137@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:37:31
+0 @I0426@ INDI
+1 NAME Ramani Madhavan /Bhasmathil Mekkaattu/
+2 GIVN Ramani Madhavan
+2 SURN Bhasmathil Mekkaattu
+1 SEX F
+1 FAMC @F0137@
+1 FAMS @F0138@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:39:03
+0 @I0427@ INDI
+1 NAME Vaasanthi Madhavan /Bhasmathil Mekkaattu/
+2 GIVN Vaasanthi Madhavan
+2 SURN Bhasmathil Mekkaattu
+1 SEX F
+1 FAMC @F0137@
+1 FAMS @F0139@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:41:13
+0 @I0428@ INDI
+1 NAME Ravi Unknown /Nenminishery/
+2 GIVN Ravi Unknown
+2 SURN Nenminishery
+1 SEX M
+1 FAMS @F0138@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:39:03
+0 @I0429@ INDI
+1 NAME Ranjith Ravi /Nenminishery/
+2 GIVN Ranjith Ravi
+2 SURN Nenminishery
+1 SEX M
+1 FAMC @F0138@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:39:40
+0 @I0430@ INDI
+1 NAME Rajini Ravi /Nenminishery/
+2 GIVN Rajini Ravi
+2 SURN Nenminishery
+1 SEX F
+1 FAMC @F0138@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:39:52
+0 @I0431@ INDI
+1 NAME Viswanathan Unknown /Kodasheery Meledam/
+2 GIVN Viswanathan Unknown
+2 SURN Kodasheery Meledam
+1 SEX M
+1 FAMS @F0139@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:41:13
+0 @I0432@ INDI
+1 NAME Vivek Viswanathan /Kodasheery Meledam/
+2 GIVN Vivek Viswanathan
+2 SURN Kodasheery Meledam
+1 SEX M
+1 FAMC @F0139@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:41:13
+0 @I0433@ INDI
+1 NAME Vedika Viswanathan /Kodasheery Meledam/
+2 GIVN Vedika Viswanathan
+2 SURN Kodasheery Meledam
+1 SEX F
+1 FAMC @F0139@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:41:13
+0 @I0434@ INDI
+1 NAME Parameswaran Unknown /Raamapuram Mangalam/
+2 GIVN Parameswaran Unknown
+2 SURN Raamapuram Mangalam
+1 SEX M
+1 FAMS @F0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:42:52
+0 @I0435@ INDI
+1 NAME Bijitha Parameswaran /Raamapuram Mangalam/
+2 GIVN Bijitha Parameswaran
+2 SURN Raamapuram Mangalam
+1 SEX F
+1 FAMC @F0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:42:52
+0 @I0436@ INDI
+1 NAME Babitha Parameswaran /Raamapuram Mangalam/
+2 GIVN Babitha Parameswaran
+2 SURN Raamapuram Mangalam
+1 SEX F
+1 FAMC @F0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:42:52
+0 @I0437@ INDI
+1 NAME Jayaraman Parameswaran /Raamapuram Mangalam/
+2 GIVN Jayaraman Parameswaran
+2 SURN Raamapuram Mangalam
+1 SEX M
+1 FAMC @F0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:42:52
+0 @I0438@ INDI
+1 NAME Susheela Unknown /Achipra Erkara/
+2 GIVN Susheela Unknown
+2 SURN Achipra Erkara
+1 SEX F
+1 FAMS @F0141@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:44:57
+0 @I0439@ INDI
+1 NAME Dhanya Krishnan /Panoru/
+2 GIVN Dhanya Krishnan
+2 SURN Panoru
+1 SEX F
+1 FAMC @F0141@
+1 FAMS @F0142@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:45:52
+0 @I0440@ INDI
+1 NAME Hari Krishnan /Panoru/
+2 GIVN Hari Krishnan
+2 SURN Panoru
+1 SEX M
+1 FAMC @F0141@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:44:57
+0 @I0441@ INDI
+1 NAME Abhilash Unknown /Areekkara/
+2 GIVN Abhilash Unknown
+2 SURN Areekkara
+1 SEX M
+1 FAMS @F0142@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:45:52
+0 @I0442@ INDI
+1 NAME Devaki Unknown /Thondinnoor Paarayil/
+2 GIVN Devaki Unknown
+2 SURN Thondinnoor Paarayil
+1 SEX F
+1 FAMS @F0143@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:48:00
+0 @I0443@ INDI
+1 NAME Krishnan Narayanan /Meledam/
+2 GIVN Krishnan Narayanan
+2 SURN Meledam
+1 NAME Krishnan Unknown /Meledam/
+2 GIVN Krishnan Unknown
+2 SURN Meledam
+1 SEX M
+1 FACT I0637
+2 TYPE Merged Gramps ID
+1 FAMC @F0143@
+1 FAMS @F0144@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:53:53
+0 @I0445@ INDI
+1 NAME Vrinda Krishnan /Meledam/
+2 GIVN Vrinda Krishnan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0144@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:50:53
+0 @I0446@ INDI
+1 NAME Indu Krishnan /Meledam/
+2 GIVN Indu Krishnan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0144@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:50:53
+0 @I0447@ INDI
+1 NAME Krishnan Unknown /Keezhaanalloor/
+2 GIVN Krishnan Unknown
+2 SURN Keezhaanalloor
+1 SEX M
+1 FAMS @F0145@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:52:59
+0 @I0448@ INDI
+1 NAME Narayanan Krishnan /Keezhaanalloor/
+2 GIVN Narayanan Krishnan
+2 SURN Keezhaanalloor
+1 SEX M
+1 DEAT
+2 TYPE At young age
+1 FAMC @F0145@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:54:23
+0 @I0449@ INDI
+1 NAME ShreeDevi Krishnan /Keezhaanalloor/
+2 GIVN ShreeDevi Krishnan
+2 SURN Keezhaanalloor
+1 NAME ShreeDevi Unknown /Keezhaanalloor/
+2 GIVN ShreeDevi Unknown
+2 SURN Keezhaanalloor
+1 SEX F
+1 FACT I0302
+2 TYPE Merged Gramps ID
+1 FAMC @F0145@
+1 FAMS @F0099@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:58:33
+0 @I0450@ INDI
+1 NAME Savithry Krishnan /Keezhaanalloor/
+2 GIVN Savithry Krishnan
+2 SURN Keezhaanalloor
+1 SEX F
+1 EVEN
+2 TYPE Marriage
+2 NOTE Description: Unmarried
+1 FAMC @F0145@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 21:00:14
+0 @I0451@ INDI
+1 NAME Keshavan Krishnan /Keezhaanalloor/
+2 GIVN Keshavan Krishnan
+2 SURN Keezhaanalloor
+1 SEX M
+1 FAMC @F0145@
+1 FAMS @F0146@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:32:51
+0 @I0452@ INDI
+1 NAME Savithry Unknown /Kavungal/
+2 GIVN Savithry Unknown
+2 SURN Kavungal
+1 SEX F
+1 FAMS @F0146@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:32:51
+0 @I0453@ INDI
+1 NAME Sajith Keshavan /Keezhaanalloor/
+2 GIVN Sajith Keshavan
+2 SURN Keezhaanalloor
+1 SEX M
+1 FAMC @F0146@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:32:51
+0 @I0454@ INDI
+1 NAME Sajitha Keshavan /Keezhaanalloor/
+2 GIVN Sajitha Keshavan
+2 SURN Keezhaanalloor
+1 SEX F
+1 FAMC @F0146@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:32:51
+0 @I0455@ INDI
+1 NAME Devaki Unknown /Kaarthvethu/
+2 GIVN Devaki Unknown
+2 SURN Kaarthvethu
+1 SEX F
+1 FAMS @F0147@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:41:10
+0 @I0456@ INDI
+1 NAME Keshavan Thrivikraman /Meledam/
+2 GIVN Keshavan Thrivikraman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0147@
+1 FAMS @F0148@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:14
+0 @I0457@ INDI
+1 NAME Umadevi Thrivikraman /Meledam/
+2 GIVN Umadevi Thrivikraman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0147@
+1 FAMS @F0149@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:57
+0 @I0458@ INDI
+1 NAME ShankaraNarayanan Thrivikraman /Meledam/
+2 GIVN ShankaraNarayanan Thrivikraman
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0147@
+1 FAMS @F0150@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:47:40
+0 @I0459@ INDI
+1 NAME Jayasree Thrivikraman /Meledam/
+2 GIVN Jayasree Thrivikraman
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0147@
+1 FAMS @F0151@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:03:51
+0 @I0460@ INDI
+1 NAME Sreekumari Unknown /Cherukunnathu/
+2 GIVN Sreekumari Unknown
+2 SURN Cherukunnathu
+1 SEX F
+1 FAMS @F0148@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:14
+0 @I0461@ INDI
+1 NAME Thriviprasad Keshavan /Meledam/
+2 GIVN Thriviprasad Keshavan
+2 SURN Meledam
+1 SEX M
+1 FAMC @F0148@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:14
+0 @I0462@ INDI
+1 NAME Prathibha Keshavan /Meledam/
+2 GIVN Prathibha Keshavan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0148@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:14
+0 @I0463@ INDI
+1 NAME Subrahmanyan Unknown /Cherukunnathu/
+2 GIVN Subrahmanyan Unknown
+2 SURN Cherukunnathu
+1 SEX M
+1 FAMS @F0149@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:57
+0 @I0464@ INDI
+1 NAME SumeshKrishnan Subrahmanyan /Cherukunnathu/
+2 GIVN SumeshKrishnan Subrahmanyan
+2 SURN Cherukunnathu
+1 SEX M
+1 FAMC @F0149@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:45:22
+0 @I0465@ INDI
+1 NAME Usha Unknown /Karinjinody/
+2 GIVN Usha Unknown
+2 SURN Karinjinody
+1 SEX F
+1 FAMS @F0150@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:47:40
+0 @I0466@ INDI
+1 NAME Reshmi ShankaraNarayanan /Meledam/
+2 GIVN Reshmi ShankaraNarayanan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0150@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:47:40
+0 @I0467@ INDI
+1 NAME Rakhi ShankaraNarayanan /Meledam/
+2 GIVN Rakhi ShankaraNarayanan
+2 SURN Meledam
+1 SEX F
+1 FAMC @F0150@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:47:40
+0 @I0468@ INDI
+1 NAME Parameswaran Unknown /Ezhumaavu/
+2 GIVN Parameswaran Unknown
+2 SURN Ezhumaavu
+1 SEX M
+1 FAMS @F0151@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:03:51
+0 @I0469@ INDI
+1 NAME Harikrishnan Parameswaran /Ezhumaavu/
+2 GIVN Harikrishnan Parameswaran
+2 SURN Ezhumaavu
+1 SEX M
+1 FAMC @F0151@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:04:06
+0 @I0470@ INDI
+1 NAME Rahul Parameswaran /Ezhumaavu/
+2 GIVN Rahul Parameswaran
+2 SURN Ezhumaavu
+1 SEX M
+1 FAMC @F0151@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:03:51
+0 @I0471@ INDI
+1 NAME Parameswaran Unknown /Karinjinody/
+2 GIVN Parameswaran Unknown
+2 SURN Karinjinody
+1 SEX M
+1 FAMS @F0152@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:04:59
+0 @I0472@ INDI
+1 NAME Neelakantan Unknown /Thondinnoor Paarayil/
+2 GIVN Neelakantan Unknown
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMS @F0153@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:13:13
+0 @I0473@ INDI
+1 NAME Krishnakumar Neelakantan /Thondinnoor Paarayil/
+2 GIVN Krishnakumar Neelakantan
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMC @F0153@
+1 FAMS @F0154@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:15:10
+0 @I0474@ INDI
+1 NAME Vasudevan Neelakantan /Thondinnoor Paarayil/
+2 GIVN Vasudevan Neelakantan
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMC @F0153@
+1 FAMS @F0155@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:17:15
+0 @I0475@ INDI
+1 NAME Devaki Neelakantan /Thondinnoor Paarayil/
+2 GIVN Devaki Neelakantan
+2 SURN Thondinnoor Paarayil
+1 SEX F
+1 FAMC @F0153@
+1 FAMS @F0156@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:18:25
+0 @I0476@ INDI
+1 NAME Rema Neelakantan /Thondinnoor Paarayil/
+2 GIVN Rema Neelakantan
+2 SURN Thondinnoor Paarayil
+1 SEX F
+1 FAMC @F0153@
+1 FAMS @F0157@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:20:02
+0 @I0477@ INDI
+1 NAME Keshavan Neelakantan /Thondinnoor Paarayil/
+2 GIVN Keshavan Neelakantan
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMC @F0153@
+1 FAMS @F0158@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:45:07
+0 @I0478@ INDI
+1 NAME Gauri Neelakantan /Thondinnoor Paarayil/
+2 GIVN Gauri Neelakantan
+2 SURN Thondinnoor Paarayil
+1 SEX F
+1 FAMC @F0153@
+1 FAMS @F0159@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:46:13
+0 @I0479@ INDI
+1 NAME Radha Unknown /Aamedamangalam/
+2 GIVN Radha Unknown
+2 SURN Aamedamangalam
+1 SEX F
+1 FAMS @F0154@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:15:10
+0 @I0480@ INDI
+1 NAME Uma Krishnakumar /Thondinnoor Paarayil/
+2 GIVN Uma Krishnakumar
+2 SURN Thondinnoor Paarayil
+1 SEX F
+1 FAMC @F0154@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:15:10
+0 @I0481@ INDI
+1 NAME Savithry Krishnakumar /Thondinnoor Paarayil/
+2 GIVN Savithry Krishnakumar
+2 SURN Thondinnoor Paarayil
+2 NICK Vineetha
+1 SEX F
+1 FAMC @F0154@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:15:10
+0 @I0482@ INDI
+1 NAME Vaasanthi Unknown /Thuruthikkaala/
+2 GIVN Vaasanthi Unknown
+2 SURN Thuruthikkaala
+1 SEX F
+1 FAMS @F0155@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:17:15
+0 @I0483@ INDI
+1 NAME Prashanth Vasudevan /Thondinnoor Paarayil/
+2 GIVN Prashanth Vasudevan
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMC @F0155@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:17:15
+0 @I0484@ INDI
+1 NAME Narayanan Unknown /Thuruthikkaala/
+2 GIVN Narayanan Unknown
+2 SURN Thuruthikkaala
+1 SEX M
+1 FAMS @F0156@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:18:25
+0 @I0485@ INDI
+1 NAME Shobha Narayanan /Thuruthikkaala/
+2 GIVN Shobha Narayanan
+2 SURN Thuruthikkaala
+1 SEX F
+1 FAMC @F0156@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:18:25
+0 @I0486@ INDI
+1 NAME Subha Narayanan /Thuruthikkaala/
+2 GIVN Subha Narayanan
+2 SURN Thuruthikkaala
+1 SEX F
+1 FAMC @F0156@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:18:25
+0 @I0487@ INDI
+1 NAME Narayanan Unknown /Maruthashery/
+2 GIVN Narayanan Unknown
+2 SURN Maruthashery
+1 SEX M
+1 FAMS @F0157@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:20:02
+0 @I0488@ INDI
+1 NAME Saranya Narayanan /Maruthashery/
+2 GIVN Saranya Narayanan
+2 SURN Maruthashery
+1 SEX F
+1 FAMC @F0157@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:20:02
+0 @I0489@ INDI
+1 NAME Salini Unknown /Puranchery/
+2 GIVN Salini Unknown
+2 SURN Puranchery
+1 SEX F
+1 FAMS @F0158@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:45:07
+0 @I0490@ INDI
+1 NAME Sreenath Keshavan /Thondinnoor Paarayil/
+2 GIVN Sreenath Keshavan
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMC @F0158@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:45:07
+0 @I0491@ INDI
+1 NAME Sreejith Keshavan /Thondinnoor Paarayil/
+2 GIVN Sreejith Keshavan
+2 SURN Thondinnoor Paarayil
+1 SEX M
+1 FAMC @F0158@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:45:07
+0 @I0492@ INDI
+1 NAME Vishnu Unknown /Aaryambally/
+2 GIVN Vishnu Unknown
+2 SURN Aaryambally
+1 SEX M
+1 FAMS @F0159@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:46:13
+0 @I0493@ INDI
+1 NAME Uma Vishnu /Aaryambally/
+2 GIVN Uma Vishnu
+2 SURN Aaryambally
+1 SEX F
+1 FAMC @F0159@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:48:10
+0 @I0494@ INDI
+1 NAME Vasudevan Unknown /Akkooram/
+2 GIVN Vasudevan Unknown
+2 SURN Akkooram
+1 SEX M
+1 FAMS @F0160@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:02:30
+0 @I0495@ INDI
+1 NAME HariNarayanan Vasudevan /Akkooram/
+2 GIVN HariNarayanan Vasudevan
+2 SURN Akkooram
+1 SEX M
+1 FAMC @F0160@
+1 FAMS @F0161@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:06:14
+0 @I0496@ INDI
+1 NAME Bhadra Vasudevan /Akkooram/
+2 GIVN Bhadra Vasudevan
+2 SURN Akkooram
+1 SEX F
+1 FAMC @F0160@
+1 FAMS @F0162@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:07:36
+0 @I0497@ INDI
+1 NAME Bhavana Unknown /Pidikkapparambathu/
+2 GIVN Bhavana Unknown
+2 SURN Pidikkapparambathu
+1 SEX F
+1 FAMS @F0161@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:06:14
+0 @I0498@ INDI
+1 NAME Anoop HariNarayanan /Akkooram/
+2 GIVN Anoop HariNarayanan
+2 SURN Akkooram
+1 SEX M
+1 FAMC @F0161@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:06:14
+0 @I0499@ INDI
+1 NAME Aneesh HariNarayanan /Akkooram/
+2 GIVN Aneesh HariNarayanan
+2 SURN Akkooram
+1 SEX M
+1 FAMC @F0161@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:06:14
+0 @I0500@ INDI
+1 NAME Parameswaran Unknown /Kovoor/
+2 GIVN Parameswaran Unknown
+2 SURN Kovoor
+1 SEX M
+1 FAMS @F0162@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:07:36
+0 @I0501@ INDI
+1 NAME Ajith Parameswaran /Kovoor/
+2 GIVN Ajith Parameswaran
+2 SURN Kovoor
+1 SEX M
+1 FAMC @F0162@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:07:36
+0 @I0502@ INDI
+1 NAME Anitha Parameswaran /Kovoor/
+2 GIVN Anitha Parameswaran
+2 SURN Kovoor
+1 SEX F
+1 FAMC @F0162@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:07:36
+0 @I0503@ INDI
+1 NAME Narayanan Unknown /Koshery/
+2 GIVN Narayanan Unknown
+2 SURN Koshery
+1 SEX M
+1 FAMS @F0163@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:11:15
+0 @I0504@ INDI
+1 NAME Narayanan Unknown /Othalloor Ariyannoor/
+2 GIVN Narayanan Unknown
+2 SURN Othalloor Ariyannoor
+1 SEX M
+1 FAMS @F0164@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:15:30
+0 @I0505@ INDI
+1 NAME Keshavan Narayanan /Othalloor Ariyannoor/
+2 GIVN Keshavan Narayanan
+2 SURN Othalloor Ariyannoor
+1 SEX M
+1 FAMC @F0164@
+1 FAMS @F0165@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:18:15
+0 @I0506@ INDI
+1 NAME Parvathy Unknown /Cherpu Pazhedam/
+2 GIVN Parvathy Unknown
+2 SURN Cherpu Pazhedam
+1 SEX F
+1 FAMS @F0165@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:18:15
+0 @I0507@ INDI
+1 NAME Parvathy Keshavan /Othalloor Ariyannoor/
+2 GIVN Parvathy Keshavan
+2 SURN Othalloor Ariyannoor
+1 SEX F
+1 FAMC @F0165@
+1 FAMS @F0166@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:49:51
+0 @I0508@ INDI
+1 NAME Narayanan Keshavan /Othalloor Ariyannoor/
+2 GIVN Narayanan Keshavan
+2 SURN Othalloor Ariyannoor
+1 SEX M
+1 FAMC @F0165@
+1 FAMS @F0167@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:50:51
+0 @I0509@ INDI
+1 NAME Arya Keshavan /Othalloor Ariyannoor/
+2 GIVN Arya Keshavan
+2 SURN Othalloor Ariyannoor
+1 SEX F
+1 FAMC @F0165@
+1 FAMS @F0168@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:52:15
+0 @I0510@ INDI
+1 NAME ShreeDevi Keshavan /Othalloor Ariyannoor/
+2 GIVN ShreeDevi Keshavan
+2 SURN Othalloor Ariyannoor
+1 SEX F
+1 FAMC @F0165@
+1 FAMS @F0169@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:53:22
+0 @I0511@ INDI
+1 NAME Vasudevan Unknown /Aalankottu Perumbally/
+2 GIVN Vasudevan Unknown
+2 SURN Aalankottu Perumbally
+1 SEX M
+1 FAMS @F0166@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:49:51
+0 @I0512@ INDI
+1 NAME Praseeda Vasudevan /Aalankottu Perumbally/
+2 GIVN Praseeda Vasudevan
+2 SURN Aalankottu Perumbally
+1 SEX F
+1 FAMC @F0166@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:49:51
+0 @I0513@ INDI
+1 NAME Narayanan Vasudevan /Aalankottu Perumbally/
+2 GIVN Narayanan Vasudevan
+2 SURN Aalankottu Perumbally
+1 SEX M
+1 FAMC @F0166@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:49:51
+0 @I0514@ INDI
+1 NAME Sreekala Unknown /Aathrasheery/
+2 GIVN Sreekala Unknown
+2 SURN Aathrasheery
+1 SEX F
+1 FAMS @F0167@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:50:51
+0 @I0515@ INDI
+1 NAME Narayanan Unknown /Avanaavu/
+2 GIVN Narayanan Unknown
+2 SURN Avanaavu
+1 SEX M
+1 FAMS @F0168@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:52:15
+0 @I0516@ INDI
+1 NAME Ranjini Narayanan /Avanaavu/
+2 GIVN Ranjini Narayanan
+2 SURN Avanaavu
+1 SEX F
+1 FAMC @F0168@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:52:15
+0 @I0517@ INDI
+1 NAME Varada Narayanan /Avanaavu/
+2 GIVN Varada Narayanan
+2 SURN Avanaavu
+1 SEX F
+1 FAMC @F0168@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:52:15
+0 @I0518@ INDI
+1 NAME Vallabhan Unknown /Thonalloor Puthumana/
+2 GIVN Vallabhan Unknown
+2 SURN Thonalloor Puthumana
+1 SEX M
+1 FAMS @F0169@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:53:22
+0 @I0519@ INDI
+1 NAME Unknown (Vijaathy vivaaham) /Kodungalloor Kovilakam/
+2 GIVN Unknown (Vijaathy vivaaham)
+2 SURN Kodungalloor Kovilakam
+1 SEX F
+1 FAMS @F0170@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:55:12
+0 @I0520@ INDI
+1 NAME ShreeDevi Unknown /Achipra Muthaattu/
+2 GIVN ShreeDevi Unknown
+2 SURN Achipra Muthaattu
+1 SEX F
+1 FAMS @F0171@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:57:24
+0 @I0521@ INDI
+1 NAME Leela Krishnan /Thottara Vadakkedam/
+2 GIVN Leela Krishnan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0171@
+1 FAMS @F0172@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:48
+0 @I0522@ INDI
+1 NAME Parameswaran Unknown /Ezhikkodu/
+2 GIVN Parameswaran Unknown
+2 SURN Ezhikkodu
+2 NICK Kunju
+1 SEX M
+1 FAMS @F0172@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:59:18
+0 @I0523@ INDI
+1 NAME Premjith Parameswaran /Ezhikkodu/
+2 GIVN Premjith Parameswaran
+2 SURN Ezhikkodu
+1 SEX M
+1 FAMC @F0172@
+1 FAMS @F0174@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:03:32
+0 @I0524@ INDI
+1 NAME Preetha Parameswaran /Ezhikkodu/
+2 GIVN Preetha Parameswaran
+2 SURN Ezhikkodu
+1 SEX F
+1 FAMC @F0172@
+1 FAMS @F0173@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:02:09
+0 @I0525@ INDI
+1 NAME Narayanan Unknown /Chenkillathu Kallampally/
+2 GIVN Narayanan Unknown
+2 SURN Chenkillathu Kallampally
+1 SEX M
+1 FAMS @F0173@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:02:09
+0 @I0526@ INDI
+1 NAME Arjun Narayanan /Chenkillathu Kallampally/
+2 GIVN Arjun Narayanan
+2 SURN Chenkillathu Kallampally
+1 SEX M
+1 FAMC @F0173@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:02:09
+0 @I0527@ INDI
+1 NAME Sandhya Unknown /Karippathu (21 Desham)/
+2 GIVN Sandhya Unknown
+2 SURN Karippathu (21 Desham)
+1 SEX F
+1 FAMS @F0174@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:03:32
+0 @I0528@ INDI
+1 NAME Saadhika Premjith /Ezhikkodu/
+2 GIVN Saadhika Premjith
+2 SURN Ezhikkodu
+1 SEX F
+1 FAMC @F0174@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:03:32
+0 @I0529@ INDI
+1 NAME Unikkaali Unknown /Edavazhippuram/
+2 GIVN Unikkaali Unknown
+2 SURN Edavazhippuram
+1 SEX F
+1 FAMS @F0175@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:04:50
+0 @I0530@ INDI
+1 NAME Kamalam Damodaran /Thottara Vadakkedam/
+2 GIVN Kamalam Damodaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0175@
+1 FAMS @F0176@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:35:06
+0 @I0531@ INDI
+1 NAME Sulochana Damodaran /Thottara Vadakkedam/
+2 GIVN Sulochana Damodaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0175@
+1 FAMS @F0178@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:23
+0 @I0532@ INDI
+1 NAME Savithry Damodaran /Thottara Vadakkedam/
+2 GIVN Savithry Damodaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0175@
+1 FAMS @F0181@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:36
+0 @I0533@ INDI
+1 NAME Parameswaran Damodaran /Thottara Vadakkedam/
+2 GIVN Parameswaran Damodaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0175@
+1 FAMS @F0182@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:34:15
+0 @I0534@ INDI
+1 NAME Ravi Unknown /Manithra/
+2 GIVN Ravi Unknown
+2 SURN Manithra
+1 SEX M
+1 FAMS @F0176@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:07:36
+0 @I0535@ INDI
+1 NAME Suresh Ravi /Manithra/
+2 GIVN Suresh Ravi
+2 SURN Manithra
+1 SEX M
+1 FAMC @F0176@
+1 FAMS @F0177@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:09:09
+0 @I0536@ INDI
+1 NAME Damodaran Ravi /Manithra/
+2 GIVN Damodaran Ravi
+2 SURN Manithra
+1 SEX M
+1 FAMC @F0176@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:07:36
+0 @I0537@ INDI
+1 NAME Shantha Unknown /Palakkadu Puthukkalam/
+2 GIVN Shantha Unknown
+2 SURN Palakkadu Puthukkalam
+1 SEX F
+1 FAMS @F0177@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:09:09
+0 @I0538@ INDI
+1 NAME Karthika Suresh /Manithra/
+2 GIVN Karthika Suresh
+2 SURN Manithra
+1 SEX F
+1 FAMC @F0177@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:09:09
+0 @I0539@ INDI
+1 NAME KrishnaPrasad Suresh /Manithra/
+2 GIVN KrishnaPrasad Suresh
+2 SURN Manithra
+1 SEX M
+1 FAMC @F0177@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:09:09
+0 @I0540@ INDI
+1 NAME Narayanan Unknown /Koramboor/
+2 GIVN Narayanan Unknown
+2 SURN Koramboor
+1 SEX M
+1 FAMS @F0178@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:12:30
+0 @I0541@ INDI
+1 NAME Anoop Narayanan /Koramboor/
+2 GIVN Anoop Narayanan
+2 SURN Koramboor
+1 SEX M
+1 FAMC @F0178@
+1 FAMS @F0179@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:14:04
+0 @I0542@ INDI
+1 NAME Anitha Narayanan /Koramboor/
+2 GIVN Anitha Narayanan
+2 SURN Koramboor
+1 SEX F
+1 FAMC @F0178@
+1 FAMS @F0180@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:18:53
+0 @I0543@ INDI
+1 NAME Gayathri Unknown /Kaithakkulam/
+2 GIVN Gayathri Unknown
+2 SURN Kaithakkulam
+1 SEX F
+1 FAMS @F0179@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:14:04
+0 @I0544@ INDI
+1 NAME Athul Narayanan /Koramboor/
+2 GIVN Athul Narayanan
+2 SURN Koramboor
+1 SEX M
+1 FAMC @F0179@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:14:04
+0 @I0545@ INDI
+1 NAME Prasad Unknown /Thriprayaar Cherumukku/
+2 GIVN Prasad Unknown
+2 SURN Thriprayaar Cherumukku
+1 SEX M
+1 FAMS @F0180@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:18:53
+0 @I0546@ INDI
+1 NAME Pavithra Prasad /Thriprayaar Cherumukku/
+2 GIVN Pavithra Prasad
+2 SURN Thriprayaar Cherumukku
+1 SEX F
+1 FAMC @F0180@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:18:53
+0 @I0547@ INDI
+1 NAME Nikhil Prasad /Thriprayaar Cherumukku/
+2 GIVN Nikhil Prasad
+2 SURN Thriprayaar Cherumukku
+1 SEX M
+1 FAMC @F0180@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:18:53
+0 @I0548@ INDI
+1 NAME Bhavasharman Unknown /Kunithala/
+2 GIVN Bhavasharman Unknown
+2 SURN Kunithala
+1 SEX M
+1 FAMS @F0181@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:20:49
+0 @I0549@ INDI
+1 NAME Sreekala Bhavasharman /Kunithala/
+2 GIVN Sreekala Bhavasharman
+2 SURN Kunithala
+1 SEX F
+1 FAMC @F0181@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:20:49
+0 @I0550@ INDI
+1 NAME Vineetha Unknown /Velliyaadu/
+2 GIVN Vineetha Unknown
+2 SURN Velliyaadu
+1 SEX F
+1 FAMS @F0182@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:22:02
+0 @I0551@ INDI
+1 NAME Rohit Parameswaran /Thottara Vadakkedam/
+2 GIVN Rohit Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0182@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:33:47
+0 @I0552@ INDI
+1 NAME Bhavathradan Unknown /Pindaaly/
+2 GIVN Bhavathradan Unknown
+2 SURN Pindaaly
+1 SEX M
+1 FAMS @F0183@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:13:47
+0 @I0553@ INDI
+1 NAME Parameswaran Bhavathradan /Pindaaly/
+2 GIVN Parameswaran Bhavathradan
+2 SURN Pindaaly
+1 SEX M
+1 FAMC @F0183@
+1 FAMS @F0184@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:17:41
+0 @I0554@ INDI
+1 NAME Bhavadasan Bhavathradan /Pindaaly/
+2 GIVN Bhavadasan Bhavathradan
+2 SURN Pindaaly
+1 SEX M
+1 FAMC @F0183@
+1 FAMS @F0188@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:24:47
+0 @I0555@ INDI
+1 NAME Devasena Unknown /Padinjaaredathu Pattery/
+2 GIVN Devasena Unknown
+2 SURN Padinjaaredathu Pattery
+1 SEX F
+1 FAMS @F0184@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:17:41
+0 @I0556@ INDI
+1 NAME Anil Parameswaran /Pindaaly/
+2 GIVN Anil Parameswaran
+2 SURN Pindaaly
+1 SEX M
+1 FAMC @F0184@
+1 FAMS @F0185@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:19:30
+0 @I0557@ INDI
+1 NAME Devaki Parameswaran /Pindaaly/
+2 GIVN Devaki Parameswaran
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0184@
+1 FAMS @F0186@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:21:17
+0 @I0558@ INDI
+1 NAME Aruna Parameswaran /Pindaaly/
+2 GIVN Aruna Parameswaran
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0184@
+1 FAMS @F0187@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:22:39
+0 @I0559@ INDI
+1 NAME Keerthi Unknown /Avanoor Aanamangaad/
+2 GIVN Keerthi Unknown
+2 SURN Avanoor Aanamangaad
+1 SEX F
+1 FAMS @F0185@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:19:30
+0 @I0560@ INDI
+1 NAME Chitralekha Anil /Pindaaly/
+2 GIVN Chitralekha Anil
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0185@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:19:30
+0 @I0561@ INDI
+1 NAME Aditi Anil /Pindaaly/
+2 GIVN Aditi Anil
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0185@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:19:30
+0 @I0562@ INDI
+1 NAME Kumar Subrahmanyan Unknown /Ambalapuzha Thottappally/
+2 GIVN Kumar Subrahmanyan Unknown
+2 SURN Ambalapuzha Thottappally
+1 SEX M
+1 FAMS @F0186@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:21:17
+0 @I0563@ INDI
+1 NAME Anuradha Kumar Subrahmanyan /Ambalapuzha Thottappally/
+2 GIVN Anuradha Kumar Subrahmanyan
+2 SURN Ambalapuzha Thottappally
+1 SEX F
+1 FAMC @F0186@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:21:17
+0 @I0564@ INDI
+1 NAME Ashwin Kumar Subrahmanyan /Ambalapuzha Thottappally/
+2 GIVN Ashwin Kumar Subrahmanyan
+2 SURN Ambalapuzha Thottappally
+1 SEX M
+1 FAMC @F0186@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:21:17
+0 @I0565@ INDI
+1 NAME Binoy Sharma Unknown /Vijaathy/
+2 GIVN Binoy Sharma Unknown
+2 SURN Vijaathy
+1 SEX M
+1 FAMS @F0187@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:22:39
+0 @I0566@ INDI
+1 NAME Meera Binoy Sharma /Vijaathy/
+2 GIVN Meera Binoy Sharma
+2 SURN Vijaathy
+1 SEX F
+1 FAMC @F0187@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:22:39
+0 @I0567@ INDI
+1 NAME Padmalaya Unknown /Aathiriyedam/
+2 GIVN Padmalaya Unknown
+2 SURN Aathiriyedam
+1 SEX F
+1 FAMS @F0188@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:24:47
+0 @I0568@ INDI
+1 NAME Savithry Bhavadasan /Pindaaly/
+2 GIVN Savithry Bhavadasan
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0188@
+1 FAMS @F0189@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:03
+0 @I0569@ INDI
+1 NAME Arya Bhavadasan /Pindaaly/
+2 GIVN Arya Bhavadasan
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0188@
+1 FAMS @F0190@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:38
+0 @I0570@ INDI
+1 NAME Bhavathradan Bhavadasan /Pindaaly/
+2 GIVN Bhavathradan Bhavadasan
+2 SURN Pindaaly
+1 SEX M
+1 FAMC @F0188@
+1 FAMS @F0191@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:28:58
+0 @I0571@ INDI
+1 NAME Suresh Kurup Unknown /Vijaathy/
+2 GIVN Suresh Kurup Unknown
+2 SURN Vijaathy
+1 SEX M
+1 FAMS @F0189@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:03
+0 @I0572@ INDI
+1 NAME Nandagopal Suresh Kurup /Vijaathy/
+2 GIVN Nandagopal Suresh Kurup
+2 SURN Vijaathy
+1 SEX M
+1 FAMC @F0189@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:03
+0 @I0573@ INDI
+1 NAME Gopikrishnan Suresh Kurup /Vijaathy/
+2 GIVN Gopikrishnan Suresh Kurup
+2 SURN Vijaathy
+1 SEX M
+1 FAMC @F0189@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:03
+0 @I0574@ INDI
+1 NAME Unknown Unknown /Vijaathy/
+2 GIVN Unknown Unknown
+2 SURN Vijaathy
+1 SEX M
+1 FAMS @F0190@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:38
+0 @I0575@ INDI
+1 NAME Unknown Unknown /Vijaathy/
+2 GIVN Unknown Unknown
+2 SURN Vijaathy
+1 SEX M
+1 FAMC @F0190@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:27:37
+0 @I0576@ INDI
+1 NAME Savithry Unknown /Ernoor/
+2 GIVN Savithry Unknown
+2 SURN Ernoor
+1 SEX F
+1 FAMS @F0191@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:28:58
+0 @I0577@ INDI
+1 NAME Aparna Bhavathradan /Pindaaly/
+2 GIVN Aparna Bhavathradan
+2 SURN Pindaaly
+1 SEX F
+1 FAMC @F0191@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:28:58
+0 @I0578@ INDI
+1 NAME Abhijith Bhavathradan /Pindaaly/
+2 GIVN Abhijith Bhavathradan
+2 SURN Pindaaly
+1 SEX M
+1 FAMC @F0191@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:28:58
+0 @I0579@ INDI
+1 NAME Umadevi Unknown /Thacharazhiyath/
+2 GIVN Umadevi Unknown
+2 SURN Thacharazhiyath
+1 SEX F
+1 FAMS @F0192@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:32:28
+0 @I0580@ INDI
+1 NAME Sreedevi Jathavedan /Thottara Vadakkedam/
+2 GIVN Sreedevi Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0192@
+1 FAMS @F0193@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0581@ INDI
+1 NAME Parameshwaran Jathavedan /Thottara Vadakkedam/
+2 GIVN Parameshwaran Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0192@
+1 FAMS @F0205@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0582@ INDI
+1 NAME Jathavedan Jathavedan /Thottara Vadakkedam/
+2 GIVN Jathavedan Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0192@
+1 FAMS @F0211@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0583@ INDI
+1 NAME Narayanan Jathavedan /Thottara Vadakkedam/
+2 GIVN Narayanan Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0192@
+1 FAMS @F0215@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0584@ INDI
+1 NAME Krishnan Jathavedan /Thottara Vadakkedam/
+2 GIVN Krishnan Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0192@
+1 FAMS @F0218@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0585@ INDI
+1 NAME Bhavadasan Jathavedan /Thottara Vadakkedam/
+2 GIVN Bhavadasan Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0192@
+1 FAMS @F0221@
+1 FAMS @F0222@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0586@ INDI
+1 NAME Savithry Jathavedan /Thottara Vadakkedam/
+2 GIVN Savithry Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0192@
+1 FAMS @F0225@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0587@ INDI
+1 NAME Umadevi Jathavedan /Thottara Vadakkedam/
+2 GIVN Umadevi Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0192@
+1 FAMS @F0230@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0588@ INDI
+1 NAME Haimavathy Jathavedan /Thottara Vadakkedam/
+2 GIVN Haimavathy Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0192@
+1 FAMS @F0233@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0589@ INDI
+1 NAME Shankaran Jathavedan /Thottara Vadakkedam/
+2 GIVN Shankaran Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0192@
+1 FAMS @F0239@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0590@ INDI
+1 NAME Arya Jathavedan /Thottara Vadakkedam/
+2 GIVN Arya Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0192@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @I0591@ INDI
+1 NAME Parameshwaran Unknown /Edavazhippuram/
+2 GIVN Parameshwaran Unknown
+2 SURN Edavazhippuram
+1 SEX M
+1 FAMS @F0193@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:34:15
+0 @I0592@ INDI
+1 NAME Savithry Parameshwaran /Edavazhippuram/
+2 GIVN Savithry Parameshwaran
+2 SURN Edavazhippuram
+1 SEX F
+1 FAMC @F0193@
+1 FAMS @F0194@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:34:59
+0 @I0593@ INDI
+1 NAME Sarojini Parameshwaran /Edavazhippuram/
+2 GIVN Sarojini Parameshwaran
+2 SURN Edavazhippuram
+1 SEX F
+1 FAMC @F0193@
+1 FAMS @F0199@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:32:48
+0 @I0594@ INDI
+1 NAME Vasudevan Parameshwaran /Edavazhippuram/
+2 GIVN Vasudevan Parameshwaran
+2 SURN Edavazhippuram
+1 SEX M
+1 FAMC @F0193@
+1 FAMS @F0198@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:31:02
+0 @I0595@ INDI
+1 NAME Saraswathy Parameshwaran /Edavazhippuram/
+2 GIVN Saraswathy Parameshwaran
+2 SURN Edavazhippuram
+1 SEX F
+1 FAMC @F0193@
+1 FAMS @F0203@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:39:53
+0 @I0596@ INDI
+1 NAME Shashibhooshan Unknown /Kumaaramangalam/
+2 GIVN Shashibhooshan Unknown
+2 SURN Kumaaramangalam
+1 SEX M
+1 FAMS @F0194@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:34:59
+0 @I0597@ INDI
+1 NAME Ajitha Shashibhooshan /Kumaaramangalam/
+2 GIVN Ajitha Shashibhooshan
+2 SURN Kumaaramangalam
+1 SEX F
+1 FAMC @F0194@
+1 FAMS @F0195@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:27:09
+0 @I0598@ INDI
+1 NAME Manu Shashibhooshan /Kumaaramangalam/
+2 GIVN Manu Shashibhooshan
+2 SURN Kumaaramangalam
+1 SEX M
+1 FAMC @F0194@
+1 FAMS @F0196@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:28:09
+0 @I0599@ INDI
+1 NAME Raju Shashibhooshan /Kumaaramangalam/
+2 GIVN Raju Shashibhooshan
+2 SURN Kumaaramangalam
+1 SEX M
+1 FAMC @F0194@
+1 FAMS @F0197@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:29:05
+0 @I0600@ INDI
+1 NAME Vasudevan Unknown /Porapperu/
+2 GIVN Vasudevan Unknown
+2 SURN Porapperu
+1 SEX M
+1 FAMS @F0195@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:27:09
+0 @I0601@ INDI
+1 NAME Leela Vasudevan /Porapperu/
+2 GIVN Leela Vasudevan
+2 SURN Porapperu
+1 SEX F
+1 FAMC @F0195@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:27:09
+0 @I0602@ INDI
+1 NAME Deepa Unknown /Kaladi Thekkiniyedam/
+2 GIVN Deepa Unknown
+2 SURN Kaladi Thekkiniyedam
+1 SEX F
+1 FAMS @F0196@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:28:09
+0 @I0603@ INDI
+1 NAME Uma Manu /Kumaaramangalam/
+2 GIVN Uma Manu
+2 SURN Kumaaramangalam
+1 SEX F
+1 FAMC @F0196@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:28:09
+0 @I0604@ INDI
+1 NAME Vidya Shankaran /Unknown/
+2 GIVN Vidya Shankaran
+2 SURN Unknown
+1 SEX F
+1 FAMS @F0197@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:29:05
+0 @I0605@ INDI
+1 NAME Nirupama Raju /Kumaaramangalam/
+2 GIVN Nirupama Raju
+2 SURN Kumaaramangalam
+1 SEX F
+1 FAMC @F0197@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:29:05
+0 @I0606@ INDI
+1 NAME Valsala Unknwown /Animangalam/
+2 GIVN Valsala Unknwown
+2 SURN Animangalam
+1 SEX F
+1 FAMS @F0198@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:31:02
+0 @I0607@ INDI
+1 NAME Maheshwaran Unknown /Padinjaaredam/
+2 GIVN Maheshwaran Unknown
+2 SURN Padinjaaredam
+1 SEX M
+1 FAMS @F0199@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:32:48
+0 @I0608@ INDI
+1 NAME Kavitha Maheshwaran /Padinjaaredam/
+2 GIVN Kavitha Maheshwaran
+2 SURN Padinjaaredam
+1 SEX F
+1 FAMC @F0199@
+1 FAMS @F0200@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:34:07
+0 @I0609@ INDI
+1 NAME Saritha Maheshwaran /Padinjaaredam/
+2 GIVN Saritha Maheshwaran
+2 SURN Padinjaaredam
+1 SEX F
+1 FAMC @F0199@
+1 FAMS @F0201@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:35:07
+0 @I0610@ INDI
+1 NAME Anitha Maheshwaran /Padinjaaredam/
+2 GIVN Anitha Maheshwaran
+2 SURN Padinjaaredam
+1 SEX F
+1 FAMC @F0199@
+1 FAMS @F0202@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:36:17
+0 @I0611@ INDI
+1 NAME Saibu Unknown /Kaaranathu/
+2 GIVN Saibu Unknown
+2 SURN Kaaranathu
+1 SEX M
+1 FAMS @F0200@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:34:07
+0 @I0612@ INDI
+1 NAME Adithyan Saibu /Kaaranathu/
+2 GIVN Adithyan Saibu
+2 SURN Kaaranathu
+1 SEX M
+1 FAMC @F0200@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:34:07
+0 @I0613@ INDI
+1 NAME Unknown Saibu /Kaaranathu/
+2 GIVN Unknown Saibu
+2 SURN Kaaranathu
+1 SEX F
+1 FAMC @F0200@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:34:07
+0 @I0614@ INDI
+1 NAME Anil Unknown /Amanakkara/
+2 GIVN Anil Unknown
+2 SURN Amanakkara
+1 SEX M
+1 FAMS @F0201@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:37:11
+0 @I0615@ INDI
+1 NAME Lopamudra Anil /Amanakkara/
+2 GIVN Lopamudra Anil
+2 SURN Amanakkara
+1 SEX F
+1 FAMC @F0201@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:37:00
+0 @I0616@ INDI
+1 NAME Unknown Anil /Amanakkara/
+2 GIVN Unknown Anil
+2 SURN Amanakkara
+1 SEX F
+1 FAMC @F0201@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:37:48
+0 @I0617@ INDI
+1 NAME Narayanan Unknown /Kaaralmanna Kunnath/
+2 GIVN Narayanan Unknown
+2 SURN Kaaralmanna Kunnath
+1 SEX M
+1 FAMS @F0202@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:36:17
+0 @I0618@ INDI
+1 NAME Parameshwaran Unknown /Padappa/
+2 GIVN Parameshwaran Unknown
+2 SURN Padappa
+1 SEX M
+1 FAMS @F0203@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:39:53
+0 @I0619@ INDI
+1 NAME Dileep Parameshwaran /Padappa/
+2 GIVN Dileep Parameshwaran
+2 SURN Padappa
+1 SEX M
+1 FAMC @F0203@
+1 FAMS @F0204@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:40:47
+0 @I0620@ INDI
+1 NAME Sudeep Parameshwaran /Padappa/
+2 GIVN Sudeep Parameshwaran
+2 SURN Padappa
+1 SEX M
+1 FAMC @F0203@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:39:53
+0 @I0621@ INDI
+1 NAME Arya Unknown /Vimblis/
+2 GIVN Arya Unknown
+2 SURN Vimblis
+1 SEX F
+1 FAMS @F0204@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:40:47
+0 @I0622@ INDI
+1 NAME Rohith Dileep /Padappa/
+2 GIVN Rohith Dileep
+2 SURN Padappa
+1 SEX M
+1 FAMC @F0204@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:40:47
+0 @I0623@ INDI
+1 NAME Savithry Unknown /Eeshwaramangalathu Nedumpally/
+2 GIVN Savithry Unknown
+2 SURN Eeshwaramangalathu Nedumpally
+1 SEX F
+1 FAMS @F0205@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:43:30
+0 @I0624@ INDI
+1 NAME Umadevi Parameshwaran /Thottara Vadakkedam/
+2 GIVN Umadevi Parameshwaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0205@
+1 FAMS @F0206@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:44:52
+0 @I0625@ INDI
+1 NAME Savithry Parameshwaran /Thottara Vadakkedam/
+2 GIVN Savithry Parameshwaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0205@
+1 FAMS @F0208@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:49:12
+0 @I0626@ INDI
+1 NAME Sreedevi Parameshwaran /Thottara Vadakkedam/
+2 GIVN Sreedevi Parameshwaran
+2 SURN Thottara Vadakkedam
+1 NAME ShreeDevi Unknown /Thottara Vadakkedam/
+2 GIVN ShreeDevi Unknown
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FACT I0444
+2 TYPE Merged Gramps ID
+1 FAMC @F0205@
+1 FAMS @F0209@
+1 FAMS @F0144@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:55:57
+0 @I0627@ INDI
+1 NAME Krishnadas Parameshwaran /Thottara Vadakkedam/
+2 GIVN Krishnadas Parameshwaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0205@
+1 FAMS @F0210@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:57:26
+0 @I0628@ INDI
+1 NAME Narayanan Unknown /Thaarangaattu/
+2 GIVN Narayanan Unknown
+2 SURN Thaarangaattu
+1 SEX M
+1 FAMS @F0206@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:44:52
+0 @I0629@ INDI
+1 NAME Dhanya Narayanan /Thaarangaattu/
+2 GIVN Dhanya Narayanan
+2 SURN Thaarangaattu
+1 SEX F
+1 FAMC @F0206@
+1 FAMS @F0207@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:47:01
+0 @I0630@ INDI
+1 NAME Narayanan Narayanan /Thaarangaattu/
+2 GIVN Narayanan Narayanan
+2 SURN Thaarangaattu
+1 SEX M
+1 FAMC @F0206@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:44:52
+0 @I0631@ INDI
+1 NAME Sunil Unknown /Thekkumpattu/
+2 GIVN Sunil Unknown
+2 SURN Thekkumpattu
+1 SEX M
+1 FAMS @F0207@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:47:01
+0 @I0632@ INDI
+1 NAME Samyak Anil /Thekkumpattu/
+2 GIVN Samyak Anil
+2 SURN Thekkumpattu
+1 SEX M
+1 FAMC @F0207@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:47:01
+0 @I0633@ INDI
+1 NAME Saraja Anil /Thekkumpattu/
+2 GIVN Saraja Anil
+2 SURN Thekkumpattu
+1 SEX F
+1 FAMC @F0207@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:47:01
+0 @I0635@ INDI
+1 NAME Sidharth Jathavedan /Ashtathu/
+2 GIVN Sidharth Jathavedan
+2 SURN Ashtathu
+1 SEX M
+1 FAMC @F0208@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:49:12
+0 @I0636@ INDI
+1 NAME Swathy Jathavedan /Ashtathu/
+2 GIVN Swathy Jathavedan
+2 SURN Ashtathu
+1 SEX F
+1 FAMC @F0208@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:49:12
+0 @I0638@ INDI
+1 NAME Latha Unknown /Thiyyannoor/
+2 GIVN Latha Unknown
+2 SURN Thiyyannoor
+1 SEX F
+1 FAMS @F0210@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:57:26
+0 @I0639@ INDI
+1 NAME Panchami Krishnadas /Thottara Vadakkedam/
+2 GIVN Panchami Krishnadas
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0210@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:57:26
+0 @I0640@ INDI
+1 NAME Sreedevi Unknown /Ramapuram Kuttalloor/
+2 GIVN Sreedevi Unknown
+2 SURN Ramapuram Kuttalloor
+1 SEX F
+1 FAMS @F0211@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:58:43
+0 @I0641@ INDI
+1 NAME Umadevi Jathavedan /Thottara Vadakkedam/
+2 GIVN Umadevi Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0211@
+1 FAMS @F0212@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:01:19
+0 @I0642@ INDI
+1 NAME Sasi Jathavedan /Thottara Vadakkedam/
+2 GIVN Sasi Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0211@
+1 FAMS @F0214@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:03:49
+0 @I0643@ INDI
+1 NAME Unnikrishnan Subrahmanyan /Cholamana/
+2 GIVN Unnikrishnan Subrahmanyan
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0265@
+1 FAMS @F0212@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 07:54:12
+0 @I0644@ INDI
+1 NAME Deepak Unnikrishnan /Cholamana/
+2 GIVN Deepak Unnikrishnan
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0212@
+1 FAMS @F0213@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 07:52:29
+0 @I0645@ INDI
+1 NAME Dileep Unnikrishnan /Cholamana/
+2 GIVN Dileep Unnikrishnan
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0212@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:01:19
+0 @I0646@ INDI
+1 NAME Lekshmi Krishnan /Nedunkunnam Vethiramana/
+2 GIVN Lekshmi Krishnan
+2 SURN Nedunkunnam Vethiramana
+1 SEX F
+1 FAMS @F0213@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:02:08
+0 @I0647@ INDI
+1 NAME Prema Unknown /Thirunarayanapuram Kizhiyedam/
+2 GIVN Prema Unknown
+2 SURN Thirunarayanapuram Kizhiyedam
+1 SEX F
+1 FAMS @F0214@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:03:49
+0 @I0648@ INDI
+1 NAME Jishnu Sasi /Thottara Vadakkedam/
+2 GIVN Jishnu Sasi
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0214@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:03:49
+0 @I0649@ INDI
+1 NAME Jyotsna Sasi /Thottara Vadakkedam/
+2 GIVN Jyotsna Sasi
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0214@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:03:49
+0 @I0650@ INDI
+1 NAME Parvathy Unknown /Cheruppoyilathu/
+2 GIVN Parvathy Unknown
+2 SURN Cheruppoyilathu
+1 SEX F
+1 FAMS @F0215@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:06:12
+0 @I0651@ INDI
+1 NAME Unni Narayanan /Thottara Vadakkedam/
+2 GIVN Unni Narayanan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0215@
+1 FAMS @F0216@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:15
+0 @I0652@ INDI
+1 NAME Krishnan Narayanan /Thottara Vadakkedam/
+2 GIVN Krishnan Narayanan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0215@
+1 FAMS @F0217@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:56
+0 @I0653@ INDI
+1 NAME Smitha Unknwon /Paayikkattu/
+2 GIVN Smitha Unknwon
+2 SURN Paayikkattu
+1 SEX F
+1 FAMS @F0216@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:15
+0 @I0654@ INDI
+1 NAME Thulasi Unni /Thottara Vadakkedam/
+2 GIVN Thulasi Unni
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0216@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:15
+0 @I0655@ INDI
+1 NAME Arya Unni /Thottara Vadakkedam/
+2 GIVN Arya Unni
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0216@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:15
+0 @I0656@ INDI
+1 NAME Jyothi Unknown /Madhavappally/
+2 GIVN Jyothi Unknown
+2 SURN Madhavappally
+1 SEX F
+1 FAMS @F0217@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:56
+0 @I0657@ INDI
+1 NAME Sreedevi Unknwon /Uppulaapatta/
+2 GIVN Sreedevi Unknwon
+2 SURN Uppulaapatta
+1 SEX F
+1 FAMS @F0218@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:09:59
+0 @I0658@ INDI
+1 NAME Jathavedan Krishnan /Thottara Vadakkedam/
+2 GIVN Jathavedan Krishnan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0218@
+1 FAMS @F0219@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:11:23
+0 @I0659@ INDI
+1 NAME Usha Krishnan /Thottara Vadakkedam/
+2 GIVN Usha Krishnan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0218@
+1 FAMS @F0220@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:12:32
+0 @I0660@ INDI
+1 NAME Leena Unknown /Karuthedam/
+2 GIVN Leena Unknown
+2 SURN Karuthedam
+1 SEX F
+1 FAMS @F0219@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:11:23
+0 @I0661@ INDI
+1 NAME Krishnakumar Jathavedan /Thottara Vadakkedam/
+2 GIVN Krishnakumar Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0219@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:11:23
+0 @I0662@ INDI
+1 NAME Aarathi Jathavedan /Thottara Vadakkedam/
+2 GIVN Aarathi Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0219@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:11:23
+0 @I0663@ INDI
+1 NAME Narayanan Unknown /Cherpu Kannamangalam/
+2 GIVN Narayanan Unknown
+2 SURN Cherpu Kannamangalam
+1 SEX M
+1 FAMS @F0220@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:12:32
+0 @I0664@ INDI
+1 NAME Rohith Narayanan /Cherpu Kannamangalam/
+2 GIVN Rohith Narayanan
+2 SURN Cherpu Kannamangalam
+1 SEX M
+1 FAMC @F0220@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:12:32
+0 @I0665@ INDI
+1 NAME Sreedevi Narayanan /Cherpu Kannamangalam/
+2 GIVN Sreedevi Narayanan
+2 SURN Cherpu Kannamangalam
+1 SEX F
+1 FAMC @F0220@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:12:32
+0 @I0666@ INDI
+1 NAME Sreedevi Unknown /Kuriyedam/
+2 GIVN Sreedevi Unknown
+2 SURN Kuriyedam
+1 SEX F
+1 FAMS @F0221@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:13:25
+0 @I0667@ INDI
+1 NAME Satheesh Bhavadasan /Thottara Vadakkedam/
+2 GIVN Satheesh Bhavadasan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0222@
+1 FAMS @F0223@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:02
+0 @I0668@ INDI
+1 NAME Ramesh Bhavadasan /Thottara Vadakkedam/
+2 GIVN Ramesh Bhavadasan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0222@
+1 FAMS @F0224@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:57
+0 @I0669@ INDI
+1 NAME Seetha Unknown /Melemullanezhy/
+2 GIVN Seetha Unknown
+2 SURN Melemullanezhy
+1 SEX F
+1 FAMS @F0223@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:02
+0 @I0670@ INDI
+1 NAME Sudeepth Satheesh /Thottara Vadakkedam/
+2 GIVN Sudeepth Satheesh
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0223@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:02
+0 @I0671@ INDI
+1 NAME Anoopa Unknown /Ettikkada/
+2 GIVN Anoopa Unknown
+2 SURN Ettikkada
+1 SEX F
+1 FAMS @F0224@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:57
+0 @I0672@ INDI
+1 NAME Anirudh Ramesh /Thottara Vadakkedam/
+2 GIVN Anirudh Ramesh
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0224@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:57
+0 @I0673@ INDI
+1 NAME Agni Unknown /Ashtathu/
+2 GIVN Agni Unknown
+2 SURN Ashtathu
+1 SEX M
+1 FAMS @F0225@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:18:24
+0 @I0674@ INDI
+1 NAME Neelakanthan Agni /Ashtathu/
+2 GIVN Neelakanthan Agni
+2 SURN Ashtathu
+1 SEX M
+1 FAMC @F0225@
+1 FAMS @F0226@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:20:24
+0 @I0675@ INDI
+1 NAME Savithry Agni /Ashtathu/
+2 GIVN Savithry Agni
+2 SURN Ashtathu
+1 SEX F
+1 FAMC @F0225@
+1 FAMS @F0228@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:22:36
+0 @I0676@ INDI
+1 NAME Jathavedan Agni /Ashtathu/
+2 GIVN Jathavedan Agni
+2 SURN Ashtathu
+1 NAME Jathavedan Unknown /Ashtathu/
+2 GIVN Jathavedan Unknown
+2 SURN Ashtathu
+1 SEX M
+1 FACT I0634
+2 TYPE Merged Gramps ID
+1 FAMC @F0225@
+1 FAMS @F0208@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:26:41
+0 @I0677@ INDI
+1 NAME Sreedevi Unknown /Thrishur Padinjarekunnathu/
+2 GIVN Sreedevi Unknown
+2 SURN Thrishur Padinjarekunnathu
+1 SEX F
+1 FAMS @F0226@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:20:24
+0 @I0678@ INDI
+1 NAME Sruthi Neelakandhan /Ashtathu/
+2 GIVN Sruthi Neelakandhan
+2 SURN Ashtathu
+1 SEX F
+1 FAMC @F0226@
+1 FAMS @F0227@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:21:04
+0 @I0679@ INDI
+1 NAME Unnikrishnan Neelakandhan /Ashtathu/
+2 GIVN Unnikrishnan Neelakandhan
+2 SURN Ashtathu
+1 SEX M
+1 FAMC @F0226@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:20:24
+0 @I0680@ INDI
+1 NAME Aneesh Raman Moos /Kaippally/
+2 GIVN Aneesh Raman Moos
+2 SURN Kaippally
+1 SEX M
+1 FAMS @F0227@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:21:04
+0 @I0681@ INDI
+1 NAME Soumini Aneesh /Kaippally/
+2 GIVN Soumini Aneesh
+2 SURN Kaippally
+1 SEX F
+1 FAMC @F0227@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:21:23
+0 @I0682@ INDI
+1 NAME Narayanan Unknown /Perikamana/
+2 GIVN Narayanan Unknown
+2 SURN Perikamana
+1 SEX M
+1 FAMS @F0228@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:22:36
+0 @I0683@ INDI
+1 NAME Thulasi Narayanan /Perikamana/
+2 GIVN Thulasi Narayanan
+2 SURN Perikamana
+1 SEX F
+1 FAMC @F0228@
+1 FAMS @F0229@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:22:56
+0 @I0684@ INDI
+1 NAME Raman Unknown /Tamil Brahmin/
+2 GIVN Raman Unknown
+2 SURN Tamil Brahmin
+1 SEX M
+1 FAMS @F0229@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:22:56
+0 @I0685@ INDI
+1 NAME Krishnan Unknwon /Chittisheery Kaplingaattu/
+2 GIVN Krishnan Unknwon
+2 SURN Chittisheery Kaplingaattu
+1 SEX M
+1 FAMS @F0230@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:09:45
+0 @I0686@ INDI
+1 NAME Babu Krishnan /Chittisheery Kaplingaattu/
+2 GIVN Babu Krishnan
+2 SURN Chittisheery Kaplingaattu
+1 SEX M
+1 FAMC @F0230@
+1 FAMS @F0231@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:10:24
+0 @I0687@ INDI
+1 NAME Biju Krishnan /Chittisheery Kaplingaattu/
+2 GIVN Biju Krishnan
+2 SURN Chittisheery Kaplingaattu
+1 SEX M
+1 FAMC @F0230@
+1 FAMS @F0232@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:11:20
+0 @I0688@ INDI
+1 NAME Latha Unknown /Kaattumaadam/
+2 GIVN Latha Unknown
+2 SURN Kaattumaadam
+1 SEX F
+1 FAMS @F0231@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:10:24
+0 @I0689@ INDI
+1 NAME Meghna Babu /Chittisheery Kaplingaattu/
+2 GIVN Meghna Babu
+2 SURN Chittisheery Kaplingaattu
+1 SEX F
+1 FAMC @F0231@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:10:24
+0 @I0690@ INDI
+1 NAME Divya Unknown /Akoru/
+2 GIVN Divya Unknown
+2 SURN Akoru
+1 SEX F
+1 FAMS @F0232@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:11:20
+0 @I0691@ INDI
+1 NAME Nimisha Biju /Chittisheery Kaplingaattu/
+2 GIVN Nimisha Biju
+2 SURN Chittisheery Kaplingaattu
+1 SEX F
+1 FAMC @F0232@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:11:20
+0 @I0692@ INDI
+1 NAME Neeraj Biju /Chittisheery Kaplingaattu/
+2 GIVN Neeraj Biju
+2 SURN Chittisheery Kaplingaattu
+1 SEX M
+1 FAMC @F0232@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:11:20
+0 @I0693@ INDI
+1 NAME Narayanan Unknown /Chemmangaattu/
+2 GIVN Narayanan Unknown
+2 SURN Chemmangaattu
+1 SEX M
+1 FAMS @F0233@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:12:59
+0 @I0694@ INDI
+1 NAME Sarala Narayanan /Chemmangaattu/
+2 GIVN Sarala Narayanan
+2 SURN Chemmangaattu
+1 SEX F
+1 FAMC @F0233@
+1 FAMS @F0234@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:17
+0 @I0695@ INDI
+1 NAME Ajayan Narayanan /Chemmangaattu/
+2 GIVN Ajayan Narayanan
+2 SURN Chemmangaattu
+1 SEX M
+1 FAMC @F0233@
+1 FAMS @F0236@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:16:19
+0 @I0696@ INDI
+1 NAME Sailaja Narayanan /Chemmangaattu/
+2 GIVN Sailaja Narayanan
+2 SURN Chemmangaattu
+1 SEX F
+1 FAMC @F0233@
+1 FAMS @F0237@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:17:13
+0 @I0697@ INDI
+1 NAME Sunanda Narayanan /Chemmangaattu/
+2 GIVN Sunanda Narayanan
+2 SURN Chemmangaattu
+1 SEX F
+1 FAMC @F0233@
+1 FAMS @F0238@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:18:21
+0 @I0698@ INDI
+1 NAME Subrahmanyan Unknown /Avanaavu/
+2 GIVN Subrahmanyan Unknown
+2 SURN Avanaavu
+1 SEX M
+1 FAMS @F0234@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:17
+0 @I0699@ INDI
+1 NAME Saritha Subrahmanyan /Avanaavu/
+2 GIVN Saritha Subrahmanyan
+2 SURN Avanaavu
+1 SEX F
+1 FAMC @F0234@
+1 FAMS @F0235@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:39
+0 @I0700@ INDI
+1 NAME Sarath Subrahmanyan /Avanaavu/
+2 GIVN Sarath Subrahmanyan
+2 SURN Avanaavu
+1 SEX M
+1 FAMC @F0234@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:17
+0 @I0701@ INDI
+1 NAME Kiran Unknown /Mannaarashaala/
+2 GIVN Kiran Unknown
+2 SURN Mannaarashaala
+1 SEX M
+1 FAMS @F0235@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:39
+0 @I0702@ INDI
+1 NAME Ragini Unknown /Keezhillam/
+2 GIVN Ragini Unknown
+2 SURN Keezhillam
+1 SEX F
+1 FAMS @F0236@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:16:19
+0 @I0703@ INDI
+1 NAME Aparna Ajayan /Chemmangaattu/
+2 GIVN Aparna Ajayan
+2 SURN Chemmangaattu
+1 SEX F
+1 FAMC @F0236@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:16:19
+0 @I0704@ INDI
+1 NAME Aswathy Ajayan /Chemmangaattu/
+2 GIVN Aswathy Ajayan
+2 SURN Chemmangaattu
+1 SEX F
+1 FAMC @F0236@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:16:19
+0 @I0705@ INDI
+1 NAME Santhosh Unknown /Akoru/
+2 GIVN Santhosh Unknown
+2 SURN Akoru
+1 SEX M
+1 FAMS @F0237@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:17:13
+0 @I0706@ INDI
+1 NAME Vaishnav Santhosh /Akoru/
+2 GIVN Vaishnav Santhosh
+2 SURN Akoru
+1 SEX M
+1 FAMC @F0237@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:17:13
+0 @I0707@ INDI
+1 NAME Varada Santhosh /Akoru/
+2 GIVN Varada Santhosh
+2 SURN Akoru
+1 SEX F
+1 FAMC @F0237@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:17:13
+0 @I0708@ INDI
+1 NAME Sreevatsan Unknown /Kaappilly/
+2 GIVN Sreevatsan Unknown
+2 SURN Kaappilly
+1 SEX M
+1 FAMS @F0238@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:18:21
+0 @I0709@ INDI
+1 NAME Sreehari Sreevatsan /Kaappilly/
+2 GIVN Sreehari Sreevatsan
+2 SURN Kaappilly
+1 SEX M
+1 FAMC @F0238@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:18:21
+0 @I0710@ INDI
+1 NAME  /Kaappilly/
+2 SURN Kaappilly
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:18:14
+0 @I0711@ INDI
+1 NAME Thankam Unknown /Karakkaattu/
+2 GIVN Thankam Unknown
+2 SURN Karakkaattu
+1 SEX F
+1 FAMS @F0239@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:20:13
+0 @I0712@ INDI
+1 NAME Jayakrishnan Sankaran /Thottara Vadakkedam/
+2 GIVN Jayakrishnan Sankaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0239@
+1 FAMS @F0240@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:21:39
+0 @I0713@ INDI
+1 NAME Pramod Sankaran /Thottara Vadakkedam/
+2 GIVN Pramod Sankaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0239@
+1 FAMS @F0241@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:22:30
+0 @I0714@ INDI
+1 NAME Vinod Sankaran /Thottara Vadakkedam/
+2 GIVN Vinod Sankaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0239@
+1 FAMS @F0242@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:23:05
+0 @I0715@ INDI
+1 NAME Suma Unknown /Cheppannoor Mungottu/
+2 GIVN Suma Unknown
+2 SURN Cheppannoor Mungottu
+1 SEX F
+1 FAMS @F0240@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:21:39
+0 @I0716@ INDI
+1 NAME SyamKrishnan Jayakrishnan /Thottara Vadakkedam/
+2 GIVN SyamKrishnan Jayakrishnan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0240@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:21:39
+0 @I0717@ INDI
+1 NAME Sreekala Unknown /Aattupuram/
+2 GIVN Sreekala Unknown
+2 SURN Aattupuram
+1 SEX F
+1 FAMS @F0241@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:22:30
+0 @I0718@ INDI
+1 NAME Hrishikesh Pramod /Thottara Vadakkedam/
+2 GIVN Hrishikesh Pramod
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0241@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:22:30
+0 @I0719@ INDI
+1 NAME Sasikala Unknown /Aattupuram/
+2 GIVN Sasikala Unknown
+2 SURN Aattupuram
+1 SEX F
+1 FAMS @F0242@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:23:05
+0 @I0720@ INDI
+1 NAME Savithry Unknown /Mangaattu/
+2 GIVN Savithry Unknown
+2 SURN Mangaattu
+1 SEX F
+1 FAMS @F0243@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:54
+0 @I0721@ INDI
+1 NAME Devaki Jathavedan /Thottara Vadakkedam/
+2 GIVN Devaki Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0243@
+1 FAMS @F0244@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:37:26
+0 @I0722@ INDI
+1 NAME Leela Jathavedan /Thottara Vadakkedam/
+2 GIVN Leela Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0243@
+1 FAMS @F0249@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:42:18
+0 @I0723@ INDI
+1 NAME Devi Jathavedan /Thottara Vadakkedam/
+2 GIVN Devi Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0243@
+1 FAMS @F0253@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:50:09
+0 @I0724@ INDI
+1 NAME Neelakandhan Jathavedan /Thottara Vadakkedam/
+2 GIVN Neelakandhan Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0243@
+1 FAMS @F0259@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:55:33
+0 @I0725@ INDI
+1 NAME Damodaran Jathavedan /Thottara Vadakkedam/
+2 GIVN Damodaran Jathavedan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0243@
+1 FAMS @F0262@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:00:41
+0 @I0726@ INDI
+1 NAME Narayanan Unknown /Kuniyil/
+2 GIVN Narayanan Unknown
+2 SURN Kuniyil
+1 SEX M
+1 FAMS @F0244@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:37:26
+0 @I0727@ INDI
+1 NAME Nirmala Narayanan /Kuniyil/
+2 GIVN Nirmala Narayanan
+2 SURN Kuniyil
+1 SEX F
+1 FAMC @F0244@
+1 FAMS @F0245@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:38:27
+0 @I0728@ INDI
+1 NAME Shobhana Narayanan /Kuniyil/
+2 GIVN Shobhana Narayanan
+2 SURN Kuniyil
+1 SEX F
+1 FAMC @F0244@
+1 FAMS @F0247@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:40:04
+0 @I0729@ INDI
+1 NAME Jalaja Narayanan /Kuniyil/
+2 GIVN Jalaja Narayanan
+2 SURN Kuniyil
+1 SEX F
+1 FAMC @F0244@
+1 FAMS @F0248@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:41:01
+0 @I0730@ INDI
+1 NAME Krishnan Unknown /Madangathu/
+2 GIVN Krishnan Unknown
+2 SURN Madangathu
+1 SEX M
+1 FAMS @F0245@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:38:27
+0 @I0731@ INDI
+1 NAME Anima Krishnan /Madangathu/
+2 GIVN Anima Krishnan
+2 SURN Madangathu
+1 SEX F
+1 FAMC @F0245@
+1 FAMS @F0246@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:39:00
+0 @I0732@ INDI
+1 NAME Aravind Krishnan /Madangathu/
+2 GIVN Aravind Krishnan
+2 SURN Madangathu
+1 SEX M
+1 FAMC @F0245@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:38:27
+0 @I0733@ INDI
+1 NAME Bipin Unknown /Paandanparambathu/
+2 GIVN Bipin Unknown
+2 SURN Paandanparambathu
+1 SEX M
+1 FAMS @F0246@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:39:00
+0 @I0734@ INDI
+1 NAME Babudas Unknown /Koshappilly/
+2 GIVN Babudas Unknown
+2 SURN Koshappilly
+1 SEX M
+1 FAMS @F0247@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:40:04
+0 @I0735@ INDI
+1 NAME Goutham Babudas /Koshappilly/
+2 GIVN Goutham Babudas
+2 SURN Koshappilly
+1 SEX M
+1 FAMC @F0247@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:40:04
+0 @I0736@ INDI
+1 NAME Gayathri Babudas /Koshappilly/
+2 GIVN Gayathri Babudas
+2 SURN Koshappilly
+1 SEX F
+1 FAMC @F0247@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:40:04
+0 @I0737@ INDI
+1 NAME Raman Unknown /Arithottam/
+2 GIVN Raman Unknown
+2 SURN Arithottam
+1 SEX M
+1 FAMS @F0248@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:41:01
+0 @I0738@ INDI
+1 NAME Unnikrishnan Raman /Arithottam/
+2 GIVN Unnikrishnan Raman
+2 SURN Arithottam
+1 SEX M
+1 FAMC @F0248@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:41:01
+0 @I0739@ INDI
+1 NAME Vasudevan Unknown /Uriyamadham/
+2 GIVN Vasudevan Unknown
+2 SURN Uriyamadham
+1 SEX M
+1 FAMS @F0249@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:42:18
+0 @I0740@ INDI
+1 NAME Haridas Vasudevan /Uriyamadham/
+2 GIVN Haridas Vasudevan
+2 SURN Uriyamadham
+1 SEX M
+1 FAMC @F0249@
+1 FAMS @F0250@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:43:36
+0 @I0741@ INDI
+1 NAME Suresh Vasudevan /Uriyamadham/
+2 GIVN Suresh Vasudevan
+2 SURN Uriyamadham
+1 SEX M
+1 FAMC @F0249@
+1 FAMS @F0251@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:44:43
+0 @I0742@ INDI
+1 NAME Bindu Vasudevan /Uriyamadham/
+2 GIVN Bindu Vasudevan
+2 SURN Uriyamadham
+1 SEX F
+1 FAMC @F0249@
+1 FAMS @F0252@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:45:29
+0 @I0743@ INDI
+1 NAME Kalpana Unknown /Vijaathy/
+2 GIVN Kalpana Unknown
+2 SURN Vijaathy
+1 SEX F
+1 FAMS @F0250@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:43:36
+0 @I0744@ INDI
+1 NAME SankarSivaprasad Haridas /Uriyamadham/
+2 GIVN SankarSivaprasad Haridas
+2 SURN Uriyamadham
+1 SEX M
+1 FAMC @F0250@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:43:36
+0 @I0745@ INDI
+1 NAME Shaari Haridas /Uriyamadham/
+2 GIVN Shaari Haridas
+2 SURN Uriyamadham
+1 SEX F
+1 FAMC @F0250@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:43:36
+0 @I0746@ INDI
+1 NAME Sunitha Unknown /Neduvel/
+2 GIVN Sunitha Unknown
+2 SURN Neduvel
+1 SEX F
+1 FAMS @F0251@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:44:43
+0 @I0747@ INDI
+1 NAME Sreedurgajith Suresh /Uriyamadham/
+2 GIVN Sreedurgajith Suresh
+2 SURN Uriyamadham
+1 SEX M
+1 FAMC @F0251@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:44:43
+0 @I0748@ INDI
+1 NAME Sarangi Suresh /Uriyamadham/
+2 GIVN Sarangi Suresh
+2 SURN Uriyamadham
+1 SEX F
+1 FAMC @F0251@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:44:43
+0 @I0749@ INDI
+1 NAME Suresh Unknown /Edapprambilly/
+2 GIVN Suresh Unknown
+2 SURN Edapprambilly
+1 SEX M
+1 FAMS @F0252@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:45:29
+0 @I0750@ INDI
+1 NAME Sarath Suresh /Edapprambilly/
+2 GIVN Sarath Suresh
+2 SURN Edapprambilly
+1 SEX M
+1 FAMC @F0252@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:45:29
+0 @I0751@ INDI
+1 NAME Parvathy Suresh /Edapprambilly/
+2 GIVN Parvathy Suresh
+2 SURN Edapprambilly
+1 SEX F
+1 FAMC @F0252@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:45:38
+0 @I0752@ INDI
+1 NAME Narayanan Unknown /Karakkattu Thekkeppattu/
+2 GIVN Narayanan Unknown
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMS @F0253@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:50:09
+0 @I0753@ INDI
+1 NAME Sankaranarayanan Narayanan /Karakkattu Thekkeppattu/
+2 GIVN Sankaranarayanan Narayanan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0253@
+1 FAMS @F0254@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:51:26
+0 @I0754@ INDI
+1 NAME Jathavedan Narayanan /Karakkattu Thekkeppattu/
+2 GIVN Jathavedan Narayanan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0253@
+1 FAMS @F0255@
+1 FAMS @F0256@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:52:18
+0 @I0755@ INDI
+1 NAME Prakasan Narayanan /Karakkattu Thekkeppattu/
+2 GIVN Prakasan Narayanan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0253@
+1 FAMS @F0257@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:53:01
+0 @I0756@ INDI
+1 NAME Sivadasan Narayanan /Karakkattu Thekkeppattu/
+2 GIVN Sivadasan Narayanan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0253@
+1 FAMS @F0258@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:53:50
+0 @I0757@ INDI
+1 NAME Geetha Unknown /Kundumkaralallathu/
+2 GIVN Geetha Unknown
+2 SURN Kundumkaralallathu
+1 SEX F
+1 FAMS @F0254@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:51:26
+0 @I0758@ INDI
+1 NAME Anila Sankaranarayanan /Karakkattu Thekkeppattu/
+2 GIVN Anila Sankaranarayanan
+2 SURN Karakkattu Thekkeppattu
+1 SEX F
+1 FAMC @F0254@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:51:26
+0 @I0759@ INDI
+1 NAME Amritha Sankaranarayanan /Karakkattu Thekkeppattu/
+2 GIVN Amritha Sankaranarayanan
+2 SURN Karakkattu Thekkeppattu
+1 SEX F
+1 FAMC @F0254@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:51:26
+0 @I0760@ INDI
+1 NAME Latha Unknown /Paazhiyottu/
+2 GIVN Latha Unknown
+2 SURN Paazhiyottu
+1 SEX F
+1 FAMS @F0256@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:52:18
+0 @I0761@ INDI
+1 NAME Arun Jathavedan /Karakkattu Thekkeppattu/
+2 GIVN Arun Jathavedan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0256@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:52:18
+0 @I0762@ INDI
+1 NAME Viji Unknown /Koothattukulam Edamana/
+2 GIVN Viji Unknown
+2 SURN Koothattukulam Edamana
+1 SEX F
+1 FAMS @F0257@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:53:01
+0 @I0763@ INDI
+1 NAME Vijith Prakasan /Karakkattu Thekkeppattu/
+2 GIVN Vijith Prakasan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0257@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:53:01
+0 @I0764@ INDI
+1 NAME Aparna Unknown /Padinjarepattu/
+2 GIVN Aparna Unknown
+2 SURN Padinjarepattu
+1 SEX F
+1 FAMS @F0258@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:53:50
+0 @I0765@ INDI
+1 NAME Amaldas Sivadasan /Karakkattu Thekkeppattu/
+2 GIVN Amaldas Sivadasan
+2 SURN Karakkattu Thekkeppattu
+1 SEX M
+1 FAMC @F0258@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:54:14
+0 @I0766@ INDI
+1 NAME Savithry Unknown /Pavutty/
+2 GIVN Savithry Unknown
+2 SURN Pavutty
+1 SEX F
+1 FAMS @F0259@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:55:33
+0 @I0767@ INDI
+1 NAME Mini Neelakandhan /Thottara Vadakkedam/
+2 GIVN Mini Neelakandhan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0259@
+1 FAMS @F0260@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:56:26
+0 @I0768@ INDI
+1 NAME Mohanan Neelakandhan /Thottara Vadakkedam/
+2 GIVN Mohanan Neelakandhan
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0259@
+1 FAMS @F0261@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:58:05
+0 @I0769@ INDI
+1 NAME Haridas Unknown /Palleli/
+2 GIVN Haridas Unknown
+2 SURN Palleli
+1 SEX M
+1 FAMS @F0260@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:56:26
+0 @I0770@ INDI
+1 NAME Vishnudas Haridas /Palleli/
+2 GIVN Vishnudas Haridas
+2 SURN Palleli
+1 SEX M
+1 FAMC @F0260@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:56:26
+0 @I0771@ INDI
+1 NAME Sreeja Unknown /Cheruvathoor/
+2 GIVN Sreeja Unknown
+2 SURN Cheruvathoor
+1 SEX F
+1 FAMS @F0261@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:58:05
+0 @I0772@ INDI
+1 NAME Ganga Mohanan /Thottara Vadakkedam/
+2 GIVN Ganga Mohanan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0261@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:58:05
+0 @I0773@ INDI
+1 NAME Gouri Mohanan /Thottara Vadakkedam/
+2 GIVN Gouri Mohanan
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0261@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:58:05
+0 @I0774@ INDI
+1 NAME Suma Unknown /Peringara/
+2 GIVN Suma Unknown
+2 SURN Peringara
+1 SEX F
+1 FAMS @F0262@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:00:41
+0 @I0775@ INDI
+1 NAME Sangeetha Damodaran /Thottara Vadakkedam/
+2 GIVN Sangeetha Damodaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0262@
+1 FAMS @F0263@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:01:12
+0 @I0776@ INDI
+1 NAME Krishnaprasad Damodaran /Thottara Vadakkedam/
+2 GIVN Krishnaprasad Damodaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0262@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:00:41
+0 @I0777@ INDI
+1 NAME Vipin Unknown /Pinakkaamittam/
+2 GIVN Vipin Unknown
+2 SURN Pinakkaamittam
+1 SEX M
+1 FAMS @F0263@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:01:12
+0 @I0778@ INDI
+1 NAME Chinnammu Nethiar Manooor /Vijaathy/
+2 GIVN Chinnammu Nethiar Manooor
+2 SURN Vijaathy
+1 SEX F
+1 FAMS @F0264@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @I0779@ INDI
+1 NAME Keshavan Parameswaran /Thottara Vadakkedam/
+2 GIVN Keshavan Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0264@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @I0780@ INDI
+1 NAME Bhaskaran Parameswaran /Thottara Vadakkedam/
+2 GIVN Bhaskaran Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0264@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @I0781@ INDI
+1 NAME Padmavathy Parameswaran /Thottara Vadakkedam/
+2 GIVN Padmavathy Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX F
+1 FAMC @F0264@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @I0782@ INDI
+1 NAME Aravindakshan Parameswaran /Thottara Vadakkedam/
+2 GIVN Aravindakshan Parameswaran
+2 SURN Thottara Vadakkedam
+1 SEX M
+1 FAMC @F0264@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @I0783@ INDI
+1 NAME Subrahmanyan Parameswaran Somayajipad /Cholamana/
+2 GIVN Subrahmanyan Parameswaran Somayajipad
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0266@
+1 FAMS @F0265@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:14:00
+0 @I0784@ INDI
+1 NAME Devaki Raman /Puthusseri/
+2 GIVN Devaki Raman
+2 SURN Puthusseri
+1 SEX F
+1 FAMS @F0265@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 07:54:12
+0 @I0785@ INDI
+1 NAME Sailaja Subrahmanyan /Cholamana/
+2 GIVN Sailaja Subrahmanyan
+2 SURN Cholamana
+1 SEX F
+1 FAMC @F0265@
+1 FAMS @F0269@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:33:39
+0 @I0786@ INDI
+1 NAME Sreelatha Subrahmanyan /Cholamana/
+2 GIVN Sreelatha Subrahmanyan
+2 SURN Cholamana
+1 SEX F
+1 FAMC @F0265@
+1 FAMS @F0272@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:54:51
+0 @I0787@ INDI
+1 NAME Parameswaran Subrahmanyan /Cholamana/
+2 GIVN Parameswaran Subrahmanyan
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0265@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 07:56:34
+0 @I0788@ INDI
+1 NAME Parameswaran Somayajipad /Cholamana/
+2 GIVN Parameswaran Somayajipad
+2 SURN Cholamana
+1 SEX M
+1 FAMS @F0266@
+1 FAMS @F0267@
+1 FAMS @F0268@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:09:37
+0 @I0789@ INDI
+1 NAME Arya Unknown /Peraangadu/
+2 GIVN Arya Unknown
+2 SURN Peraangadu
+1 SEX F
+1 FAMS @F0266@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:34:02
+0 @I0790@ INDI
+1 NAME Parameswaran Parameswaran Somayajipad /Cholamana/
+2 GIVN Parameswaran Parameswaran Somayajipad
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0266@
+1 FAMS @F0270@
+1 FAMS @F0271@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:39:54
+0 @I0791@ INDI
+1 NAME Unikali Unknown /Vaishravanath/
+2 GIVN Unikali Unknown
+2 SURN Vaishravanath
+1 SEX F
+1 FAMS @F0267@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:36:29
+0 @I0792@ INDI
+1 NAME Sankaranarayanan Parameswaran Somayajipad /Cholamana/
+2 GIVN Sankaranarayanan Parameswaran Somayajipad
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0267@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:07:52
+0 @I0793@ INDI
+1 NAME Unneema Parameswaran Somayajipad /Cholamana/
+2 GIVN Unneema Parameswaran Somayajipad
+2 SURN Cholamana
+1 SEX F
+1 FAMC @F0267@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:07:52
+0 @I0794@ INDI
+1 NAME Savithri Unknown /Nellikkadu/
+2 GIVN Savithri Unknown
+2 SURN Nellikkadu
+1 SEX F
+1 FAMS @F0268@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:36:41
+0 @I0795@ INDI
+1 NAME Neelakandhan Parameswaran Somayajipad /Cholamana/
+2 GIVN Neelakandhan Parameswaran Somayajipad
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0268@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:09:37
+0 @I0796@ INDI
+1 NAME Umadevi Unknown /Naripatta/
+2 GIVN Umadevi Unknown
+2 SURN Naripatta
+1 SEX F
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:15:28
+0 @I0797@ INDI
+1 NAME Parameswaran Parameswaran /Cholamana/
+2 GIVN Parameswaran Parameswaran
+2 SURN Cholamana
+1 SEX M
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:15:59
+0 @I0798@ INDI
+1 NAME Rajan Unknown /Vaishravanath/
+2 GIVN Rajan Unknown
+2 SURN Vaishravanath
+1 SEX M
+1 FAMS @F0269@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:33:39
+0 @I0799@ INDI
+1 NAME Uma Unknown /Naripatta/
+2 GIVN Uma Unknown
+2 SURN Naripatta
+1 SEX F
+1 FAMS @F0270@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:38:51
+0 @I0800@ INDI
+1 NAME Parameswaran Parameswaran /Cholamana/
+2 GIVN Parameswaran Parameswaran
+2 SURN Cholamana
+1 SEX M
+1 FAMC @F0270@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:38:31
+0 @I0801@ INDI
+1 NAME Girija Parameswaran /Cholamana/
+2 GIVN Girija Parameswaran
+2 SURN Cholamana
+1 SEX F
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:38:08
+0 @I0802@ INDI
+1 NAME Devaki Unknown /Karalmanna Naripatta/
+2 GIVN Devaki Unknown
+2 SURN Karalmanna Naripatta
+1 SEX F
+1 FAMS @F0271@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:39:54
+0 @I0803@ INDI
+1 NAME Girija Parameswaran /Cholamana/
+2 GIVN Girija Parameswaran
+2 SURN Cholamana
+1 SEX F
+1 FAMC @F0271@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:39:54
+0 @I0804@ INDI
+1 NAME Varada Rajan /Vaishravanath/
+2 GIVN Varada Rajan
+2 SURN Vaishravanath
+1 SEX F
+1 FAMC @F0269@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:51:56
+0 @I0805@ INDI
+1 NAME Radhika Rajan /Vaishravanath/
+2 GIVN Radhika Rajan
+2 SURN Vaishravanath
+1 SEX F
+1 FAMC @F0269@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:52:13
+0 @I0806@ INDI
+1 NAME Appukuttan Unknown /Areekkara/
+2 GIVN Appukuttan Unknown
+2 SURN Areekkara
+1 SEX M
+1 FAMS @F0272@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:54:51
+0 @I0807@ INDI
+1 NAME Aravind Appukuttan /Areekkara/
+2 GIVN Aravind Appukuttan
+2 SURN Areekkara
+1 SEX M
+1 FAMC @F0272@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:54:51
+0 @I0808@ INDI
+1 NAME Aparna Apukuttan /Areekkara/
+2 GIVN Aparna Apukuttan
+2 SURN Areekkara
+1 SEX F
+1 FAMC @F0272@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:54:51
+0 @F0000@ FAM
+1 HUSB @I0000@
+1 WIFE @I0001@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 19:49:05
+0 @F0001@ FAM
+1 HUSB @I0000@
+1 WIFE @I0002@
+1 CHIL @I0003@
+1 CHIL @I0004@
+1 CHIL @I0005@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 19:56:49
+0 @F0002@ FAM
+1 HUSB @I0003@
+1 WIFE @I0009@
+1 CHIL @I0010@
+1 CHIL @I0011@
+1 CHIL @I0012@
+1 CHIL @I0013@
+1 CHIL @I0014@
+1 CHIL @I0015@
+1 CHIL @I0016@
+1 CHIL @I0017@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 19:56:37
+0 @F0003@ FAM
+1 HUSB @I0003@
+1 WIFE @I0018@
+1 CHIL @I0019@
+1 CHIL @I0020@
+1 CHIL @I0021@
+1 CHIL @I0022@
+1 CHIL @I0023@
+1 CHIL @I0024@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:01:18
+0 @F0004@ FAM
+1 HUSB @I0003@
+1 WIFE @I0025@
+1 CHIL @I0026@
+1 CHIL @I0027@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:04:11
+0 @F0005@ FAM
+1 HUSB @I0003@
+1 WIFE @I0028@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:05:05
+0 @F0006@ FAM
+1 HUSB @I0004@
+1 WIFE @I0029@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:16:31
+0 @F0007@ FAM
+1 HUSB @I0005@
+1 WIFE @I0030@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:16:58
+0 @F0008@ FAM
+1 HUSB @I0031@
+1 WIFE @I0010@
+1 CHIL @I0032@
+1 CHIL @I0033@
+1 CHIL @I0034@
+1 CHIL @I0035@
+1 CHIL @I0036@
+1 CHIL @I0037@
+1 CHIL @I0038@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:22:06
+0 @F0009@ FAM
+1 HUSB @I0032@
+1 WIFE @I0039@
+1 CHIL @I0040@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:23:49
+0 @F0010@ FAM
+1 HUSB @I0032@
+1 WIFE @I0041@
+1 CHIL @I0042@
+1 CHIL @I0043@
+1 CHIL @I0044@
+1 CHIL @I0045@
+1 CHIL @I0046@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:27:09
+0 @F0011@ FAM
+1 HUSB @I0040@
+1 WIFE @I0047@
+1 CHIL @I0048@
+1 CHIL @I0049@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:31:36
+0 @F0012@ FAM
+1 HUSB @I0050@
+1 WIFE @I0048@
+1 CHIL @I0051@
+1 CHIL @I0052@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:35:03
+0 @F0013@ FAM
+1 HUSB @I0049@
+1 WIFE @I0053@
+1 CHIL @I0054@
+1 CHIL @I0055@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:36:53
+0 @F0014@ FAM
+1 HUSB @I0042@
+1 WIFE @I0056@
+1 CHIL @I0057@
+1 CHIL @I0058@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:41:32
+0 @F0015@ FAM
+1 HUSB @I0057@
+1 WIFE @I0059@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:42:13
+0 @F0016@ FAM
+1 HUSB @I0060@
+1 WIFE @I0043@
+1 CHIL @I0061@
+1 CHIL @I0062@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:44:19
+0 @F0017@ FAM
+1 HUSB @I0063@
+1 WIFE @I0061@
+1 CHIL @I0064@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:46:37
+0 @F0018@ FAM
+1 HUSB @I0065@
+1 WIFE @I0062@
+1 CHIL @I0066@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:48:52
+0 @F0019@ FAM
+1 HUSB @I0044@
+1 WIFE @I0067@
+1 CHIL @I0068@
+1 CHIL @I0069@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:50:34
+0 @F0020@ FAM
+1 HUSB @I0070@
+1 WIFE @I0068@
+1 CHIL @I0071@
+1 CHIL @I0072@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 20:57:08
+0 @F0021@ FAM
+1 HUSB @I0073@
+1 WIFE @I0069@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:06:21
+0 @F0022@ FAM
+1 HUSB @I0045@
+1 WIFE @I0074@
+1 CHIL @I0075@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:09:21
+0 @F0023@ FAM
+1 HUSB @I0046@
+1 WIFE @I0076@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:09:52
+0 @F0024@ FAM
+1 HUSB @I0033@
+1 WIFE @I0077@
+1 CHIL @I0078@
+1 CHIL @I0079@
+1 CHIL @I0080@
+1 CHIL @I0081@
+1 CHIL @I0082@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:16:06
+0 @F0025@ FAM
+1 HUSB @I0083@
+1 WIFE @I0078@
+1 CHIL @I0084@
+1 CHIL @I0085@
+1 CHIL @I0086@
+1 CHIL @I0087@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:20:08
+0 @F0026@ FAM
+1 HUSB @I0088@
+1 WIFE @I0084@
+1 CHIL @I0089@
+1 CHIL @I0090@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:22:19
+0 @F0027@ FAM
+1 HUSB @I0085@
+1 WIFE @I0091@
+1 CHIL @I0092@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:23:46
+0 @F0028@ FAM
+1 HUSB @I0093@
+1 WIFE @I0087@
+1 CHIL @I0094@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:25:13
+0 @F0029@ FAM
+1 HUSB @I0095@
+1 WIFE @I0081@
+1 CHIL @I0096@
+1 CHIL @I0097@
+1 CHIL @I0098@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:31:48
+0 @F0030@ FAM
+1 HUSB @I0097@
+1 WIFE @I0099@
+1 CHIL @I0100@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:32:59
+0 @F0031@ FAM
+1 HUSB @I0096@
+1 WIFE @I0101@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:34:09
+0 @F0032@ FAM
+1 HUSB @I0102@
+1 WIFE @I0098@
+1 CHIL @I0103@
+1 CHAN
+2 DATE 9 JAN 2012
+3 TIME 21:40:09
+0 @F0033@ FAM
+1 HUSB @I0104@
+1 WIFE @I0082@
+1 CHIL @I0105@
+1 CHIL @I0106@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:36:59
+0 @F0034@ FAM
+1 HUSB @I0107@
+1 WIFE @I0105@
+1 CHIL @I0108@
+1 CHIL @I0109@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:39:10
+0 @F0035@ FAM
+1 HUSB @I0110@
+1 WIFE @I0106@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:40:09
+0 @F0036@ FAM
+1 HUSB @I0034@
+1 WIFE @I0111@
+1 CHIL @I0112@
+1 CHIL @I0113@
+1 CHIL @I0114@
+1 CHIL @I0115@
+1 CHIL @I0116@
+1 CHIL @I0117@
+1 CHIL @I0118@
+1 CHIL @I0119@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:44:22
+0 @F0037@ FAM
+1 HUSB @I0120@
+1 WIFE @I0112@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:45:24
+0 @F0038@ FAM
+1 HUSB @I0121@
+1 WIFE @I0113@
+1 CHIL @I0122@
+1 CHIL @I0123@
+1 CHIL @I0130@
+1 CHIL @I0131@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:50:48
+0 @F0039@ FAM
+1 HUSB @I0124@
+1 WIFE @I0122@
+1 CHIL @I0125@
+1 CHIL @I0126@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:48:51
+0 @F0040@ FAM
+1 HUSB @I0127@
+1 WIFE @I0123@
+1 CHIL @I0128@
+1 CHIL @I0129@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:50:02
+0 @F0041@ FAM
+1 HUSB @I0132@
+1 WIFE @I0130@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:51:45
+0 @F0042@ FAM
+1 HUSB @I0133@
+1 WIFE @I0131@
+1 CHIL @I0134@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:52:49
+0 @F0043@ FAM
+1 HUSB @I0114@
+1 WIFE @I0135@
+1 CHIL @I0136@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:54:00
+0 @F0044@ FAM
+1 HUSB @I0136@
+1 WIFE @I0137@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:54:29
+0 @F0045@ FAM
+1 HUSB @I0115@
+1 WIFE @I0138@
+1 CHIL @I0139@
+1 CHIL @I0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:55:59
+0 @F0046@ FAM
+1 HUSB @I0141@
+1 WIFE @I0140@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:56:41
+0 @F0047@ FAM
+1 HUSB @I0116@
+1 WIFE @I0142@
+1 CHIL @I0143@
+1 CHIL @I0144@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:57:40
+0 @F0048@ FAM
+1 HUSB @I0117@
+1 WIFE @I0145@
+1 CHIL @I0146@
+1 CHIL @I0147@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 01:59:27
+0 @F0049@ FAM
+1 HUSB @I0148@
+1 WIFE @I0118@
+1 CHIL @I0149@
+1 CHIL @I0150@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:00:42
+0 @F0050@ FAM
+1 HUSB @I0151@
+1 WIFE @I0149@
+1 CHIL @I0152@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:01:24
+0 @F0051@ FAM
+1 HUSB @I0119@
+1 WIFE @I0153@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:02:29
+0 @F0052@ FAM
+1 HUSB @I0038@
+1 WIFE @I0154@
+1 CHIL @I0155@
+1 CHIL @I0156@
+1 CHIL @I0157@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:05:26
+0 @F0053@ FAM
+1 HUSB @I0155@
+1 WIFE @I0158@
+1 CHIL @I0159@
+1 CHIL @I0160@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:06:43
+0 @F0054@ FAM
+1 HUSB @I0161@
+1 WIFE @I0156@
+1 CHIL @I0162@
+1 CHIL @I0163@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:07:53
+0 @F0055@ FAM
+1 HUSB @I0157@
+1 WIFE @I0164@
+1 CHIL @I0165@
+1 CHIL @I0166@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:09:37
+0 @F0056@ FAM
+1 HUSB @I0167@
+1 WIFE @I0037@
+1 CHIL @I0168@
+1 CHIL @I0169@
+1 CHIL @I0170@
+1 CHIL @I0171@
+1 CHIL @I0172@
+1 CHIL @I0173@
+1 CHIL @I0174@
+1 CHIL @I0175@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:11:58
+0 @F0057@ FAM
+1 HUSB @I0168@
+1 WIFE @I0176@
+1 CHIL @I0177@
+1 CHIL @I0178@
+1 CHIL @I0179@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:08
+0 @F0058@ FAM
+1 HUSB @I0180@
+1 WIFE @I0177@
+1 CHIL @I0181@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:14:55
+0 @F0059@ FAM
+1 HUSB @I0169@
+1 WIFE @I0182@
+1 CHIL @I0183@
+1 CHIL @I0184@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:15
+0 @F0060@ FAM
+1 HUSB @I0185@
+1 WIFE @I0183@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:16:47
+0 @F0061@ FAM
+1 HUSB @I0170@
+1 WIFE @I0186@
+1 CHIL @I0187@
+1 CHIL @I0188@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:17:46
+0 @F0062@ FAM
+1 HUSB @I0189@
+1 WIFE @I0171@
+1 CHIL @I0190@
+1 CHIL @I0191@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:18:43
+0 @F0063@ FAM
+1 HUSB @I0172@
+1 WIFE @I0192@
+1 CHIL @I0193@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:20:16
+0 @F0064@ FAM
+1 HUSB @I0194@
+1 WIFE @I0173@
+1 CHIL @I0195@
+1 CHIL @I0196@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:21:40
+0 @F0065@ FAM
+1 HUSB @I0197@
+1 WIFE @I0195@
+1 CHIL @I0198@
+1 CHIL @I0199@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:22:43
+0 @F0066@ FAM
+1 HUSB @I0200@
+1 WIFE @I0196@
+1 CHIL @I0201@
+1 CHIL @I0202@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 02:24:39
+0 @F0067@ FAM
+1 HUSB @I0203@
+1 WIFE @I0174@
+1 CHIL @I0204@
+1 CHIL @I0205@
+1 CHIL @I0206@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:11:26
+0 @F0068@ FAM
+1 HUSB @I0207@
+1 WIFE @I0204@
+1 CHIL @I0208@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:13:37
+0 @F0069@ FAM
+1 HUSB @I0209@
+1 WIFE @I0205@
+1 CHIL @I0210@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:19:12
+0 @F0070@ FAM
+1 HUSB @I0211@
+1 WIFE @I0175@
+1 CHIL @I0212@
+1 CHIL @I0213@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:23:44
+0 @F0071@ FAM
+1 HUSB @I0214@
+1 WIFE @I0011@
+1 CHIL @I0215@
+1 CHIL @I0216@
+1 CHIL @I0217@
+1 CHIL @I0218@
+1 CHIL @I0219@
+1 CHIL @I0220@
+1 CHIL @I0221@
+1 CHIL @I0222@
+1 CHIL @I0223@
+1 CHIL @I0224@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:29:57
+0 @F0072@ FAM
+1 HUSB @I0225@
+1 WIFE @I0217@
+1 CHIL @I0226@
+1 CHIL @I0227@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:55:38
+0 @F0073@ FAM
+1 HUSB @I0226@
+1 WIFE @I0228@
+1 CHIL @I0229@
+1 CHIL @I0230@
+1 CHIL @I0231@
+1 CHIL @I0232@
+1 CHIL @I0233@
+1 CHIL @I0234@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 10:58:45
+0 @F0074@ FAM
+1 HUSB @I0235@
+1 WIFE @I0229@
+1 CHIL @I0236@
+1 CHIL @I0237@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:00:46
+0 @F0075@ FAM
+1 HUSB @I0238@
+1 WIFE @I0230@
+1 CHIL @I0239@
+1 CHIL @I0240@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:01:57
+0 @F0076@ FAM
+1 HUSB @I0241@
+1 WIFE @I0231@
+1 CHIL @I0242@
+1 CHIL @I0243@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:03:37
+0 @F0077@ FAM
+1 HUSB @I0244@
+1 WIFE @I0232@
+1 CHIL @I0245@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:04:54
+0 @F0078@ FAM
+1 HUSB @I0246@
+1 WIFE @I0233@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:06:16
+0 @F0079@ FAM
+1 HUSB @I0234@
+1 WIFE @I0247@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:07:38
+0 @F0080@ FAM
+1 HUSB @I0248@
+1 WIFE @I0227@
+1 CHIL @I0249@
+1 CHIL @I0250@
+1 CHIL @I0251@
+1 CHIL @I0252@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:10:25
+0 @F0081@ FAM
+1 HUSB @I0249@
+1 WIFE @I0253@
+1 CHIL @I0254@
+1 CHIL @I0255@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:12:32
+0 @F0082@ FAM
+1 HUSB @I0256@
+1 WIFE @I0250@
+1 CHIL @I0257@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:13:56
+0 @F0083@ FAM
+1 HUSB @I0258@
+1 WIFE @I0252@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:15:55
+0 @F0084@ FAM
+1 HUSB @I0215@
+1 WIFE @I0259@
+1 CHIL @I0260@
+1 CHIL @I0261@
+1 CHIL @I0262@
+1 CHIL @I0263@
+1 CHIL @I0264@
+1 CHIL @I0265@
+1 CHIL @I0266@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:21:02
+0 @F0085@ FAM
+1 HUSB @I0260@
+1 WIFE @I0267@
+1 CHIL @I0268@
+1 CHIL @I0269@
+1 CHIL @I0270@
+1 CHIL @I0275@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:27:00
+0 @F0086@ FAM
+1 HUSB @I0271@
+1 WIFE @I0268@
+1 CHIL @I0272@
+1 CHIL @I0273@
+1 CHIL @I0274@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:26:41
+0 @F0087@ FAM
+1 HUSB @I0276@
+1 WIFE @I0275@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:28:30
+0 @F0088@ FAM
+1 HUSB @I0277@
+1 WIFE @I0270@
+1 CHIL @I0278@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:29:44
+0 @F0089@ FAM
+1 HUSB @I0269@
+1 WIFE @I0279@
+1 CHIL @I0280@
+1 CHIL @I0281@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 11:31:53
+0 @F0090@ FAM
+1 HUSB @I0261@
+1 WIFE @I0282@
+1 CHIL @I0283@
+1 CHIL @I0284@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:13:52
+0 @F0091@ FAM
+1 HUSB @I0285@
+1 WIFE @I0284@
+1 CHIL @I0286@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:15:31
+0 @F0092@ FAM
+1 HUSB @I0262@
+1 WIFE @I0287@
+1 CHIL @I0288@
+1 CHIL @I0289@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:18:09
+0 @F0093@ FAM
+1 HUSB @I0288@
+1 WIFE @I0290@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:19:07
+0 @F0094@ FAM
+1 HUSB @I0263@
+1 WIFE @I0291@
+1 CHIL @I0292@
+1 CHIL @I0293@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:22:28
+0 @F0095@ FAM
+1 HUSB @I0294@
+1 WIFE @I0264@
+1 CHIL @I0295@
+1 CHIL @I0296@
+1 CHIL @I0297@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:23:59
+0 @F0096@ FAM
+1 HUSB @I0295@
+1 WIFE @I0298@
+1 CHIL @I0299@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:25:14
+0 @F0097@ FAM
+1 HUSB @I0296@
+1 WIFE @I0300@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:26:17
+0 @F0098@ FAM
+1 HUSB @I0301@
+1 WIFE @I0297@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:28:36
+0 @F0099@ FAM
+1 HUSB @I0265@
+1 WIFE @I0449@
+1 CHIL @I0303@
+1 CHIL @I0304@
+1 CHIL @I0305@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:57:51
+0 @F0100@ FAM
+1 HUSB @I0266@
+1 WIFE @I0306@
+1 CHIL @I0307@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:33:11
+0 @F0101@ FAM
+1 HUSB @I0216@
+1 WIFE @I0308@
+1 CHIL @I0309@
+1 CHIL @I0310@
+1 CHIL @I0311@
+1 CHIL @I0312@
+1 CHIL @I0313@
+1 CHIL @I0314@
+1 CHIL @I0315@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:35:59
+0 @F0102@ FAM
+1 HUSB @I0309@
+1 WIFE @I0316@
+1 CHIL @I0317@
+1 CHIL @I0318@
+1 CHIL @I0319@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:38:06
+0 @F0103@ FAM
+1 HUSB @I0317@
+1 WIFE @I0320@
+1 CHIL @I0321@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:39:41
+0 @F0104@ FAM
+1 HUSB @I0322@
+1 WIFE @I0310@
+1 CHIL @I0323@
+1 CHIL @I0324@
+1 CHIL @I0325@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:41:51
+0 @F0105@ FAM
+1 HUSB @I0323@
+1 WIFE @I0326@
+1 CHIL @I0327@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:42:48
+0 @F0106@ FAM
+1 HUSB @I0324@
+1 WIFE @I0328@
+1 CHIL @I0329@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:43:50
+0 @F0107@ FAM
+1 HUSB @I0325@
+1 WIFE @I0330@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:45:27
+0 @F0108@ FAM
+1 HUSB @I0331@
+1 WIFE @I0311@
+1 CHIL @I0332@
+1 CHIL @I0333@
+1 CHIL @I0334@
+1 CHIL @I0335@
+1 CHIL @I0336@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:48:53
+0 @F0109@ FAM
+1 HUSB @I0337@
+1 WIFE @I0332@
+1 CHIL @I0338@
+1 CHIL @I0339@
+1 CHIL @I0340@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:50:47
+0 @F0110@ FAM
+1 HUSB @I0341@
+1 WIFE @I0333@
+1 CHIL @I0342@
+1 CHIL @I0343@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:52:39
+0 @F0111@ FAM
+1 HUSB @I0341@
+1 WIFE @I0334@
+1 MARR
+2 TYPE Punar vivaaham
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:54:46
+0 @F0112@ FAM
+1 HUSB @I0344@
+1 WIFE @I0336@
+1 CHIL @I0345@
+1 CHIL @I0346@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:58:07
+0 @F0113@ FAM
+1 HUSB @I0312@
+1 WIFE @I0347@
+1 CHIL @I0348@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 12:59:18
+0 @F0114@ FAM
+1 HUSB @I0348@
+1 WIFE @I0349@
+1 CHIL @I0350@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:01:36
+0 @F0115@ FAM
+1 HUSB @I0351@
+1 WIFE @I0313@
+1 CHIL @I0352@
+1 CHIL @I0353@
+1 CHIL @I0354@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:05:36
+0 @F0116@ FAM
+1 HUSB @I0355@
+1 WIFE @I0352@
+1 CHIL @I0356@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:07:15
+0 @F0117@ FAM
+1 HUSB @I0357@
+1 WIFE @I0353@
+1 CHIL @I0358@
+1 CHIL @I0359@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:09:39
+0 @F0118@ FAM
+1 HUSB @I0314@
+1 WIFE @I0360@
+1 CHIL @I0361@
+1 CHIL @I0362@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:28:47
+0 @F0119@ FAM
+1 HUSB @I0363@
+1 WIFE @I0315@
+1 CHIL @I0364@
+1 CHIL @I0365@
+1 CHIL @I0366@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:31:23
+0 @F0120@ FAM
+1 HUSB @I0367@
+1 WIFE @I0365@
+1 CHIL @I0368@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:32:54
+0 @F0121@ FAM
+1 HUSB @I0369@
+1 WIFE @I0218@
+1 CHIL @I0370@
+1 CHIL @I0371@
+1 CHIL @I0372@
+1 CHIL @I0373@
+1 CHIL @I0374@
+1 CHIL @I0375@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:36:01
+0 @F0122@ FAM
+1 HUSB @I0376@
+1 WIFE @I0370@
+1 CHIL @I0377@
+1 CHIL @I0378@
+1 CHIL @I0379@
+1 CHIL @I0380@
+1 CHIL @I0381@
+1 CHIL @I0382@
+1 CHIL @I0383@
+1 CHIL @I0384@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:39:25
+0 @F0123@ FAM
+1 HUSB @I0385@
+1 WIFE @I0383@
+1 CHIL @I0386@
+1 CHIL @I0387@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 13:43:52
+0 @F0124@ FAM
+1 HUSB @I0388@
+1 WIFE @I0384@
+1 CHIL @I0389@
+1 CHIL @I0390@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:35:32
+0 @F0125@ FAM
+1 HUSB @I0377@
+1 WIFE @I0391@
+1 MARR
+2 TYPE No children
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 15:37:19
+0 @F0126@ FAM
+1 HUSB @I0378@
+1 WIFE @I0392@
+1 CHIL @I0393@
+1 CHIL @I0394@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:10:37
+0 @F0127@ FAM
+1 HUSB @I0379@
+1 WIFE @I0395@
+1 CHIL @I0396@
+1 CHIL @I0397@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:17
+0 @F0128@ FAM
+1 HUSB @I0380@
+1 WIFE @I0398@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:12:56
+0 @F0129@ FAM
+1 HUSB @I0381@
+1 WIFE @I0399@
+1 CHIL @I0400@
+1 CHIL @I0401@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:15:28
+0 @F0130@ FAM
+1 HUSB @I0371@
+1 WIFE @I0402@
+1 CHIL @I0403@
+1 CHIL @I0404@
+1 CHIL @I0405@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:20:15
+0 @F0131@ FAM
+1 HUSB @I0403@
+1 WIFE @I0406@
+1 CHIL @I0407@
+1 CHIL @I0408@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:23:38
+0 @F0132@ FAM
+1 HUSB @I0404@
+1 WIFE @I0409@
+1 CHIL @I0410@
+1 CHIL @I0411@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:25:26
+0 @F0133@ FAM
+1 HUSB @I0412@
+1 WIFE @I0405@
+1 CHIL @I0413@
+1 CHIL @I0414@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:27:43
+0 @F0134@ FAM
+1 HUSB @I0372@
+1 WIFE @I0415@
+1 CHIL @I0416@
+1 CHIL @I0417@
+1 CHIL @I0418@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:29:55
+0 @F0135@ FAM
+1 HUSB @I0419@
+1 WIFE @I0417@
+1 CHIL @I0420@
+1 CHIL @I0421@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:31:18
+0 @F0136@ FAM
+1 HUSB @I0422@
+1 WIFE @I0418@
+1 CHIL @I0423@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:33:56
+0 @F0137@ FAM
+1 HUSB @I0424@
+1 WIFE @I0373@
+1 CHIL @I0425@
+1 CHIL @I0426@
+1 CHIL @I0427@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:37:31
+0 @F0138@ FAM
+1 HUSB @I0428@
+1 WIFE @I0426@
+1 CHIL @I0429@
+1 CHIL @I0430@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:39:52
+0 @F0139@ FAM
+1 HUSB @I0431@
+1 WIFE @I0427@
+1 CHIL @I0432@
+1 CHIL @I0433@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:41:13
+0 @F0140@ FAM
+1 HUSB @I0434@
+1 WIFE @I0374@
+1 CHIL @I0435@
+1 CHIL @I0436@
+1 CHIL @I0437@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:42:52
+0 @F0141@ FAM
+1 HUSB @I0375@
+1 WIFE @I0438@
+1 CHIL @I0439@
+1 CHIL @I0440@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:44:57
+0 @F0142@ FAM
+1 HUSB @I0441@
+1 WIFE @I0439@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:45:52
+0 @F0143@ FAM
+1 HUSB @I0219@
+1 WIFE @I0442@
+1 CHIL @I0443@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:48:00
+0 @F0144@ FAM
+1 HUSB @I0443@
+1 WIFE @I0626@
+1 CHIL @I0445@
+1 CHIL @I0446@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:55:57
+0 @F0145@ FAM
+1 HUSB @I0447@
+1 WIFE @I0220@
+1 CHIL @I0448@
+1 CHIL @I0449@
+1 CHIL @I0450@
+1 CHIL @I0451@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 20:52:59
+0 @F0146@ FAM
+1 HUSB @I0451@
+1 WIFE @I0452@
+1 CHIL @I0453@
+1 CHIL @I0454@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:32:51
+0 @F0147@ FAM
+1 HUSB @I0221@
+1 WIFE @I0455@
+1 CHIL @I0456@
+1 CHIL @I0457@
+1 CHIL @I0458@
+1 CHIL @I0459@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:41:10
+0 @F0148@ FAM
+1 HUSB @I0456@
+1 WIFE @I0460@
+1 CHIL @I0461@
+1 CHIL @I0462@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:43:14
+0 @F0149@ FAM
+1 HUSB @I0463@
+1 WIFE @I0457@
+1 CHIL @I0464@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:45:22
+0 @F0150@ FAM
+1 HUSB @I0458@
+1 WIFE @I0465@
+1 CHIL @I0466@
+1 CHIL @I0467@
+1 CHAN
+2 DATE 10 JAN 2012
+3 TIME 23:47:40
+0 @F0151@ FAM
+1 HUSB @I0468@
+1 WIFE @I0459@
+1 CHIL @I0469@
+1 CHIL @I0470@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:03:51
+0 @F0152@ FAM
+1 HUSB @I0471@
+1 WIFE @I0222@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:04:59
+0 @F0153@ FAM
+1 HUSB @I0472@
+1 WIFE @I0223@
+1 CHIL @I0473@
+1 CHIL @I0474@
+1 CHIL @I0475@
+1 CHIL @I0476@
+1 CHIL @I0477@
+1 CHIL @I0478@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:13:13
+0 @F0154@ FAM
+1 HUSB @I0473@
+1 WIFE @I0479@
+1 CHIL @I0480@
+1 CHIL @I0481@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:15:10
+0 @F0155@ FAM
+1 HUSB @I0474@
+1 WIFE @I0482@
+1 CHIL @I0483@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:17:15
+0 @F0156@ FAM
+1 HUSB @I0484@
+1 WIFE @I0475@
+1 CHIL @I0485@
+1 CHIL @I0486@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:18:25
+0 @F0157@ FAM
+1 HUSB @I0487@
+1 WIFE @I0476@
+1 CHIL @I0488@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:20:02
+0 @F0158@ FAM
+1 HUSB @I0477@
+1 WIFE @I0489@
+1 CHIL @I0490@
+1 CHIL @I0491@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:45:07
+0 @F0159@ FAM
+1 HUSB @I0492@
+1 WIFE @I0478@
+1 CHIL @I0493@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 00:48:10
+0 @F0160@ FAM
+1 HUSB @I0494@
+1 WIFE @I0224@
+1 CHIL @I0495@
+1 CHIL @I0496@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:02:30
+0 @F0161@ FAM
+1 HUSB @I0495@
+1 WIFE @I0497@
+1 CHIL @I0498@
+1 CHIL @I0499@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:06:14
+0 @F0162@ FAM
+1 HUSB @I0500@
+1 WIFE @I0496@
+1 CHIL @I0501@
+1 CHIL @I0502@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:07:36
+0 @F0163@ FAM
+1 HUSB @I0503@
+1 WIFE @I0012@
+1 MARR
+2 TYPE No children
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:11:15
+0 @F0164@ FAM
+1 HUSB @I0504@
+1 WIFE @I0013@
+1 CHIL @I0505@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:16:08
+0 @F0165@ FAM
+1 HUSB @I0505@
+1 WIFE @I0506@
+1 CHIL @I0507@
+1 CHIL @I0508@
+1 CHIL @I0509@
+1 CHIL @I0510@
+1 CHAN
+2 DATE 11 JAN 2012
+3 TIME 01:18:15
+0 @F0166@ FAM
+1 HUSB @I0511@
+1 WIFE @I0507@
+1 CHIL @I0512@
+1 CHIL @I0513@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:49:51
+0 @F0167@ FAM
+1 HUSB @I0508@
+1 WIFE @I0514@
+1 MARR
+2 TYPE No children
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:50:51
+0 @F0168@ FAM
+1 HUSB @I0515@
+1 WIFE @I0509@
+1 CHIL @I0516@
+1 CHIL @I0517@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:52:15
+0 @F0169@ FAM
+1 HUSB @I0518@
+1 WIFE @I0510@
+1 MARR
+2 TYPE No children
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:53:22
+0 @F0170@ FAM
+1 HUSB @I0014@
+1 WIFE @I0519@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:55:12
+0 @F0171@ FAM
+1 HUSB @I0015@
+1 WIFE @I0520@
+1 CHIL @I0521@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:57:24
+0 @F0172@ FAM
+1 HUSB @I0522@
+1 WIFE @I0521@
+1 CHIL @I0523@
+1 CHIL @I0524@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 19:59:18
+0 @F0173@ FAM
+1 HUSB @I0525@
+1 WIFE @I0524@
+1 CHIL @I0526@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:02:09
+0 @F0174@ FAM
+1 HUSB @I0523@
+1 WIFE @I0527@
+1 CHIL @I0528@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:03:32
+0 @F0175@ FAM
+1 HUSB @I0017@
+1 WIFE @I0529@
+1 CHIL @I0530@
+1 CHIL @I0531@
+1 CHIL @I0532@
+1 CHIL @I0533@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:06:09
+0 @F0176@ FAM
+1 HUSB @I0534@
+1 WIFE @I0530@
+1 CHIL @I0535@
+1 CHIL @I0536@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:07:36
+0 @F0177@ FAM
+1 HUSB @I0535@
+1 WIFE @I0537@
+1 CHIL @I0538@
+1 CHIL @I0539@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:09:09
+0 @F0178@ FAM
+1 HUSB @I0540@
+1 WIFE @I0531@
+1 CHIL @I0541@
+1 CHIL @I0542@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:12:30
+0 @F0179@ FAM
+1 HUSB @I0541@
+1 WIFE @I0543@
+1 CHIL @I0544@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:14:04
+0 @F0180@ FAM
+1 HUSB @I0545@
+1 WIFE @I0542@
+1 EVEN
+2 TYPE Residence
+2 NOTE Description: Delhi
+1 CHIL @I0546@
+1 CHIL @I0547@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:18:53
+0 @F0181@ FAM
+1 HUSB @I0548@
+1 WIFE @I0532@
+1 CHIL @I0549@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:20:49
+0 @F0182@ FAM
+1 HUSB @I0533@
+1 WIFE @I0550@
+1 CHIL @I0551@
+1 CHAN
+2 DATE 12 JAN 2012
+3 TIME 20:22:02
+0 @F0183@ FAM
+1 HUSB @I0552@
+1 WIFE @I0019@
+1 CHIL @I0553@
+1 CHIL @I0554@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:15:14
+0 @F0184@ FAM
+1 HUSB @I0553@
+1 WIFE @I0555@
+1 CHIL @I0556@
+1 CHIL @I0557@
+1 CHIL @I0558@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:17:41
+0 @F0185@ FAM
+1 HUSB @I0556@
+1 WIFE @I0559@
+1 CHIL @I0560@
+1 CHIL @I0561@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:19:30
+0 @F0186@ FAM
+1 HUSB @I0562@
+1 WIFE @I0557@
+1 CHIL @I0563@
+1 CHIL @I0564@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:21:17
+0 @F0187@ FAM
+1 HUSB @I0565@
+1 WIFE @I0558@
+1 CHIL @I0566@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:22:39
+0 @F0188@ FAM
+1 HUSB @I0554@
+1 WIFE @I0567@
+1 CHIL @I0568@
+1 CHIL @I0569@
+1 CHIL @I0570@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:24:47
+0 @F0189@ FAM
+1 HUSB @I0571@
+1 WIFE @I0568@
+1 CHIL @I0572@
+1 CHIL @I0573@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:26:03
+0 @F0190@ FAM
+1 HUSB @I0574@
+1 WIFE @I0569@
+1 CHIL @I0575@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:27:37
+0 @F0191@ FAM
+1 HUSB @I0570@
+1 WIFE @I0576@
+1 CHIL @I0577@
+1 CHIL @I0578@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:28:58
+0 @F0192@ FAM
+1 HUSB @I0020@
+1 WIFE @I0579@
+1 CHIL @I0580@
+1 CHIL @I0581@
+1 CHIL @I0582@
+1 CHIL @I0583@
+1 CHIL @I0584@
+1 CHIL @I0585@
+1 CHIL @I0586@
+1 CHIL @I0587@
+1 CHIL @I0588@
+1 CHIL @I0589@
+1 CHIL @I0590@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:33:24
+0 @F0193@ FAM
+1 HUSB @I0591@
+1 WIFE @I0580@
+1 CHIL @I0592@
+1 CHIL @I0593@
+1 CHIL @I0594@
+1 CHIL @I0595@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:34:15
+0 @F0194@ FAM
+1 HUSB @I0596@
+1 WIFE @I0592@
+1 CHIL @I0597@
+1 CHIL @I0598@
+1 CHIL @I0599@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 15:35:40
+0 @F0195@ FAM
+1 HUSB @I0600@
+1 WIFE @I0597@
+1 CHIL @I0601@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:27:09
+0 @F0196@ FAM
+1 HUSB @I0598@
+1 WIFE @I0602@
+1 CHIL @I0603@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:28:09
+0 @F0197@ FAM
+1 HUSB @I0599@
+1 WIFE @I0604@
+1 CHIL @I0605@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:29:05
+0 @F0198@ FAM
+1 HUSB @I0594@
+1 WIFE @I0606@
+1 MARR
+2 TYPE No children
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:31:02
+0 @F0199@ FAM
+1 HUSB @I0607@
+1 WIFE @I0593@
+1 CHIL @I0608@
+1 CHIL @I0609@
+1 CHIL @I0610@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:32:48
+0 @F0200@ FAM
+1 HUSB @I0611@
+1 WIFE @I0608@
+1 CHIL @I0612@
+1 CHIL @I0613@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:34:07
+0 @F0201@ FAM
+1 HUSB @I0614@
+1 WIFE @I0609@
+1 CHIL @I0615@
+1 CHIL @I0616@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:37:00
+0 @F0202@ FAM
+1 HUSB @I0617@
+1 WIFE @I0610@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:36:35
+0 @F0203@ FAM
+1 HUSB @I0618@
+1 WIFE @I0595@
+1 CHIL @I0619@
+1 CHIL @I0620@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:39:53
+0 @F0204@ FAM
+1 HUSB @I0619@
+1 WIFE @I0621@
+1 CHIL @I0622@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:40:47
+0 @F0205@ FAM
+1 HUSB @I0581@
+1 WIFE @I0623@
+1 CHIL @I0624@
+1 CHIL @I0625@
+1 CHIL @I0626@
+1 CHIL @I0627@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:43:30
+0 @F0206@ FAM
+1 HUSB @I0628@
+1 WIFE @I0624@
+1 CHIL @I0629@
+1 CHIL @I0630@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:44:52
+0 @F0207@ FAM
+1 HUSB @I0631@
+1 WIFE @I0629@
+1 CHIL @I0632@
+1 CHIL @I0633@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:47:01
+0 @F0208@ FAM
+1 HUSB @I0676@
+1 WIFE @I0625@
+1 CHIL @I0635@
+1 CHIL @I0636@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:26:41
+0 @F0209@ FAM
+1 WIFE @I0626@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:53:53
+0 @F0210@ FAM
+1 HUSB @I0627@
+1 WIFE @I0638@
+1 CHIL @I0639@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:57:26
+0 @F0211@ FAM
+1 HUSB @I0582@
+1 WIFE @I0640@
+1 CHIL @I0641@
+1 CHIL @I0642@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 16:58:43
+0 @F0212@ FAM
+1 HUSB @I0643@
+1 WIFE @I0641@
+1 CHIL @I0644@
+1 CHIL @I0645@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:01:19
+0 @F0213@ FAM
+1 HUSB @I0644@
+1 WIFE @I0646@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:02:08
+0 @F0214@ FAM
+1 HUSB @I0642@
+1 WIFE @I0647@
+1 CHIL @I0648@
+1 CHIL @I0649@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:03:49
+0 @F0215@ FAM
+1 HUSB @I0583@
+1 WIFE @I0650@
+1 CHIL @I0651@
+1 CHIL @I0652@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:06:12
+0 @F0216@ FAM
+1 HUSB @I0651@
+1 WIFE @I0653@
+1 CHIL @I0654@
+1 CHIL @I0655@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:15
+0 @F0217@ FAM
+1 HUSB @I0652@
+1 WIFE @I0656@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:07:56
+0 @F0218@ FAM
+1 HUSB @I0584@
+1 WIFE @I0657@
+1 CHIL @I0658@
+1 CHIL @I0659@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:09:59
+0 @F0219@ FAM
+1 HUSB @I0658@
+1 WIFE @I0660@
+1 CHIL @I0661@
+1 CHIL @I0662@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:11:23
+0 @F0220@ FAM
+1 HUSB @I0663@
+1 WIFE @I0659@
+1 CHIL @I0664@
+1 CHIL @I0665@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:12:32
+0 @F0221@ FAM
+1 HUSB @I0585@
+1 WIFE @I0666@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:13:25
+0 @F0222@ FAM
+1 HUSB @I0585@
+1 CHIL @I0667@
+1 CHIL @I0668@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:14:10
+0 @F0223@ FAM
+1 HUSB @I0667@
+1 WIFE @I0669@
+1 CHIL @I0670@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:02
+0 @F0224@ FAM
+1 HUSB @I0668@
+1 WIFE @I0671@
+1 CHIL @I0672@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:15:57
+0 @F0225@ FAM
+1 HUSB @I0673@
+1 WIFE @I0586@
+1 CHIL @I0674@
+1 CHIL @I0675@
+1 CHIL @I0676@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:18:24
+0 @F0226@ FAM
+1 HUSB @I0674@
+1 WIFE @I0677@
+1 CHIL @I0678@
+1 CHIL @I0679@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:20:24
+0 @F0227@ FAM
+1 HUSB @I0680@
+1 WIFE @I0678@
+1 CHIL @I0681@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:21:23
+0 @F0228@ FAM
+1 HUSB @I0682@
+1 WIFE @I0675@
+1 CHIL @I0683@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:22:36
+0 @F0229@ FAM
+1 HUSB @I0684@
+1 WIFE @I0683@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:22:56
+0 @F0230@ FAM
+1 HUSB @I0685@
+1 WIFE @I0587@
+1 CHIL @I0686@
+1 CHIL @I0687@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:09:45
+0 @F0231@ FAM
+1 HUSB @I0686@
+1 WIFE @I0688@
+1 CHIL @I0689@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:10:24
+0 @F0232@ FAM
+1 HUSB @I0687@
+1 WIFE @I0690@
+1 CHIL @I0691@
+1 CHIL @I0692@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:11:20
+0 @F0233@ FAM
+1 HUSB @I0693@
+1 WIFE @I0588@
+1 CHIL @I0694@
+1 CHIL @I0695@
+1 CHIL @I0696@
+1 CHIL @I0697@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:12:59
+0 @F0234@ FAM
+1 HUSB @I0698@
+1 WIFE @I0694@
+1 CHIL @I0699@
+1 CHIL @I0700@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:17
+0 @F0235@ FAM
+1 HUSB @I0701@
+1 WIFE @I0699@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:14:39
+0 @F0236@ FAM
+1 HUSB @I0695@
+1 WIFE @I0702@
+1 CHIL @I0703@
+1 CHIL @I0704@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:16:19
+0 @F0237@ FAM
+1 HUSB @I0705@
+1 WIFE @I0696@
+1 CHIL @I0706@
+1 CHIL @I0707@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:17:13
+0 @F0238@ FAM
+1 HUSB @I0708@
+1 WIFE @I0697@
+1 CHIL @I0709@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:18:21
+0 @F0239@ FAM
+1 HUSB @I0589@
+1 WIFE @I0711@
+1 CHIL @I0712@
+1 CHIL @I0713@
+1 CHIL @I0714@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:20:13
+0 @F0240@ FAM
+1 HUSB @I0712@
+1 WIFE @I0715@
+1 CHIL @I0716@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:21:39
+0 @F0241@ FAM
+1 HUSB @I0713@
+1 WIFE @I0717@
+1 CHIL @I0718@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:22:30
+0 @F0242@ FAM
+1 HUSB @I0714@
+1 WIFE @I0719@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:28:28
+0 @F0243@ FAM
+1 HUSB @I0020@
+1 WIFE @I0720@
+1 CHIL @I0721@
+1 CHIL @I0722@
+1 CHIL @I0723@
+1 CHIL @I0724@
+1 CHIL @I0725@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:35:46
+0 @F0244@ FAM
+1 HUSB @I0726@
+1 WIFE @I0721@
+1 CHIL @I0727@
+1 CHIL @I0728@
+1 CHIL @I0729@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:37:26
+0 @F0245@ FAM
+1 HUSB @I0730@
+1 WIFE @I0727@
+1 CHIL @I0731@
+1 CHIL @I0732@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:38:27
+0 @F0246@ FAM
+1 HUSB @I0733@
+1 WIFE @I0731@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:39:00
+0 @F0247@ FAM
+1 HUSB @I0734@
+1 WIFE @I0728@
+1 CHIL @I0735@
+1 CHIL @I0736@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:40:04
+0 @F0248@ FAM
+1 HUSB @I0737@
+1 WIFE @I0729@
+1 CHIL @I0738@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:41:01
+0 @F0249@ FAM
+1 HUSB @I0739@
+1 WIFE @I0722@
+1 CHIL @I0740@
+1 CHIL @I0741@
+1 CHIL @I0742@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:42:18
+0 @F0250@ FAM
+1 HUSB @I0740@
+1 WIFE @I0743@
+1 CHIL @I0744@
+1 CHIL @I0745@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:43:36
+0 @F0251@ FAM
+1 HUSB @I0741@
+1 WIFE @I0746@
+1 CHIL @I0747@
+1 CHIL @I0748@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:44:43
+0 @F0252@ FAM
+1 HUSB @I0749@
+1 WIFE @I0742@
+1 CHIL @I0750@
+1 CHIL @I0751@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:45:38
+0 @F0253@ FAM
+1 HUSB @I0752@
+1 WIFE @I0723@
+1 CHIL @I0753@
+1 CHIL @I0754@
+1 CHIL @I0755@
+1 CHIL @I0756@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:50:09
+0 @F0254@ FAM
+1 HUSB @I0753@
+1 WIFE @I0757@
+1 CHIL @I0758@
+1 CHIL @I0759@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:51:26
+0 @F0255@ FAM
+1 HUSB @I0754@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:51:35
+0 @F0256@ FAM
+1 HUSB @I0754@
+1 WIFE @I0760@
+1 CHIL @I0761@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:52:18
+0 @F0257@ FAM
+1 HUSB @I0755@
+1 WIFE @I0762@
+1 CHIL @I0763@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:53:01
+0 @F0258@ FAM
+1 HUSB @I0756@
+1 WIFE @I0764@
+1 CHIL @I0765@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:54:14
+0 @F0259@ FAM
+1 HUSB @I0724@
+1 WIFE @I0766@
+1 CHIL @I0767@
+1 CHIL @I0768@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:55:33
+0 @F0260@ FAM
+1 HUSB @I0769@
+1 WIFE @I0767@
+1 CHIL @I0770@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:56:26
+0 @F0261@ FAM
+1 HUSB @I0768@
+1 WIFE @I0771@
+1 CHIL @I0772@
+1 CHIL @I0773@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 18:58:05
+0 @F0262@ FAM
+1 HUSB @I0725@
+1 WIFE @I0774@
+1 CHIL @I0775@
+1 CHIL @I0776@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:00:41
+0 @F0263@ FAM
+1 HUSB @I0777@
+1 WIFE @I0775@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:01:12
+0 @F0264@ FAM
+1 HUSB @I0021@
+1 WIFE @I0778@
+1 CHIL @I0779@
+1 CHIL @I0780@
+1 CHIL @I0781@
+1 CHIL @I0782@
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 19:03:43
+0 @F0265@ FAM
+1 HUSB @I0783@
+1 WIFE @I0784@
+1 CHIL @I0643@
+1 CHIL @I0785@
+1 CHIL @I0786@
+1 CHIL @I0787@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 07:56:34
+0 @F0266@ FAM
+1 HUSB @I0788@
+1 WIFE @I0789@
+1 CHIL @I0783@
+1 CHIL @I0790@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:14:00
+0 @F0267@ FAM
+1 HUSB @I0788@
+1 WIFE @I0791@
+1 CHIL @I0792@
+1 CHIL @I0793@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:07:52
+0 @F0268@ FAM
+1 HUSB @I0788@
+1 WIFE @I0794@
+1 CHIL @I0795@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:09:37
+0 @F0269@ FAM
+1 HUSB @I0798@
+1 WIFE @I0785@
+1 CHIL @I0804@
+1 CHIL @I0805@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:52:13
+0 @F0270@ FAM
+1 HUSB @I0790@
+1 WIFE @I0799@
+1 CHIL @I0800@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:38:31
+0 @F0271@ FAM
+1 HUSB @I0790@
+1 WIFE @I0802@
+1 CHIL @I0803@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:39:54
+0 @F0272@ FAM
+1 HUSB @I0806@
+1 WIFE @I0786@
+1 CHIL @I0807@
+1 CHIL @I0808@
+1 CHAN
+2 DATE 20 APR 2013
+3 TIME 08:54:51
+0 @S0000@ SOUR
+1 TITL No title - ID S0000
+1 CHAN
+2 DATE 14 JAN 2012
+3 TIME 17:09:44
+0 @N0000@ NOTE Twins
+0 TRLR

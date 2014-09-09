@@ -1,0 +1,46 @@
+=================================================
+		README - Illam
+
+(C) Deepak Unnikrishnan [ deepak.cu@gmail.com ]
+=================================================
+
+Installation
+
+1. Linux
+--------
+a. Install perl 5.5 or greater 
+
+	>sudo apt-get install perl
+
+b. Unzip illam.zip file into a directory of your choice
+
+c. Place database file (gedcom .ged format) in the unzipped directory
+
+d. Execute illam.pl
+
+	>perl illam.pl <database file name>
+
+2. Windows
+----------
+
+a. Install perl 5.5 or greater (download and install Strawberry perl available from strawberryperl.com/)
+
+b. Unzip illam.zip file into a directory of your choice
+
+c. Place database file (gedcom .ged format) in the unzipped directory
+
+d. Press Start
+
+e. Type cmd
+
+f. cd <directory where illam.zip> was unzipped
+
+g. Execute script
+
+	>perl illam.pl <database file name>
+
+
+Modifying database file (.ged)
+-----------------------------
+
+Use Gramps software available freely from gramps-project.org/
