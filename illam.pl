@@ -132,58 +132,6 @@ sub selectPerson {
 	
 	return $selection;
 }
-=begin comment
-sub familyMenu {
-	
-
-	print "Select person of interest: ";
-	my $person = &selectPerson();
-	
-	print "Select invitee families of : \n";
-
-	#children, grandchildren (descendants), 
-	#siblings, 
-	#parents, spouse parents, 
-	#paternal siblings, maternal siblings, 
-	#spouse paternal siblings, spouse maternal siblings
-	#grand paternal siblings
-	#grand maternal siblings
-
-	print "Select :\n";
-	my $choice = <STDIN>;
-
-	my $child;
-	my $grandchild;
-	if($choice==1) {
-		if(&hasChildren($person)) {
-			foreach $child ($person->children) {
-				print &prettyName($child->name)."\n";
-			}
-		}		
-	}
-	elsif($choice==2) {
-		if(&hasChildren($person)) {
-			foreach $child ($person->children) {
-				if(&hasChildren($child)) {
-					foreach $grandchild ($child->children) {
-						print &prettyName($grandchild->name)."\n";
-					}
-				}
-			}
-		}		
-	}
-	elsif($choice==3) {
-		if(&hasMother($person)) {
-			foreach
-		}	
-
-	}
-	else {
-		print "Invalid\n";
-	}
-}
-=end comment
-=cut
 
 sub getChildren {
 	my @children;
@@ -337,13 +285,17 @@ sub printInfo {
 	}
 
 	if(&hasSpouse($person)) {
-		print "Spouse:\t\t[".$index++."] ".&prettyName($person->spouse->name)."\n";
-		push(@relations,$person->spouse);
+		my @spouses = $person->spouse;
+		print "Spouses:\n";
+		foreach (@spouses) {
+			print "\t\t[".$index++."] ".&prettyName($_->name)."\n";
+			push(@relations,$_);
+		}
 	}
 
 	if(&hasSons($person)) {
 		my @sons = $person->sons;
-		print "Sons:";
+		print "Sons:\n";
 		foreach (@sons) {
 			print "\t\t[".$index++."] ".&prettyName($_->name)."\n";
 			push(@relations,$_);
@@ -353,9 +305,9 @@ sub printInfo {
 
 	if(&hasDaughters($person)) {
 		my @daughters = $person->daughters;
-		print "Daughters:";
+		print "Daughters:\n";
 		foreach (@daughters) {
-			print "\t[".$index++."] ".&prettyName($_->name)."\n";
+			print "\t\t[".$index++."] ".&prettyName($_->name)."\n";
 			push(@relations,$_);
 		}
 	}
@@ -363,18 +315,87 @@ sub printInfo {
 	print "\n\nIllam:\t\t".&illam($person)."\n";
 	if(&hasMother($person)) {
 		print "Ammath:\t\t".&ammath($person)."\n";
+	} else {
+		print "Ammath:\t\tariyilya\n";
 	}
 
 	if(&hasFather($person)) {	
 		if(&hasMother($person->father)) {
-			print "Achan's ammath:\t".&illam($person->father->mother)."\n";
+			print "Achande ammath:\t".&illam($person->father->mother)."\n";
+		} else {
+			print "Achande ammath:\t\tariyilya\n";
 		}
-	}
+	 } else {
+		print "Achande ammath:\t\tariyilya\n";
+  	 }
 
 	if(&hasMother($person)) {
 		if(&hasMother($person->mother)) {
-			print "Amma's ammath:\t".&illam($person->mother->mother)."\n";
+			print "Ammede ammath:\t".&illam($person->mother->mother)."\n";
+		} else {
+			print "Ammede ammath:\tariyilya\n";
 		}
+	} else {
+		print "Ammede ammath:\tariyilya\n";
+	}
+
+	# Illathe information
+	if(&hasFather($person)) {	
+		if(&hasFather($person->father)) {
+			if(&hasFather($person->father->mother)) {
+				print "Illathe muthashante ammath:\t".&illam($person->father->father->mother)."\n";			
+			} else {
+				print "Illathe muthashante ammath:\tariyilya\n";			
+			}
+		} else {
+			print "Illathe muthashante ammath:\tariyilya\n";			
+		}
+	} else {
+		print "Illathe muthashante ammath:\tariyilya\n";			
+	}
+
+	if(&hasFather($person)) {	
+		if(&hasMother($person->father)) {
+			if(&hasMother($person->father->mother)) {
+				print "Illathe muthasheede ammath:\t".&illam($person->father->mother->mother)."\n";			
+			} else {
+				print "Illathe muthasheede ammath:\tariyilya\n";			
+			}
+		} else {
+			print "Illathe muthasheede ammath:\tariyilya\n";			
+		}
+	} else {
+		print "Illathe muthasheede ammath:\tariyilya\n";			
+	}
+
+
+	# Ammathe information
+	if(&hasMother($person)) {	
+		if(&hasFather($person->mother)) {
+			if(&hasMother($person->mother->father)) {
+				print "Ammathe muthashante ammath:\t".&illam($person->mother->father->mother)."\n";			
+			} else {
+				print "Ammathe muthashante ammath:\tariyilya\n";			
+			}
+		} else {
+			print "Ammathe muthashante ammath:\tariyilya\n";			
+		}
+	} else {
+		print "Ammathe muthashante ammath:\tariyilya\n";			
+	}
+
+	if(&hasMother($person)) {	
+		if(&hasMother($person->mother)) {
+			if(&hasMother($person->mother->mother)) {
+				print "Ammathe muthasheede ammath:\t".&illam($person->mother->mother->mother)."\n";			
+			} else {
+				print "Ammathe muthasheede ammath:\tariyilya\n";			
+			}
+		} else {
+			print "Ammathe muthasheede ammath:\tariyilya\n";			
+		}
+	} else {
+		print "Ammathe muthasheede ammath:\tariyilya\n";			
 	}
 #	print "Ancestors\n";
 #	my @ancestors = $_[0]->ancestors;
@@ -440,11 +461,13 @@ sub printRelation {
 				}
 			}
 
-			if(&hasSpouse($n)) { 
-				if(!(&isVisited($n->spouse))) { 
-					push(@searchQ,$n->spouse); 
-					#print "Adding ".$n->spouse->name." prev is ".$n->name."\n";	
-					if(!$prevNodeList{$n->spouse}) { $prevNodeList{$n->spouse}=$n; }
+			if(&hasSpouse($n)) {
+				foreach($n->spouse) { 
+					if(!(&isVisited($_))) { 
+						push(@searchQ,$_); 
+						#print "Adding ".$n->spouse->name." prev is ".$n->name."\n";	
+						if(!$prevNodeList{$_}) { $prevNodeList{$_}=$n; }
+					}
 				}
 			}
 	
@@ -484,10 +507,15 @@ sub printRelation {
 		push(@list,$n); 
 		while($n ne $personA) {
 			#print "\t->".&prettyName($prevNodeList{$n}->name)."\n";
+			#print "$n is $n \t";
 			$n=$prevNodeList{$n};
 			push(@list,$n); 
 		}
 
+		#print "List is @list\n";
+		foreach (@list) {
+			print "Name is ".&prettyName($_->name)."\n";
+		}
 		my $prev = pop(@list);
 		while(@list>0) {
 			my $curr = pop(@list);
@@ -514,7 +542,11 @@ sub printRelation {
 		print "Match not found\n";
 	}
 
-	print &prettyName($personA->name)."'nde";
+	if ($personA->sex eq "M") {
+		print &prettyName($personA->name)."'nde";
+	} else {
+		print &prettyName($personA->name)."'ede";
+	}
 	while(@relationStack>0) {
 		my $string = shift(@relationStack);
 		if(@relationStack==0) {
@@ -541,12 +573,14 @@ sub getRelation {
 			return "amma"; 
 		}
 	}
-	if(&hasSpouse($record_a)) { 
-		if(($record_a->spouse==$record_b) && ($record_b->sex eq "F")) {
-			return "wife";
-		} 
-		if(($record_a->spouse==$record_b) && ($record_b->sex eq "M")) {
-			return "husband";
+	if(&hasSpouse($record_a)) {
+		foreach($record_a->spouse) { 
+			if(($_==$record_b) && ($record_b->sex eq "F")) {
+				return "wife";
+			} 
+			if(($_==$record_b) && ($record_b->sex eq "M")) {
+				return "husband";
+			}
 		}
 	}
 	if(&hasSons($record_a)) {
