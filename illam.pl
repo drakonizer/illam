@@ -17,6 +17,7 @@
 use strict;
 use Gedcom;
 use Term::Menus;
+use Getopt::Long;
 
 if (@ARGV < 1) {
     print STDERR "Usage: perl illam.pl <name of database file>\n";
@@ -26,17 +27,16 @@ if (@ARGV < 1) {
 
 #read gedcom file from user input  
 my $ged = Gedcom->new(shift);
-&main($ged);
+my $debug = 0;
+GetOptions(
+  'd:s'   => \$debug,
+);  
+system("clear");
+&printMainMenu();
 my %userchoice;
 my %visitedList;    #keeps track of whether a node was visited or not
 
-sub main() {
-  #&getSearches("Deepak");  
-  
 
-  system("clear");
-  &printMainMenu();
-}
 
 #
 # mainMenu - User choices for the main menu
@@ -64,6 +64,22 @@ sub printMainMenu {
     #if($choice == "6") { &familyMenu(); }
     if($choice == "7") { return; } else { &printMainMenu(); }
 }
+
+
+#
+# pdebug - Print a debug message if debug level is turned ON
+#
+# @param - message
+#
+# @return - none
+#
+sub pdebug {
+  my $msg=shift;
+  if($debug==1) {
+    print $msg;
+  }
+}
+
 
 #
 # browseMenu - User choices for the browse menu
@@ -665,6 +681,10 @@ sub printRelation {
             $n = $pred;
         }
 
+        pdebug("Relation stack is ");
+        foreach(@relationStack) {
+            pdebug("$_,");
+        }
         # convert the simple relation stack into customized relation names
         my @customRelationStack;
         while (@relationStack>0) {
@@ -801,6 +821,8 @@ sub pulaAtDeath {
 sub defineCustomRelation {
     my $custom = $_[0];
     my $simple = $_[1];
+
+    &pdebug("Custom = $custom Simple=$simple\n");
     
     if ($custom eq  "achan" && $simple eq "wife") {
         return "amma"; 
@@ -850,14 +872,29 @@ sub defineCustomRelation {
     elsif ($custom eq  "ammayi" && $simple eq "husband") {
         return "ammaman"; 
     }
-    elsif (($custom eq  "ammathe muthashan") && ($simple eq "brother")) {
+    elsif ($custom eq  "ammathe muthashan" && $simple eq "brother") {
         return "ammathe muthabhan"; 
     }
-    elsif ($custom eq  "makal" && $simple eq "makal") {
-        return "perakutty"; 
+    elsif ($custom eq  "illathe muthashan" && $simple eq "brother") {
+        return "illathe muthabhan"; 
     }
-    elsif ($custom eq  "makan" && $simple eq "makan") {
-        return "perakutty"; 
+    #elsif ($custom eq  "makal" && $simple eq "makal") {
+    #    return "perakutty"; 
+    #}
+    #elsif ($custom eq  "makan" && $simple eq "makan") {
+    #    return "perakutty"; 
+    #} 
+    elsif ($custom eq  "wife" && $simple eq "makan") {
+        return "makan"; 
+    }
+    elsif ($custom eq  "wife" && $simple eq "makal") {
+        return "makal"; 
+    } 
+    elsif ($custom eq  "husband" && $simple eq "makan") {
+        return "makan"; 
+    }
+    elsif ($custom eq  "husband" && $simple eq "makal") {
+        return "makal"; 
     } else {
         return "none";
     }
