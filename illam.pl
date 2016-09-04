@@ -17,6 +17,7 @@
 use strict;
 use Gedcom;
 use Term::Menus;
+use DateTime;
 use Getopt::Long;
 
 if (@ARGV < 1) {
@@ -53,6 +54,7 @@ sub printMainMenu {
     print "[5]\tFind pula\n";
     print "[6]\tPrint family invites\n";
     print "[7]\tExit\n";
+    #print "is older ".isAOlderThanB("01 JAN 1990", "14 JAN 1984")."\n";
     
     print "\nEnter your choice:";
     my $choice=<STDIN>;
@@ -136,7 +138,7 @@ sub selectPerson {
     my $id;
     my $selection;
 
-    print "Enter name (\"type \"x\" to select/return): ";
+    print "Test Enter name (\"type \"x\" to select/return): ";
     $id=<STDIN>;
     chomp($id);
     if($id eq "x") {
@@ -152,7 +154,7 @@ sub selectPerson {
         print("\nDid you mean ?\n\n");
         my $i=0;
         foreach(@results) {
-            print "\t[$i] ".&prettyName($_->name)."\n";
+            print "\t[$i] ".&prettyName($_->name)."\n";            
             $i++;
         }
         print "\n"; 
@@ -375,6 +377,53 @@ sub hasDaughters {
 }
 
 #
+# hasBrothers - Return true if a person has brothers
+#
+# @param - a person record
+#
+# @return - 1 if person has brothers
+#
+sub hasBrothers {
+    return ($_[0]->brothers)?1:0;
+}
+
+# hasSisters - Return true if a person has sisters
+#
+# @param - a person record
+#
+# @return - 1 if person has sisters
+#
+sub hasSisters {
+    return ($_[0]->sisters)?1:0;
+}
+
+# isYounger - Compares age of 2 person A and B
+#
+# @param - person A and person B
+#
+# @return - 1 if person A older than B, 0 otherwise
+#
+sub isAOlderThanB {
+    my ($dob_a, $dob_b) = @_;
+    my @doba = split(" ",$dob_a);
+    my @dobb = split(" ",$dob_b);
+    my $year1 = $doba[2];
+    my $year2 = $dobb[2];
+    my $dt1 = DateTime->new(year => $year1);
+    my $dt2 = DateTime->new(year => $year2);
+
+    DateTime->compare($dt1, $dt2);
+    
+    if($dt1 < $dt2) {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}
+
+
+#
 # hasChildren - Return true if a person has sons/daughters
 #
 # @param - a person record
@@ -533,6 +582,7 @@ sub printInfo {
     #&printRelation($person,$person->mother->father);
     
     print "\n*****************************************************\n";
+
     return @relations;
 }
 
@@ -605,9 +655,47 @@ sub printRelation {
 
             #print "Visiting ".&prettyName($n->name)."\n";
             if(&prettyName($n->name) eq &prettyName($personB->name)) {
+                print "Found\n";
                 $found=1;
                 last;
             } 
+         
+            if(&hasBrothers($n)) {
+                foreach($n->brothers) {
+                    if(!(&isVisited($_))) { 
+                        push(@searchQ,$_);
+                        #print "Adding ".$_->name." prev is ".$n->name."\n";
+                        if(!$predecessor{$_}) { 
+                            $predecessor{$_}=$n; 
+                        }
+                    }
+                }
+            }
+
+            if(&hasSisters($n)) {
+                foreach($n->sisters) {
+                    if(!(&isVisited($_))) { 
+                        push(@searchQ,$_);
+                        #print "Adding ".$_->name." prev is ".$n->name."\n";
+                        if(!$predecessor{$_}) { 
+                            $predecessor{$_}=$n; 
+                        }
+                    }
+                }
+            }
+
+            if(&hasSpouse($n)) {
+                foreach($n->spouse) { 
+                    if(!(&isVisited($_))) { 
+                        push(@searchQ,$_); 
+                        #print "Adding ".$n->spouse->name." prev is ".$n->name."\n";    
+                        #if(!$predecessor{$_}) { 
+                            $predecessor{$_}=$n; 
+                        #}
+                    }
+                }
+            }
+
         
             if(&hasFather($n)) {    
                 if(!(&isVisited($n->father))) { 
@@ -627,19 +715,7 @@ sub printRelation {
                         $predecessor{$n->mother}=$n; 
                     #}
                 }
-            }
-
-            if(&hasSpouse($n)) {
-                foreach($n->spouse) { 
-                    if(!(&isVisited($_))) { 
-                        push(@searchQ,$_); 
-                        #print "Adding ".$n->spouse->name." prev is ".$n->name."\n";    
-                        #if(!$predecessor{$_}) { 
-                            $predecessor{$_}=$n; 
-                        #}
-                    }
-                }
-            }
+            }          
     
             if(&hasSons($n)) {
                 foreach($n->sons) {
@@ -677,7 +753,7 @@ sub printRelation {
         while($n != $personA) {
             my $pred = $predecessor{$n};
             my $relation = &defineSimpleRelation($pred,$n);
-            push(@relationStack,&defineSimpleRelation($pred,$n));
+            push(@relationStack,$relation);
             $n = $pred;
         }
 
@@ -736,7 +812,6 @@ sub printRelation {
 #
 sub defineSimpleRelation {
     my ($record_a,$record_b) = @_;
-    
     # achan = persons's father	
     if(&hasFather($record_a)) {
         if($record_a->father==$record_b) { 
@@ -781,6 +856,44 @@ sub defineSimpleRelation {
         }   
     }
 
+    if(&hasBrothers($record_a)) {
+        foreach($record_a->brothers) {
+            if($_==$record_b) {
+                my $doba = $record_a->get_value("birth date");
+                my $dobb = $record_b->get_value("birth date");
+                if(defined($doba) && defined($dobb)) {
+                    if(isAOlderThanB($doba, $dobb)) {
+                        return "aniyan";
+                    } else {
+                        return "ettan";                    
+                    }
+                } else {
+                    return "brother";
+                }
+            }
+        }
+    }
+
+    if(&hasSisters($record_a)) {
+        print "Has sisters";
+        foreach($record_a->sisters) {
+            if($_==$record_b) {
+                my $doba = $record_a->get_value("birth date");
+                my $dobb = $record_b->get_value("birth date");
+                if(defined($doba) && defined($dobb)) {
+                    if(isAOlderThanB($doba, $dobb)) {
+                        return "aniyathi";
+                    } else {
+                        return "chechi";                    
+                    }
+                } else {
+                    return "sister";
+                }
+            }
+        }
+    }
+
+    print "Returning error for ".&prettyName($record_a->name)." and ".&prettyName($record_b->name)."\n";
     # default
     return "error";
 }
@@ -823,67 +936,13 @@ sub defineCustomRelation {
     my $simple = $_[1];
 
     &pdebug("Custom = $custom Simple=$simple\n");
-    
+
     if ($custom eq  "achan" && $simple eq "wife") {
         return "amma"; 
     }
     elsif ($custom eq  "amma" && $simple eq "husband") {
         return "achan"; 
     }
-    elsif ($custom eq  "achan" && $simple eq "makan") {
-        return "brother"; 
-    }
-    elsif ($custom eq  "amma" && $simple eq "makan") {
-        return "brother"; 
-    }
-    elsif ($custom eq  "achan" && $simple eq "makal") {
-        return "sister"; 
-    }
-    elsif ($custom eq  "amma" && $simple eq "makal") {
-        return "sister"; 
-    }
-    elsif ($custom eq  "amma" && $simple eq "achan") {
-        return "ammathe muthashan"; 
-    }
-    elsif ($custom eq  "amma" && $simple eq "amma") {
-        return "ammathe muthashi"; 
-    }
-    elsif ($custom eq  "achan" && $simple eq "achan") {
-        return "illathe muthashan"; 
-    }
-    elsif ($custom eq  "achan" && $simple eq "amma") {
-        return "illathe muthashi"; 
-    }
-    elsif ((($custom eq  "ammathe muthashan")||($custom eq "ammathe muthashi")) && $simple eq "makan") {
-        return "ammaman"; 
-    }
-    elsif ((($custom eq  "ammathe muthashan")||($custom eq "ammathe muthashi")) && $simple eq "makal") {
-        return "perashi/shittashi"; 
-    }
-    elsif ((($custom eq  "illathe muthashan")||($custom eq "illathe muthashi")) && $simple eq "makan") {
-        return "abhan/valyachan"; 
-    }
-    elsif ((($custom eq  "illathe muthashan")||($custom eq "illathe muthashi")) && $simple eq "makal") {
-        return "achammal"; 
-    }
-    elsif ($custom eq  "ammaman" && $simple eq "wife") {
-        return "ammayi"; 
-    }
-    elsif ($custom eq  "ammayi" && $simple eq "husband") {
-        return "ammaman"; 
-    }
-    elsif ($custom eq  "ammathe muthashan" && $simple eq "brother") {
-        return "ammathe muthabhan"; 
-    }
-    elsif ($custom eq  "illathe muthashan" && $simple eq "brother") {
-        return "illathe muthabhan"; 
-    }
-    #elsif ($custom eq  "makal" && $simple eq "makal") {
-    #    return "perakutty"; 
-    #}
-    #elsif ($custom eq  "makan" && $simple eq "makan") {
-    #    return "perakutty"; 
-    #} 
     elsif ($custom eq  "wife" && $simple eq "makan") {
         return "makan"; 
     }
@@ -895,7 +954,103 @@ sub defineCustomRelation {
     }
     elsif ($custom eq  "husband" && $simple eq "makal") {
         return "makal"; 
-    } else {
+    }
+
+    
+    if (($custom eq  "sister"  || 
+        $custom  eq  "chechi"  || 
+        $custom  eq  "aniyathi"||
+        $custom  eq  "brother" ||
+        $custom  eq  "ettan"   ||
+        $custom  eq  "aniyan"  
+    ) && $simple eq "amma") {
+        return "amma"; 
+    }
+    if (($custom eq  "sister"  || 
+        $custom  eq  "chechi"  || 
+        $custom  eq  "aniyathi"||
+        $custom  eq  "brother" ||
+        $custom  eq  "ettan"   ||
+        $custom  eq  "aniyan"  
+    ) && $simple eq "achan") {
+        return "achan"; 
+    }
+
+    elsif( $custom eq "achan" && $simple eq "chechi") {
+        return "illathe perassi";
+    }
+    elsif( $custom eq "achan" && $simple eq "aniyathi") {
+        return "achammal";
+    }     
+    elsif( $custom eq "achan" && $simple eq "ettan") {
+        return "valyachan";
+    }
+    elsif( $custom eq "achan" && $simple eq "aniyan") {
+        return "abhan";
+    }
+
+    elsif( $custom eq "amma" && $simple eq "chechi") {
+        return "ammathe perassi";
+    }
+    elsif( $custom eq "amma" && $simple eq "aniyathi") {
+        return "chittashi";
+    }
+    elsif( $custom eq "amma" && $simple eq "ettan") {
+        return "valyammaman";
+    }
+    elsif( $custom eq "amma" && $simple eq "aniyan") {
+        return "ammaman";
+    }
+    elsif( $custom eq "amma" && $simple eq "brother") {
+        return "ammaman";
+    }
+
+    elsif(($custom eq "amma"        ||
+           $custom eq "ammaman"     ||
+           $custom eq "valyammaman" ||
+           $custom eq "ammathe perassi" ) && $simple eq "achan") {
+        return "ammathe muthashan";
+    }
+    elsif(($custom eq "amma"        ||
+           $custom eq "ammaman"     ||
+           $custom eq "valyammaman" ||
+           $custom eq "ammathe perassi" ) && $simple eq "amma") {
+        return "ammathe muthashi";
+    }    
+    elsif(($custom eq "achan"        ||
+           $custom eq "abhan"     ||
+           $custom eq "valyachan" ||
+           $custom eq "illathe perassi" ) && $simple eq "achan") {
+        return "illathe muthashan";
+    }
+    elsif(($custom eq "achan"        ||
+           $custom eq "abhan"     ||
+           $custom eq "valyachan" ||
+           $custom eq "illathe perassi" ) && $simple eq "amma") {
+        return "illathe muthashi";
+    }
+
+    elsif( $custom eq "ammathe muthashan" && $simple eq "brother") {
+        return "ammathe muthabhan (brother)";
+    }
+    elsif( $custom eq "ammathe muthashan" && $simple eq "ettan") {
+        return "ammathe valye muthashan";
+    }
+    elsif( $custom eq "ammathe muthashan" && $simple eq "aniyan") {
+        return "ammathe muthabhan";
+    }
+
+    elsif( $custom eq "illathe muthashan" && $simple eq "brother") {
+        return "illathe muthabhan (brother)";
+    }
+    elsif( $custom eq "illathe muthashan" && $simple eq "ettan") {
+        return "illathe valye muthashan";
+    }
+    elsif( $custom eq "illathe muthashan" && $simple eq "aniyan") {
+        return "illathe muthabhan";
+    }
+    
+    else {
         return "none";
     }
 }
