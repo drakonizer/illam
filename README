@@ -28,19 +28,23 @@ Installation
 2. Windows
 ----------
 
-a. Install perl 5.5 or greater (download and install Strawberry perl available from strawberryperl.com/)
+- Clone Illam at C:\
 
-b. Unzip illam.zip file into a directory of your choice
+- Unzip pics.zip in the cloned folder.
 
-c. Place database file (gedcom .ged format) in the unzipped directory
+- Install perl 5.5 or greater (download and install Strawberry perl available from strawberryperl.com/)
 
-d. Press Start
+- Unzip illam.zip file into a directory of your choice
 
-e. Type cmd
+- Place database file (gedcom .ged format) in the unzipped directory
 
-f. cd <directory where illam.zip> was unzipped
+- Press Start
 
-g. Execute script
+- Type cmd
+
+- cd <directory where illam.zip> was unzipped
+
+- Execute script
 
 	>perl illam.pl <database file name>
 
