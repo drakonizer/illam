@@ -1,0 +1,19 @@
+Cholamana Deepak Unnikrishnan	|	Cholamana Diya Deepak					|makal
+Cholamana Deepak Unnikrishnan	|	Vethiramana Lekshmi Krishnan			|wife
+Cholamana Deepak Unnikrishnan	|	Cholamana Dileep Unnikrishnan           |aniyan
+Cholamana Deepak Unnikrishnan	|	Perumaangode Akhila Arya				|aniyan,wife
+Cholamana Deepak Unnikrishnan	|	Cholamana Sailaja Subrahmanyan          |achammal
+Cholamana Deepak Unnikrishnan	|	Areekkara Aravind Appukuttan            |achammal,makan
+Areekkara Aravind Appukuttan	|	Cholamana Deepak Unnikrishnan           |valyammaman,makan
+Perumaangode Akhila Arya		|	Vaishravanath Varada Rajan              |husband,achammal,makal
+Cholamana Diya Deepak			|	Perumaangode Akhila Arya				|abhan,wife
+Cholamana Deepak Unnikrishnan	|	Thottara Vadakkedam Thulasi Unni		|ammathe muthabhan,makan,makal
+Thottara Vadakkedam Thulasi Unni|	Cholamana Deepak Unnikrishnan			|illathe muthabhan,makal,makan
+Vaishravanath Varada Rajan		|   Areekkara Aravind Appukuttan            |chittashi,makan
+Areekkara Aravind Appukuttan    |   Vaishravanath Varada Rajan	            |ammathe perassi,makal
+Areekkara Aravind Appukuttan    |   Olappamanna Kiran Vasudev	            |ammathe perassi,makal,husband
+Cherpu Kannamangalam Rohith Narayanan|Thaarangaattu Dhanya Narayanan        |ammathe muthabhan,makal,makal
+Madhavappally Jyothi Unknown    |   Thottara Vadakkedam Thulasi Unni        |husband,brother,makal
+Cholamana Deepak Unnikrishnan	|	Cholamana Aparna Haridas				|illathe muthabhan,makan,makal
+Cholamana Deepak Unnikrishnan	|	Thottara Vadakkedam Sulochana Damodaran	|ammathe muthashan,achan,brother,makal
+Cholamana Deepak Unnikrishnan	|	Manithra Damodaran Ravi                 |ammathe muthashan,achan,brother,makal

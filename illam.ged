@@ -2945,9 +2945,9 @@
 2 DATE 10 JAN 2012
 3 TIME 12:28:36
 0 @I0302@ INDI
-1 NAME Diya /Cholamana Deepak/
-2 GIVN Diya
-2 SURN Cholamana Deepak
+1 NAME Diya Deepak/Cholamana/
+2 GIVN Diya Deepak
+2 SURN Cholamana
 1 SEX F
 1 FAMC @F0213@
 1 OBJE
