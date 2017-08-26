@@ -18,31 +18,51 @@ use strict;
 use Gedcom;
 use Term::Menus;
 use DateTime;
-use Getopt::Long;
+use Getopt::Long qw(GetOptions);
+use Pod::Usage qw(pod2usage);
 
-if (@ARGV < 1) {
-    print STDERR "Usage: perl illam.pl <name of database file>\n";
-    exit 1;
-}
+# VERSION
 
+=head1 SYNOPSIS
+
+    illam.pl [--file <path to gedcom file>] [--debug] [--test]
+
+=head1 DESCRIPTION
+     Options:
+       -file            path to gedcom file
+       -debug           enable debug message
+...
+
+=cut
+my $file;
+my $debug;
+my $test;
+GetOptions(
+    q(help)             => \my $help,
+    q(verbose)          => \my $verbose,
+    "file=s"            => \$file,
+    "debug=s"           => \$debug,
+    "test=s"            => \$test,
+    q(debug)            => \my $debug,
+    q(test)             => \my $test
+) or pod2usage(q(-verbose) => 1);
+pod2usage(q(-verbose) => 1) if $help;
+pod2usage(q(-verbose) => 1) if ($file eq "");
 
 #read gedcom file from user input  
-my $ged = Gedcom->new(shift);
-my $debug = 0;
-GetOptions(
-  'd:s'   => \$debug,
-);  
-#system("clear");
-&printMainMenu();
-
+my $ged = Gedcom->new($file);
 my @persons = $ged->individuals;
-#printRelation($persons[rand @persons],$persons[rand @persons]);
 
-#unitTest();
+if($test ne "") {
+   unitTest();
+   exit 0;
+} else {
+   system("clear");
+   &printMainMenu();
+}
 
 my %userchoice;
 my %visitedList;    #keeps track of whether a node was visited or not
-
 
 #
 # unitTest - Run unit tests

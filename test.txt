@@ -16,4 +16,4 @@ Cherpu Kannamangalam Rohith Narayanan|Thaarangaattu Dhanya Narayanan        |amm
 Madhavappally Jyothi Unknown    |   Thottara Vadakkedam Thulasi Unni        |husband,brother,makal
 Cholamana Deepak Unnikrishnan	|	Cholamana Aparna Haridas				|illathe muthabhan,makan,makal
 Cholamana Deepak Unnikrishnan	|	Thottara Vadakkedam Sulochana Damodaran	|ammathe muthashan,achan,brother,makal
-Cholamana Deepak Unnikrishnan	|	Manithra Damodaran Ravi                 |ammathe muthashan,achan,brother,makal
+Cholamana Deepak Unnikrishnan	|	Manithra Damodaran Ravi                 |ammathe muthashan,achan,brother,makal,makan
