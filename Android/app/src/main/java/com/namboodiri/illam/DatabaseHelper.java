@@ -28,7 +28,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
     public void createDataBase() throws IOException
     {
-        boolean dbExist = checkDB();
+        //boolean dbExist = checkDB();
+        boolean dbExist = false;
         if(dbExist) {
             //do nothing
         }
@@ -111,4 +112,24 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return list;
     }
 
+    public String[] getResults (String key) {
+        final String TABLE_NAME = "table1";
+        String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        String ret[] = new String[3];
+        ret[0] = null;
+        boolean found = false;
+        if (cursor.moveToFirst()){
+            do {
+                if(cursor.getString(1).contains(key)){
+                    found = true;
+                    ret[0] = cursor.getString(1);
+                    ret[1] = cursor.getString(2);
+                    ret[2] = cursor.getString (3);
+                }
+            } while (cursor.moveToNext() && !found);
+        }
+        return ret;
+    }
 }
