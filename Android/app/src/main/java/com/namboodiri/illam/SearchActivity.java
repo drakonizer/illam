@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import me.xdrop.fuzzywuzzy.FuzzySearch;
+
 public class SearchActivity extends AppCompatActivity {
 
     @Override
@@ -24,7 +26,7 @@ public class SearchActivity extends AppCompatActivity {
                 if(srch!=null)
                 {
                     Intent intent;
-                    intent = new Intent(searchKey.getContext(), ResultsActivity.class);
+                    intent = new Intent(searchKey.getContext(), SearchResults.class);
                     intent.putExtra("KEY", srch);
                     startActivity(intent);
                 }
