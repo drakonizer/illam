@@ -14,6 +14,8 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.xdrop.fuzzywuzzy.FuzzySearch;
+
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static String DB_PATH = "/data/data/com.namboodiri.illam/databases/";
@@ -96,7 +98,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
-    public List<String> getDbData () {
+    public List<String> getDbData (String key) {
         final String TABLE_NAME = "table1";
         String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
@@ -104,8 +106,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         List<String> list = new ArrayList<>();
         if (cursor.moveToFirst()) {
             do {
-                String lol = cursor.getString(0) + "  " + cursor.getString(1) + "  " + cursor.getString(2) + "  " + cursor.getString(3);
-                list.add(lol);
+                if(FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1))>70)
+                    list.add(cursor.getString(1));
             } while (cursor.moveToNext());
         }
         cursor.close();

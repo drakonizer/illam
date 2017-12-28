@@ -1,5 +1,6 @@
 package com.namboodiri.illam;
 
+import android.content.Intent;
 import android.database.SQLException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,6 @@ public class ResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
         String searchKey = getIntent().getStringExtra("KEY");
-        Button name = findViewById(R.id.name);
         Button father = findViewById(R.id.father);
         Button mother = findViewById(R.id.mother);
         try {
@@ -31,18 +31,26 @@ public class ResultsActivity extends AppCompatActivity {
             throw sqle;
         }
         setButtonText(searchKey);
-        father.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setButtonText(((Button)view).getText().toString());
-            }
-        });
-        mother.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setButtonText(((Button)view).getText().toString());
-            }
-        });
+        if(!father.getText().toString().contains("ERROR!") && !mother.getText().toString().contains("ERROR!")) {
+            father.setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent;
+                    intent = new Intent(view.getContext(), ResultsActivity.class);
+                    intent.putExtra("KEY", ((Button) view).getText().toString());
+                    startActivity(intent);
+                }
+            });
+            mother.setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent;
+                    intent = new Intent(view.getContext(), ResultsActivity.class);
+                    intent.putExtra("KEY", ((Button) view).getText().toString());
+                    startActivity(intent);
+                }
+            });
+        }
     }
     private void setButtonText(String k){
         Button name = findViewById(R.id.name);
