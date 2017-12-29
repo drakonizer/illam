@@ -86,25 +86,40 @@ sub genSql {
     print $fh "CREATE TABLE table1 (_id integer PRIMARY KEY, name text, father text, mother text);\n";
 	print $fh "CREATE TABLE \"android_metadata\" (\"locale\" TEXT DEFAULT 'en_US');\n";
     print $fh "INSERT INTO \"android_metadata\" VALUES ('en_US');\n";
+
+	foreach my $spouse (0..3) {
+		print $fh "ALTER TABLE table1 ADD spouse_$spouse text;\n"
+	}
 	
+	foreach my $child (0..15) {
+		print $fh "ALTER TABLE table1 ADD child_$child text;\n"
+	}
+
 	for my $i ($ged->individuals)
 	{
-    	print $fh "INSERT INTO table1 (_id, name, father, mother) VALUES\n";
-		print $fh "($cnt,"."'".&prettyName($i->name)."',";
-
+    	print $fh "INSERT INTO table1 (_id) VALUES ($cnt);\n";
+		print $fh "UPDATE table1 SET name = '".&prettyName($i->name)."' WHERE _id = $cnt;\n";
 		if(&hasFather($i)) {
-			print $fh "'".&prettyName($i->father->name)."',";
-		} else {
-			print $fh "'NULL',";
-		}
+			print $fh "UPDATE table1 SET father = '".&prettyName($i->father->name)."' WHERE _id = $cnt;\n";
+		} 
 
 		if(&hasMother($i)) {
-			print $fh "'".&prettyName($i->mother->name)."'";
-		} else {
-			print $fh "'NULL'";
+			print $fh "UPDATE table1 SET mother = '".&prettyName($i->mother->name)."' WHERE _id = $cnt;\n";
+		} 
+
+        my @spouses = $i->spouse;
+        my $spouse_cnt = 0;
+        foreach (@spouses) {
+			print $fh "UPDATE table1 SET spouse_$spouse_cnt = '".&prettyName($_->name)."' WHERE _id = $cnt;\n";
+			$spouse_cnt++;
 		}
 
-		print $fh ");\n";
+        my @children = $i->children;
+        my $child_cnt = 0;
+        foreach (@children) {
+			print $fh "UPDATE table1 SET child_$child_cnt = '".&prettyName($_->name)."' WHERE _id = $cnt;\n";
+			$child_cnt++;
+		}
 		$cnt++;
 	}
     close $fh;
