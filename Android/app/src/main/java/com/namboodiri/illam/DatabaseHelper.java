@@ -20,7 +20,7 @@ import me.xdrop.fuzzywuzzy.FuzzySearch;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static String DB_PATH = "/data/data/com.namboodiri.illam/databases/";
-    private static String DB_NAME = "illam.db";
+    private static String DB_NAME = "illam_new.db";
     private SQLiteDatabase myDataBase;
     private final Context myContext;
     String stuff[] = new String [10000];
@@ -137,8 +137,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     stuff[i] = cursor.getString(1);
                     stf[i] = FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1));
                     //list.add(cursor.getString(1));
-                    Log.e("ILLAM: ", Integer.toString(stf[i]));
-                    Log.e("ILLAM: PERSON:  ", stuff[i]);
+                    // Log.e("ILLAM: ", Integer.toString(stf[i]));
+                    // Log.e("ILLAM: PERSON:  ", stuff[i]);
                     i++;
                 }
             } while (cursor.moveToNext());
@@ -149,26 +149,49 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         {
             //Log.e("ILLAM: current array:  ", stuff[j]);
             if(stuff[j]!=null)
-            list.add(stuff[j] + Integer.toString(stf[j]));
+            list.add(stuff[j]);
         }
         return list;
     }
 
-    public String[] getResults (String key) {
+    public ArrayList<String> getResults (String key, int start, int end) {
         final String TABLE_NAME = "table1";
         String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
-        String ret[] = new String[3];
-        ret[0] = null;
+        ArrayList<String> ret = new ArrayList<>();
+        boolean found = false;
+        if (cursor.moveToFirst()){
+            do {
+                if(cursor.getString(1).contains(key)) {
+                    found = true;
+                    for (int i = start; i <= end; i++) {
+                        if (cursor.getString(i) != null)
+                            ret.add(cursor.getString(i));
+                        else
+                            break;
+                    }
+                }
+            } while (cursor.moveToNext() && !found);
+        }
+        return ret;
+    }
+
+    public String getParents (String key, int j){
+        final String TABLE_NAME = "table1";
+        String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        String ret = null;
         boolean found = false;
         if (cursor.moveToFirst()){
             do {
                 if(cursor.getString(1).contains(key)){
                     found = true;
-                    ret[0] = cursor.getString(1);
-                    ret[1] = cursor.getString(2);
-                    ret[2] = cursor.getString (3);
+                    if(cursor.getString(j)!=null)
+                        ret = cursor.getString(j);
+                    else
+                        ret = "N/A";
                 }
             } while (cursor.moveToNext() && !found);
         }
