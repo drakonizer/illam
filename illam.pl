@@ -25,7 +25,7 @@ use Pod::Usage qw(pod2usage);
 
 =head1 SYNOPSIS
 
-    illam.pl [--file <path to gedcom file>] [--debug] [--test]
+    illam.pl [--file <path to gedcom file>] [--debug] [--test] [--sql]
 
 =head1 DESCRIPTION
      Options:
@@ -44,7 +44,8 @@ GetOptions(
     "debug=s"           => \$debug,
     "test=s"            => \$test,
     q(debug)            => \my $debug,
-    q(test)             => \my $test
+    q(test)             => \my $test,
+    q(sql)              => \my $sql
 ) or pod2usage(q(-verbose) => 1);
 pod2usage(q(-verbose) => 1) if $help;
 pod2usage(q(-verbose) => 1) if ($file eq "");
@@ -56,13 +57,59 @@ my @persons = $ged->individuals;
 if($test ne "") {
    unitTest();
    exit 0;
-} else {
-   system("clear");
-   &printMainMenu();
 }
+
+if($sql ne "") {
+   genSql();
+   exit 0;
+}
+
+system("clear");
+&printMainMenu();
+
 
 my %userchoice;
 my %visitedList;    #keeps track of whether a node was visited or not
+
+
+#
+# genSql - Generate SQL database
+#
+# @param - none
+#
+# @return - none
+#
+sub genSql {
+    my $filename = 'names.sql';
+	my $cnt = 0;
+    open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
+    print $fh "CREATE TABLE table1 (_id integer PRIMARY KEY, name text, father text, mother text);\n";
+	print $fh "CREATE TABLE \"android_metadata\" (\"locale\" TEXT DEFAULT 'en_US');\n";
+    print $fh "INSERT INTO \"android_metadata\" VALUES ('en_US');\n";
+	
+	for my $i ($ged->individuals)
+	{
+    	print $fh "INSERT INTO table1 (_id, name, father, mother) VALUES\n";
+		print $fh "($cnt,"."'".&prettyName($i->name)."',";
+
+		if(&hasFather($i)) {
+			print $fh "'".&prettyName($i->father->name)."',";
+		} else {
+			print $fh "'NULL',";
+		}
+
+		if(&hasMother($i)) {
+			print $fh "'".&prettyName($i->mother->name)."'";
+		} else {
+			print $fh "'NULL'";
+		}
+
+		print $fh ");\n";
+		$cnt++;
+	}
+    close $fh;
+	
+}
 
 #
 # unitTest - Run unit tests
