@@ -3,6 +3,7 @@ package com.namboodiri.illam;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,6 +45,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                     Intent intent;
                     intent = new Intent(v.getContext(), ResultsActivity.class);
                     intent.putExtra("KEY", selected);
+                    // Log.e("ILLAM: SELECTED: ", selected);
                     v.getContext().startActivity(intent);
                 }
             });

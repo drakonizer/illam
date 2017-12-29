@@ -4,22 +4,27 @@ import android.content.Intent;
 import android.database.SQLException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class ResultsActivity extends AppCompatActivity {
 
+    String key;
     DatabaseHelper myDbHelper = new DatabaseHelper(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
         String searchKey = getIntent().getStringExtra("KEY");
-        Button father = findViewById(R.id.father);
-        Button mother = findViewById(R.id.mother);
+        key = searchKey;
+        // Log.e("ILLAM: SELECTED: ", searchKey);
         try {
             myDbHelper.createDataBase();
         } catch (IOException ioe) {
@@ -30,39 +35,51 @@ public class ResultsActivity extends AppCompatActivity {
         }catch(SQLException sqle){
             throw sqle;
         }
-        setButtonText(searchKey);
-        if(!father.getText().toString().contains("ERROR!") && !mother.getText().toString().contains("ERROR!")) {
-            father.setOnClickListener(new Button.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent;
-                    intent = new Intent(view.getContext(), ResultsActivity.class);
-                    intent.putExtra("KEY", ((Button) view).getText().toString());
-                    startActivity(intent);
-                }
-            });
-            mother.setOnClickListener(new Button.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent;
-                    intent = new Intent(view.getContext(), ResultsActivity.class);
-                    intent.putExtra("KEY", ((Button) view).getText().toString());
-                    startActivity(intent);
-                }
-            });
+        TextView name = findViewById(R.id.name);
+        TextView father = findViewById(R.id.father);
+        TextView mother = findViewById(R.id.mother);
+        name.setText(searchKey);
+        father.setText(myDbHelper.getParents(searchKey, 2));
+        mother.setText(myDbHelper.getParents(searchKey, 3));
+        // Set values of dynamic cards (spouse)
+        RecyclerView spouse = findViewById(R.id.recycler_spouse);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(myDbHelper.getResults(searchKey, 4, 7));
+        TextView sp = findViewById(R.id.spouse_head);
+        if (adapter.getItemCount()==0)
+            sp.setVisibility(View.GONE);
+        spouse.setAdapter(adapter);
+        spouse.setNestedScrollingEnabled(false);
+        LinearLayoutManager llm = new LinearLayoutManager(this);
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        spouse.setLayoutManager(llm);
+        // Set values of dynamic cards (child)
+        RecyclerView child = findViewById(R.id.recycler_child);
+        child.setNestedScrollingEnabled(false);
+        RecyclerViewAdapter adapter2 = new RecyclerViewAdapter(myDbHelper.getResults(searchKey, 8, 23));
+        TextView ch = findViewById(R.id.child_head);
+        if (adapter2.getItemCount()==0)
+            ch.setVisibility(View.GONE);
+        child.setAdapter(adapter2);
+        LinearLayoutManager llm2 = new LinearLayoutManager(this);
+        llm2.setOrientation(LinearLayoutManager.VERTICAL);
+        child.setLayoutManager(llm2);
+    }
+
+    public void clicked(View v)
+    {
+        TextView t;
+        if(v.getId()== R.id.card2)
+            t = findViewById(R.id.father);
+        else
+            t = findViewById(R.id.mother);
+        String selected = t.getText().toString();
+        if(!selected.equalsIgnoreCase("N/A")) {
+            Intent intent;
+            intent = new Intent(this, ResultsActivity.class);
+            intent.putExtra("KEY", selected);
+            // Log.e("ILLAM: SELECTED: ", selected);
+            startActivity(intent);
         }
     }
-    private void setButtonText(String k){
-        Button name = findViewById(R.id.name);
-        Button father = findViewById(R.id.father);
-        Button mother = findViewById(R.id.mother);
-        String texts[];
-        texts = myDbHelper.getResults(k);
-        if(texts[0]!=null)
-        {
-            name.setText(texts[0]);
-            father.setText(texts[1]);
-            mother.setText(texts[2]);
-        }
-    }
+
 }
