@@ -6,6 +6,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -22,6 +23,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static String DB_NAME = "illam.db";
     private SQLiteDatabase myDataBase;
     private final Context myContext;
+    String stuff[] = new String [10000];
+    int stf[] = new int[10000];
 
     public DatabaseHelper(Context context)
     {
@@ -98,19 +101,56 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
-    public List<String> getDbData (String key) {
+    public void sortByScore(int size)
+    {
+        int temp;
+        String tmp;
+        for(int i=0; i<size; i++)
+        {
+            for(int j=0; j<size-i; j++)
+            {
+                if(stf[j] < stf[j+1])
+                {
+                    //swap ints
+                    temp = stf[j];
+                    stf[j] = stf[j+1];
+                    stf[j+1] = temp;
+                    // swap strings
+                    tmp = stuff[j];
+                    stuff[j] = stuff[j+1];
+                    stuff[j+1] = tmp;
+
+                }
+            }
+        }
+    }
+    public ArrayList<String> getDbData (String key) {
         final String TABLE_NAME = "table1";
         String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
-        List<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
+        int i = 0;
         if (cursor.moveToFirst()) {
             do {
-                if(FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1))>70)
-                    list.add(cursor.getString(1));
+                if(FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1))>70) {
+                    stuff[i] = cursor.getString(1);
+                    stf[i] = FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1));
+                    //list.add(cursor.getString(1));
+                    Log.e("ILLAM: ", Integer.toString(stf[i]));
+                    Log.e("ILLAM: PERSON:  ", stuff[i]);
+                    i++;
+                }
             } while (cursor.moveToNext());
         }
         cursor.close();
+        sortByScore(i);
+        for(int j=0; j<=i; j++)
+        {
+            //Log.e("ILLAM: current array:  ", stuff[j]);
+            if(stuff[j]!=null)
+            list.add(stuff[j] + Integer.toString(stf[j]));
+        }
         return list;
     }
 
