@@ -25,7 +25,7 @@ use Pod::Usage qw(pod2usage);
 
 =head1 SYNOPSIS
 
-    illam.pl [--file <path to gedcom file>] [--debug] [--test]
+    illam.pl [--file <path to gedcom file>] [--debug] [--test] [--sql]
 
 =head1 DESCRIPTION
      Options:
@@ -44,7 +44,8 @@ GetOptions(
     "debug=s"           => \$debug,
     "test=s"            => \$test,
     q(debug)            => \my $debug,
-    q(test)             => \my $test
+    q(test)             => \my $test,
+    q(sql)              => \my $sql
 ) or pod2usage(q(-verbose) => 1);
 pod2usage(q(-verbose) => 1) if $help;
 pod2usage(q(-verbose) => 1) if ($file eq "");
@@ -56,13 +57,74 @@ my @persons = $ged->individuals;
 if($test ne "") {
    unitTest();
    exit 0;
-} else {
-   system("clear");
-   &printMainMenu();
 }
+
+if($sql ne "") {
+   genSql();
+   exit 0;
+}
+
+system("clear");
+&printMainMenu();
+
 
 my %userchoice;
 my %visitedList;    #keeps track of whether a node was visited or not
+
+
+#
+# genSql - Generate SQL database
+#
+# @param - none
+#
+# @return - none
+#
+sub genSql {
+    my $filename = 'names.sql';
+	my $cnt = 0;
+    open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
+    print $fh "CREATE TABLE table1 (_id integer PRIMARY KEY, name text, father text, mother text);\n";
+	print $fh "CREATE TABLE \"android_metadata\" (\"locale\" TEXT DEFAULT 'en_US');\n";
+    print $fh "INSERT INTO \"android_metadata\" VALUES ('en_US');\n";
+
+	foreach my $spouse (0..3) {
+		print $fh "ALTER TABLE table1 ADD spouse_$spouse text;\n"
+	}
+	
+	foreach my $child (0..15) {
+		print $fh "ALTER TABLE table1 ADD child_$child text;\n"
+	}
+
+	for my $i ($ged->individuals)
+	{
+    	print $fh "INSERT INTO table1 (_id) VALUES ($cnt);\n";
+		print $fh "UPDATE table1 SET name = '".&prettyName($i->name)."' WHERE _id = $cnt;\n";
+		if(&hasFather($i)) {
+			print $fh "UPDATE table1 SET father = '".&prettyName($i->father->name)."' WHERE _id = $cnt;\n";
+		} 
+
+		if(&hasMother($i)) {
+			print $fh "UPDATE table1 SET mother = '".&prettyName($i->mother->name)."' WHERE _id = $cnt;\n";
+		} 
+
+        my @spouses = $i->spouse;
+        my $spouse_cnt = 0;
+        foreach (@spouses) {
+			print $fh "UPDATE table1 SET spouse_$spouse_cnt = '".&prettyName($_->name)."' WHERE _id = $cnt;\n";
+			$spouse_cnt++;
+		}
+
+        my @children = $i->children;
+        my $child_cnt = 0;
+        foreach (@children) {
+			print $fh "UPDATE table1 SET child_$child_cnt = '".&prettyName($_->name)."' WHERE _id = $cnt;\n";
+			$child_cnt++;
+		}
+		$cnt++;
+	}
+    close $fh;
+	
+}
 
 #
 # unitTest - Run unit tests

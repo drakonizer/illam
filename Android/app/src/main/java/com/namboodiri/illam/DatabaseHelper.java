@@ -14,6 +14,7 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 import java.lang.String;
 import java.util.Comparator;
 
@@ -174,8 +175,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                         p.children.add(cursor.getString(col));
                     }
                 }
-
-
                 plist.add(p);
             } while(cursor.moveToNext());
         }
@@ -191,43 +190,43 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return list;
     }
 
-            public ArrayList<Person> getPersons () {
-                final String TABLE_NAME = "table1";
-                String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
-                SQLiteDatabase db = this.getReadableDatabase();
-                Cursor cursor = db.rawQuery(selectQuery, null);
+    public ArrayList<Person> getPersons () {
+        final String TABLE_NAME = "table1";
+        String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
 
-                // search and find records
-                ArrayList<Person> persons = new ArrayList<Person>();
-                Iterator<Person> personIterator = persons.iterator();
+        // search and find records
+        ArrayList<Person> persons = new ArrayList<Person>();
+        Iterator<Person> personIterator = persons.iterator();
 
-                if(cursor.moveToFirst()) {
-                    do {
-                        Person p = new Person();
-                        p.name = cursor.getString(1);
-                        p.father = cursor.getString(2);
-                        p.mother = cursor.getString(3);
+        if(cursor.moveToFirst()) {
+            do {
+                Person p = new Person();
+                p.name = cursor.getString(1);
+                p.father = cursor.getString(2);
+                p.mother = cursor.getString(3);
 
-                        p.spouses = new ArrayList<String>();
-                        for(int col=4; col<8; col++) {
-                            if(cursor.getString(col) != null) {
-                                p.spouses.add(cursor.getString(col));
-                            }
-                        }
-
-                        p.children = new ArrayList<String>();
-                        for(int col=8; col<16; col++) {
-                            if(cursor.getString(col) != null) {
-                                p.children.add(cursor.getString(col));
-                            }
-                        }
-
-                        persons.add(p);
-                    } while(cursor.moveToNext());
+                p.spouses = new ArrayList<String>();
+                for(int col=4; col<8; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.spouses.add(cursor.getString(col));
+                    }
                 }
 
-                return persons;
-            }
+                p.children = new ArrayList<String>();
+                for(int col=8; col<16; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.children.add(cursor.getString(col));
+                    }
+                }
+
+                persons.add(p);
+            } while(cursor.moveToNext());
+        }
+
+        return persons;
+    }
 
     public Person getPerson(ArrayList<Person> persons, String key) {
         Person p;
