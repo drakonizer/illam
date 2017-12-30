@@ -3,7 +3,6 @@ package com.namboodiri.illam;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +12,8 @@ import java.util.ArrayList;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
     public ArrayList<String> myValues;
+    public static int caller = 0;
+    public static int toSend = 0;
     public RecyclerViewAdapter (ArrayList<String> myValues){
         this.myValues= myValues;
     }
@@ -43,9 +44,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 @Override public void onClick(View v) {
                     String selected = (String)myTextView.getText();
                     Intent intent;
-                    intent = new Intent(v.getContext(), ResultsActivity.class);
-                    intent.putExtra("KEY", selected);
-                    // Log.e("ILLAM: SELECTED: ", selected);
+                    if(caller == 0) {
+                        intent = new Intent(v.getContext(), ResultsActivity.class);
+                        intent.putExtra("KEY", selected);
+                    }
+                    else
+                    {
+                        intent = new Intent(v.getContext(), RelationshipSearch.class);
+                        intent.putExtra("NAME", selected);
+                        intent.putExtra("ACTION", toSend);
+                        caller = 0;
+                    }
                     v.getContext().startActivity(intent);
                 }
             });

@@ -1,6 +1,5 @@
 package com.namboodiri.illam;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.SQLException;
 import android.support.v7.app.AppCompatActivity;
@@ -8,17 +7,12 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.arlib.floatingsearchview.FloatingSearchView;
 import com.arlib.floatingsearchview.suggestions.model.SearchSuggestion;
 
 import java.io.IOException;
-
-import me.xdrop.fuzzywuzzy.FuzzySearch;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -26,6 +20,15 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        final RecyclerView myView = findViewById(R.id.recycler);
+        int val = getIntent().getIntExtra("ACTION", 0);
+        if(val == 1) {
+            RecyclerViewAdapter.caller = 1;
+            RecyclerViewAdapter.toSend = getIntent().getIntExtra("CALLER", 0);
+            myView.setVisibility(View.VISIBLE);
+            Toast.makeText(this, "Please search for a person and click on their profile to continue",
+                    Toast.LENGTH_LONG).show();
+        }
         final FloatingSearchView mSearchView = findViewById(R.id.floating_search_view);
         mSearchView.setOnSearchListener(new FloatingSearchView.OnSearchListener() {
             @Override
@@ -34,7 +37,6 @@ public class SearchActivity extends AppCompatActivity {
             }
             @Override
             public void onSearchAction(String query) {
-                RecyclerView myView = findViewById(R.id.recycler);
                 DatabaseHelper myDbHelper = new DatabaseHelper(myView.getContext());
                 try {
                     myDbHelper.createDataBase();
@@ -54,5 +56,10 @@ public class SearchActivity extends AppCompatActivity {
                 myView.setVisibility(View.VISIBLE);
             }
         });
+    }
+    public void onRelClick(View v)
+    {
+        Intent intent = new Intent (v.getContext(), RelationshipSearch.class);
+        startActivity(intent);
     }
 }

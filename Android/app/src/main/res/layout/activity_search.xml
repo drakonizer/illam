@@ -60,6 +60,15 @@
                 android:gravity="center_horizontal"
                 android:text="Welcome to Illam! Search for any name to continue..."
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
-            </LinearLayout>
+
+            <Button
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRelClick"
+                android:text="FIND RELATIONSHIP!" />
+
+        </LinearLayout>
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

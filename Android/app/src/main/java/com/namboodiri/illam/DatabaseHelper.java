@@ -6,14 +6,12 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.List;
 
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 
@@ -136,9 +134,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 if(FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1))>70) {
                     stuff[i] = cursor.getString(1);
                     stf[i] = FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1));
-                    //list.add(cursor.getString(1));
-                    // Log.e("ILLAM: ", Integer.toString(stf[i]));
-                    // Log.e("ILLAM: PERSON:  ", stuff[i]);
                     i++;
                 }
             } while (cursor.moveToNext());
@@ -147,7 +142,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         sortByScore(i);
         for(int j=0; j<=i; j++)
         {
-            //Log.e("ILLAM: current array:  ", stuff[j]);
             if(stuff[j]!=null)
             list.add(stuff[j]);
         }
