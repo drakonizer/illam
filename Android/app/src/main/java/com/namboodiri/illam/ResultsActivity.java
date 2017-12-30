@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
 import android.widget.TextView;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class ResultsActivity extends AppCompatActivity {
 
@@ -35,28 +37,34 @@ public class ResultsActivity extends AppCompatActivity {
         TextView name = findViewById(R.id.name);
         TextView father = findViewById(R.id.father);
         TextView mother = findViewById(R.id.mother);
-        name.setText(searchKey);
-        father.setText(myDbHelper.getParents(searchKey, 2));
-        mother.setText(myDbHelper.getParents(searchKey, 3));
+
+        ArrayList<Person> persons = myDbHelper.getPersons();
+        Person p = myDbHelper.getPerson(persons, searchKey);
+
+        name.setText(p.name);
+        father.setText(p.father);
+        mother.setText(p.mother);
+
         // Set values of dynamic cards (spouse)
         RecyclerView spouse = findViewById(R.id.recycler_spouse);
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(myDbHelper.getResults(searchKey, 4, 7));
+        RecyclerViewAdapter adapter_spouse = new RecyclerViewAdapter(p.spouses);
         TextView sp = findViewById(R.id.spouse_head);
-        if (adapter.getItemCount()==0)
+        if (adapter_spouse.getItemCount()==0)
             sp.setVisibility(View.GONE);
-        spouse.setAdapter(adapter);
+        spouse.setAdapter(adapter_spouse);
         spouse.setNestedScrollingEnabled(false);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         spouse.setLayoutManager(llm);
+
         // Set values of dynamic cards (child)
         RecyclerView child = findViewById(R.id.recycler_child);
         child.setNestedScrollingEnabled(false);
-        RecyclerViewAdapter adapter2 = new RecyclerViewAdapter(myDbHelper.getResults(searchKey, 8, 23));
+        RecyclerViewAdapter adapter_child = new RecyclerViewAdapter(p.children);
         TextView ch = findViewById(R.id.child_head);
-        if (adapter2.getItemCount()==0)
+        if (adapter_child.getItemCount()==0)
             ch.setVisibility(View.GONE);
-        child.setAdapter(adapter2);
+        child.setAdapter(adapter_child);
         LinearLayoutManager llm2 = new LinearLayoutManager(this);
         llm2.setOrientation(LinearLayoutManager.VERTICAL);
         child.setLayoutManager(llm2);
