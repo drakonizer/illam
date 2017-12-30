@@ -13,11 +13,25 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
+import java.lang.String;
+import java.util.Comparator;
 
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 
+
+class CompareObj implements Comparator<Person>{
+    @Override
+    public int compare(Person p1, Person p2) {
+        return p2.score - p1.score;
+    }
+}
+
 public class DatabaseHelper extends SQLiteOpenHelper {
+
+    ArrayList<Person> plist;
 
     private static String DB_PATH = "/data/data/com.namboodiri.illam/databases/";
     private static String DB_NAME = "illam_new.db";
@@ -124,77 +138,108 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             }
         }
     }
+
     public ArrayList<String> getDbData (String key) {
         final String TABLE_NAME = "table1";
         String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
-        ArrayList<String> list = new ArrayList<>();
-        int i = 0;
-        if (cursor.moveToFirst()) {
+
+        // search and find records
+        plist = new ArrayList<Person>();
+        ArrayList<Person> candidates = new ArrayList<Person>();
+        Iterator<Person> personIterator = plist.iterator();
+
+        if(cursor.moveToFirst()) {
             do {
-                if(FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1))>70) {
-                    stuff[i] = cursor.getString(1);
-                    stf[i] = FuzzySearch.tokenSetPartialRatio(key, cursor.getString(1));
-                    //list.add(cursor.getString(1));
-                    // Log.e("ILLAM: ", Integer.toString(stf[i]));
-                    // Log.e("ILLAM: PERSON:  ", stuff[i]);
-                    i++;
+                Person p = new Person();
+                p.name = cursor.getString(1);
+                p.father = cursor.getString(2);
+                p.mother = cursor.getString(3);
+                if(FuzzySearch.tokenSetPartialRatio(key, p.name)>70) {
+                    p.score = FuzzySearch.tokenSetPartialRatio(key, p.name);
+                    candidates.add(p);
+                } else {
+                    p.score = 0;
                 }
-            } while (cursor.moveToNext());
+                
+				p.spouses = new ArrayList<String>();
+                for(int col=4; col<8; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.spouses.add(cursor.getString(col));
+                    }
+                }
+				
+				p.children = new ArrayList<String>();
+                for(int col=8; col<16; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.children.add(cursor.getString(col));
+                    }
+                }
+				
+                
+                plist.add(p);
+            } while(cursor.moveToNext());
         }
+
+        Collections.sort(candidates, new CompareObj());
+
+        ArrayList<String> list = new ArrayList<>();
         cursor.close();
-        sortByScore(i);
-        for(int j=0; j<=i; j++)
-        {
-            //Log.e("ILLAM: current array:  ", stuff[j]);
-            if(stuff[j]!=null)
-            list.add(stuff[j]);
+        personIterator = candidates.iterator();
+        while(personIterator.hasNext()) {
+            list.add(personIterator.next().name);
         }
         return list;
     }
 
-    public ArrayList<String> getResults (String key, int start, int end) {
+    public ArrayList<Person> getPersons () {
         final String TABLE_NAME = "table1";
         String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
-        ArrayList<String> ret = new ArrayList<>();
-        boolean found = false;
-        if (cursor.moveToFirst()){
+
+        // search and find records
+        ArrayList<Person> persons = new ArrayList<Person>();
+        Iterator<Person> personIterator = persons.iterator();
+
+        if(cursor.moveToFirst()) {
             do {
-                if(cursor.getString(1).contains(key)) {
-                    found = true;
-                    for (int i = start; i <= end; i++) {
-                        if (cursor.getString(i) != null)
-                            ret.add(cursor.getString(i));
-                        else
-                            break;
+                Person p = new Person();
+                p.name = cursor.getString(1);
+                p.father = cursor.getString(2);
+                p.mother = cursor.getString(3);
+
+                p.spouses = new ArrayList<String>();
+                for(int col=4; col<8; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.spouses.add(cursor.getString(col));
                     }
                 }
-            } while (cursor.moveToNext() && !found);
+
+                p.children = new ArrayList<String>();
+                for(int col=8; col<16; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.children.add(cursor.getString(col));
+                    }
+                }
+
+                persons.add(p);
+            } while(cursor.moveToNext());
         }
-        return ret;
+
+        return persons;
     }
 
-    public String getParents (String key, int j){
-        final String TABLE_NAME = "table1";
-        String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery, null);
-        String ret = null;
-        boolean found = false;
-        if (cursor.moveToFirst()){
-            do {
-                if(cursor.getString(1).contains(key)){
-                    found = true;
-                    if(cursor.getString(j)!=null)
-                        ret = cursor.getString(j);
-                    else
-                        ret = "N/A";
-                }
-            } while (cursor.moveToNext() && !found);
+    public Person getPerson(ArrayList<Person> persons, String key) {
+        Person p;
+        Iterator<Person> personIterator = persons.iterator();
+        personIterator = persons.iterator();
+        while(personIterator.hasNext()) {
+            p = personIterator.next();
+            if(p.name.equals(key))
+                return p;
         }
-        return ret;
+        return null;
     }
 }
