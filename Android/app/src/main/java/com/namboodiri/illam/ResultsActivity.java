@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Hashtable;
 
 public class ResultsActivity extends AppCompatActivity {
 
@@ -39,7 +40,7 @@ public class ResultsActivity extends AppCompatActivity {
         TextView father = findViewById(R.id.father);
         TextView mother = findViewById(R.id.mother);
 
-        ArrayList<Person> persons = myDbHelper.getPersons();
+        Hashtable<String, Person> persons = myDbHelper.getPersons();
         Person p = myDbHelper.getPerson(persons, searchKey);
 
         name.setText(p.name);

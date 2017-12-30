@@ -17,6 +17,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.lang.String;
 import java.util.Comparator;
+import java.util.Hashtable;
 
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 
@@ -190,11 +191,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return list;
     }
 
-    public ArrayList<Person> getPersons () {
+    public Hashtable<String, Person> getPersons () {
         final String TABLE_NAME = "table1";
         String selectQuery = "SELECT  * FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
+        Hashtable<String, Person> ht = new Hashtable<String, Person>();
 
         // search and find records
         ArrayList<Person> persons = new ArrayList<Person>();
@@ -220,16 +222,21 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                         p.children.add(cursor.getString(col));
                     }
                 }
+                //p.gender = cursor.getString(17);
 
                 persons.add(p);
+                ht.put(p.name, p);
             } while(cursor.moveToNext());
         }
 
-        return persons;
+        //return persons;
+        return ht;
     }
 
-    public Person getPerson(ArrayList<Person> persons, String key) {
+    public Person getPerson(Hashtable<String, Person> persons, String key) {
         Person p;
+        return persons.get(key);
+        /*
         Iterator<Person> personIterator = persons.iterator();
         personIterator = persons.iterator();
         while(personIterator.hasNext()) {
@@ -238,5 +245,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 return p;
         }
         return null;
+        */
     }
+
+    /*
+    public String getRelation(String A, String B) {
+
+    }
+    */
 }

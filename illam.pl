@@ -94,6 +94,8 @@ sub genSql {
 	foreach my $child (0..15) {
 		print $fh "ALTER TABLE table1 ADD child_$child text;\n"
 	}
+	
+	print $fh "ALTER TABLE table1 ADD sex text;\n";
 
 	for my $i ($ged->individuals)
 	{
@@ -120,10 +122,16 @@ sub genSql {
 			print $fh "UPDATE table1 SET child_$child_cnt = '".&prettyName($_->name)."' WHERE _id = $cnt;\n";
 			$child_cnt++;
 		}
+
+		if ($i->sex eq "M") {
+			print $fh "UPDATE table1 SET sex = \"male\" WHERE _id = $cnt;\n";
+		} else {
+			print $fh "UPDATE table1 SET sex = \"female\" WHERE _id = $cnt;\n";
+		}
 		$cnt++;
+
 	}
     close $fh;
-	
 }
 
 #

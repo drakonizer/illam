@@ -13,4 +13,5 @@ public class Person {
     ArrayList<String> spouses;
     ArrayList<String> children;
     int score;
+    String gender;
 }
