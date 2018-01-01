@@ -217,12 +217,20 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 }
 
                 p.children = new ArrayList<String>();
-                for(int col=8; col<16; col++) {
+                for(int col=8; col<24; col++) {
                     if(cursor.getString(col) != null) {
                         p.children.add(cursor.getString(col));
                     }
                 }
-                //p.gender = cursor.getString(17);
+                p.gender = cursor.getString(24);
+
+                p.siblings = new ArrayList<String>();
+
+                for(int col=25; col<41; col++) {
+                    if(cursor.getString(col) != null) {
+                        p.siblings.add(cursor.getString(col));
+                    }
+                }
 
                 persons.add(p);
                 ht.put(p.name, p);

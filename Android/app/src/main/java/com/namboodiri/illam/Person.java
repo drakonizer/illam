@@ -12,6 +12,7 @@ public class Person {
     String mother;
     ArrayList<String> spouses;
     ArrayList<String> children;
+    ArrayList<String> siblings;
     int score;
     String gender;
 }

@@ -1,0 +1,13 @@
+Install sqlite3
+
+Generate sql script
+$ perl illam.pl --file illam.ged --sql
+
+Remove any existing database
+$ rm insert.db
+
+Enter sqlite3 shell
+$ sqlite3 insert.db
+
+Read script
+$ .read names.sql

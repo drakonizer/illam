@@ -97,6 +97,14 @@ sub genSql {
 	
 	print $fh "ALTER TABLE table1 ADD sex text;\n";
 
+	foreach my $sibling (0..15) {
+		print $fh "ALTER TABLE table1 ADD sib_$sibling text;\n"
+	}
+
+	#print $fh "ALTER TABLE table1 ADD date integer;\n";
+	#print $fh "ALTER TABLE table1 ADD month string;\n";
+	print $fh "ALTER TABLE table1 ADD year integer;\n";
+
 	for my $i ($ged->individuals)
 	{
     	print $fh "INSERT INTO table1 (_id) VALUES ($cnt);\n";
@@ -128,6 +136,32 @@ sub genSql {
 		} else {
 			print $fh "UPDATE table1 SET sex = \"female\" WHERE _id = $cnt;\n";
 		}
+
+        my @siblings = $i->siblings;
+        my $sib_cnt = 0;
+        foreach (@siblings) {
+			print $fh "UPDATE table1 SET sib_$sib_cnt = '".&prettyName($_->name)."' WHERE _id = $cnt;\n";
+			$sib_cnt++;
+		}
+
+		my $dob = $i->get_value("birth date");
+		if(defined($dob)) {
+    		my @dob = split(" ",$dob);
+			my $date = $dob[0];
+			my $month = $dob[1];
+			my $year = $dob[2];
+			if(defined($date)) {
+				#print $fh "UPDATE table1 SET date = $date WHERE _id = $cnt;\n";
+			}
+			if(defined($month)) {
+				#print $fh "UPDATE table1 SET month = $month WHERE _id = $cnt;\n";
+			}
+
+			if(defined($year)) {
+				print $fh "UPDATE table1 SET year = $year WHERE _id = $cnt;\n";
+			}
+		} 
+ 
 		$cnt++;
 
 	}
