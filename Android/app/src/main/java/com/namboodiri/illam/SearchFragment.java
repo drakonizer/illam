@@ -1,42 +1,48 @@
 package com.namboodiri.illam;
 
+
 import android.content.Intent;
 import android.database.SQLException;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Toast;
+import android.view.ViewGroup;
 
 import com.arlib.floatingsearchview.FloatingSearchView;
 import com.arlib.floatingsearchview.suggestions.model.SearchSuggestion;
 
 import java.io.IOException;
 
-public class SearchActivity extends AppCompatActivity {
+
+public class SearchFragment extends Fragment {
+
+    public SearchFragment() {
+        // Required empty public constructor
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
-        final RecyclerView myView = findViewById(R.id.recycler);
-        int val = getIntent().getIntExtra("ACTION", 0);
-        if(val == 1) {
-            RecyclerViewAdapter.caller = 1;
-            RecyclerViewAdapter.toSend = getIntent().getIntExtra("CALLER", 0);
-            myView.setVisibility(View.VISIBLE);
-            Toast.makeText(this, "Please search for a person and click on their profile to continue",
-                    Toast.LENGTH_LONG).show();
-        }
-        final FloatingSearchView mSearchView = findViewById(R.id.floating_search_view);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        final View v = inflater.inflate(R.layout.fragment_search, container, false);
+        final FloatingSearchView mSearchView = v.findViewById(R.id.floating_search_fragment);
         mSearchView.setOnSearchListener(new FloatingSearchView.OnSearchListener() {
             @Override
             public void onSuggestionClicked(final SearchSuggestion searchSuggestion) {
                 //do nothing for now
             }
+
             @Override
             public void onSearchAction(String query) {
+                final RecyclerView myView = v.findViewById(R.id.recycler_frag);
                 DatabaseHelper myDbHelper = new DatabaseHelper(myView.getContext());
                 try {
                     myDbHelper.createDataBase();
@@ -53,7 +59,10 @@ public class SearchActivity extends AppCompatActivity {
                 LinearLayoutManager llm = new LinearLayoutManager(myView.getContext());
                 llm.setOrientation(LinearLayoutManager.VERTICAL);
                 myView.setLayoutManager(llm);
+                myView.setVisibility(View.VISIBLE);
             }
         });
+        return v;
     }
+
 }

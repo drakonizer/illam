@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.namboodiri.illam.SearchFragment">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/floating_search_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#ff3949ab"
+        app:floatingSearch_close_search_on_keyboard_dismiss="false"
+        app:floatingSearch_leftActionMode="showSearch"
+        app:floatingSearch_searchHint="Search for a person..."
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_searchBarMarginLeft="5dp"
+        app:floatingSearch_searchBarMarginRight="5dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recycler_frag"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:layout_width="match_parent"/>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ff3949ab">
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="Hello!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/desc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Illam! Search for any name or switch to the relation search tab to continue..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+</LinearLayout>
+</LinearLayout>
+</FrameLayout>

@@ -1,19 +1,25 @@
 package com.namboodiri.illam;
 
+
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Collections;
+import org.w3c.dom.Text;
+
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-import java.util.Iterator;
 
 class Relation {
     String relation;
@@ -21,53 +27,73 @@ class Relation {
     String thavazhi;
 }
 
-public class RelationshipSearch extends AppCompatActivity {
-    public static String name1 = "Please select a user to begin";
-    public static String name2 = "Please select a user to begin";
+public class RelationshipFragment extends Fragment {
+    public static String name1 = "Select Person 1";
+    public static String name2 = "Select Person 2";
+
+    public static void resetSearch()
+    {
+        name1 = "Select Person 1";
+        name2 = "Select Person 2";
+    }
+
+    public RelationshipFragment() {
+        // Required empty public constructor
+    }
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_relationship_search);
-        String name = getIntent().getStringExtra("NAME");
-        int personSelected = getIntent().getIntExtra("ACTION", 0);
-        TextView person1 = findViewById(R.id.rel1);
-        TextView person2 = findViewById(R.id.rel2);
-        if(personSelected == 1) {
-            name1 = name;
-            person1.setText(name1);
-            person2.setText(name2);
-        }
-        else if (personSelected == 2) {
-            name2 = name;
-            person2.setText(name2);
-            person1.setText(name1);
-        }
-        if(!person1.getText().toString().equalsIgnoreCase("Please select a user to begin") && !person1.getText().toString().equalsIgnoreCase("Please select a user to begin"))
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View frag = inflater.inflate(R.layout.fragment_relationship, container, false);
+        TextView person1 = frag.findViewById(R.id.rel1);
+        TextView person2 = frag.findViewById(R.id.rel2);
+        person1.setText(name1);
+        person2.setText(name2);
+        if(!person1.getText().toString().equalsIgnoreCase("Select Person 1") && !person1.getText().toString().equalsIgnoreCase("Select Person 2"))
         {
-            Button search = findViewById(R.id.find_rel);
+            Button search = frag.findViewById(R.id.find_rel);
+            search.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onSearchClick(v);
+                }
+            });
             search.setEnabled(true);
         }
 
-    }
-    public void selectPerson(View v)
-    {
-        int a;
-        if (v.getId() == R.id.rel1_button)
-            a = 1;
-        else
-            a = 2;
-        Intent intent = new Intent(v.getContext(), SearchActivity.class);
-        intent.putExtra("CALLER", a);
-        intent.putExtra("ACTION", 1);
-        startActivity(intent);
+        return frag;
     }
 
-    @Override
-    public void onDestroy()
+    public void onSearchClick(View v)
     {
-        super.onDestroy();
-        name1 = "Please select a user to begin";
-        name2 = "Please select a user to begin";
+        // This is the function that gets executed when the search button is clicked
+        String res = getRelation(name1, name2);
+        AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+        if (res == "")
+        {
+            alert.setTitle("Relationship Not Found! :(");
+            alert.setMessage("We couldn't find any known relationship between the selected users");
+        }
+        else
+        {
+            alert.setTitle("Relationship found!");
+            alert.setMessage(name2.trim() + " is " + name1.trim() + "'s " + res);
+        }
+        alert.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+        alert.show();
+    }
+
+    public void swap(TextView t1, TextView t2)
+    {
+        String temp = name1;
+        name1 = name2;
+        name2 = temp;
+        t1.setText(name1);
+        t2.setText(name2);
     }
 
     private Relation defineSimpleRelation(Person a, Person b, Hashtable<String, Person> persons)
@@ -239,8 +265,7 @@ public class RelationshipSearch extends AppCompatActivity {
         LinkedList<Relation> relationList = new LinkedList<>();
         Queue<Person> searchQ = new LinkedList<Person>();
         boolean found = false;
-        DatabaseHelper myDbHelper = new DatabaseHelper(this);
-
+        DatabaseHelper myDbHelper = new DatabaseHelper(getActivity());
 
         Hashtable<Person, Person> predecessor = new Hashtable<Person, Person>();
         Hashtable<Person, Integer> visited = new Hashtable<>();
@@ -388,12 +413,4 @@ public class RelationshipSearch extends AppCompatActivity {
         return result;
     }
 
-    public void onSearchClick(View v)
-    {
-        // This is the function that gets executed when the search button is clicked
-        String res = getRelation(name1, name2);
-        Toast.makeText(this, res,
-                Toast.LENGTH_LONG).show();
-
-    }
 }

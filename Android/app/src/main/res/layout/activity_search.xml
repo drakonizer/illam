@@ -32,43 +32,6 @@
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler"
             android:layout_height="match_parent"
-            android:visibility="gone"
             android:layout_width="match_parent"/>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/ll"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:background="#ff3949ab">
-            <TextView
-                android:id="@+id/hello"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:gravity="center_horizontal"
-                android:text="Hello!"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
-                android:textSize="50sp" />
-
-            <TextView
-                android:id="@+id/desc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/hello"
-                android:layout_marginBottom="100dp"
-                android:gravity="center_horizontal"
-                android:text="Welcome to Illam! Search for any name to continue..."
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
-
-            <Button
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onRelClick"
-                android:text="FIND RELATIONSHIP!" />
-
-        </LinearLayout>
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

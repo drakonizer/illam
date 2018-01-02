@@ -50,10 +50,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                     }
                     else
                     {
-                        intent = new Intent(v.getContext(), RelationshipSearch.class);
-                        intent.putExtra("NAME", selected);
-                        intent.putExtra("ACTION", toSend);
+                        intent = new Intent(v.getContext(), HostActivity.class);
+                        if(toSend==1)
+                            RelationshipFragment.name1 = selected;
+                        else if (toSend==2)
+                            RelationshipFragment.name2 = selected;
                         caller = 0;
+                        intent.putExtra("TAB", 1);
                     }
                     v.getContext().startActivity(intent);
                 }
