@@ -15,4 +15,5 @@ public class Person {
     ArrayList<String> siblings;
     int score;
     String gender;
+    String year;
 }

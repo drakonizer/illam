@@ -154,20 +154,52 @@ public class RelationshipFragment extends Fragment {
             while (sibIterator.hasNext()) {
                 Person sib = persons.get(sibIterator.next());
                 if(sib.name.equals(b.name) && b.gender.equals("female")) {
-                    rel.relation = "sister";
-                    rel.record = b;
-                    return rel;
+                    if(sib.year != null && a.year != null) {
+                        if(isAOlderThanB(sib,a)) {
+                            rel.relation = "oppol";
+                            rel.record = b;
+                            return rel;
+                        } else {
+                            rel.relation = "aniyathi";
+                            rel.record = b;
+                            return rel;
+                        }
+                    } else {
+                        rel.relation = "sister";
+                        rel.record = b;
+                        return rel;
+                    }
                 }
                 if(sib.name.equals(b.name) && b.gender.equals("male")) {
-                    rel.relation = "brother";
-                    rel.record = b;
-                    return rel;
+                    if(sib.year != null && a.year != null) {
+                        if(isAOlderThanB(sib,a)) {
+                            rel.relation = "ettan";
+                            rel.record = b;
+                            return rel;
+                        } else {
+                            rel.relation = "aniyan";
+                            rel.record = b;
+                            return rel;
+                        }
+                    } else {
+                        rel.relation = "brother";
+                        rel.record = b;
+                        return rel;
+                    }
                 }
             }
         }
 
         return rel;
     }
+
+    private Boolean isAOlderThanB(Person A, Person B) {
+        if(Integer.parseInt(B.year)-Integer.parseInt(A.year) > 0)
+            return true;
+        else
+            return false;
+    }
+
 
     private Relation defineCustomRelation(Relation custom, Relation simple)
     {
@@ -198,10 +230,18 @@ public class RelationshipFragment extends Fragment {
                 {"achan"      ,"makal",    "sister"},
                 //
                 {"sister"     ,"amma",     "amma"},
+                {"oppol"      ,"amma",     "amma"},
+                {"aniyathi"   ,"amma",     "amma"},
                 {"brother"    ,"amma",     "amma"},
+                {"ettan"      ,"amma",     "amma"},
+                {"aniyan"     ,"amma",     "amma"},
                 //
                 {"sister"     ,"achan",    "achan"},
+                {"oppol"      ,"achan",    "achan"},
+                {"aniyathi"   ,"achan",    "achan"},
                 {"brother"    ,"achan",    "achan"},
+                {"ettan"      ,"achan",    "achan"},
+                {"aniyan"     ,"achan",    "achan"},
                 //
                 {"amma"      ,"achan",     "ammathe muthashan"},
                 {"amma"      ,"amma",      "ammathe muthashi"},
@@ -217,7 +257,16 @@ public class RelationshipFragment extends Fragment {
                 //
                 {"ammathe muthashi"      ,"husband",      "ammathe muthashan"},
                 //
-                {"illathe muthashi"      ,"husband",      "illathe muthashan"}
+                {"illathe muthashi"      ,"husband",      "illathe muthashan"},
+                //
+                {"amma"       ,"brother",   "ammaman"},
+                //
+                {"abhan"      ,"wife",      "cheriyamma"},
+                //
+                {"sister"     ,"brother",   "brother"},
+                {"sister"     ,"sister",    "sister"},
+                {"brother"    ,"brother",   "brother"},
+                {"brother"    ,"sister",    "sister"}
         };
 
         // populate hash table
@@ -236,26 +285,6 @@ public class RelationshipFragment extends Fragment {
         }
     }
 
-    private Stack<Relation> reducePass(Stack<Relation> relationStack, Stack<Relation> customRelationStack)
-    {
-        while(!relationStack.isEmpty()) {
-            Relation rel = relationStack.pop();
-
-            if(customRelationStack.isEmpty())
-                customRelationStack.push(rel);
-            else {
-                Relation top = customRelationStack.pop();
-                Relation custom = defineCustomRelation(top,rel);
-                if(custom.relation.equals("none")) {
-                    customRelationStack.push(top);
-                    customRelationStack.push(rel);
-                } else {
-                    customRelationStack.push(custom);
-                }
-            }
-        }
-        return customRelationStack;
-    }
 
 
     public String getRelation(String A, String B)
