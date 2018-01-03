@@ -343,7 +343,6 @@ public class RelationshipFragment extends Fragment {
             if(!n.children.isEmpty()) {
                 Iterator<String> childIterator = n.children.iterator();
                 while (childIterator.hasNext()) {
-                    //System.out.println(crunchifyIterator.next());
                     Person child = persons.get(childIterator.next());
                     if(!visited.containsKey(child)) {
                         searchQ.add(child);
@@ -363,20 +362,6 @@ public class RelationshipFragment extends Fragment {
             }
         }
 
-
-
-        // first pass
-        //customRelationStack = relationStack;
-        //customRelationStack = reducePass(relationStack, customRelationStack);
-        //relationStack = (Stack<Relation>)customRelationStack.clone();
-        //Collections.reverse(relationStack);
-
-
-        // second pass
-        //customRelationStack = reducePass(relationStack, customRelationStack);
-
-        //Collections.reverse(customRelationStack);
-        //Iterator<Relation> relIterator = relationList.iterator();
         int oldLen;
         int newLen;
         do {
@@ -396,19 +381,6 @@ public class RelationshipFragment extends Fragment {
         while(!relationList.isEmpty()) {
             result = result+relationList.remove().relation;
         }
-        // diya, umadevi
-        //wife achan brother achan
-        //-->achan brother achan wife
-
-        /*
-        while(!relationStack.isEmpty()) {
-            result = result+relationStack.pop().relation;
-        }
-        */
-
-        //makal, wife, makan, husband
-        //achan, brother, achan, wife
-
 
         return result;
     }
