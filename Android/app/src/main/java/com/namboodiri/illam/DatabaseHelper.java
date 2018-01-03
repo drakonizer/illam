@@ -232,6 +232,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     }
                 }
 
+                p.year = cursor.getString(41);
+
                 persons.add(p);
                 ht.put(p.name, p);
             } while(cursor.moveToNext());
