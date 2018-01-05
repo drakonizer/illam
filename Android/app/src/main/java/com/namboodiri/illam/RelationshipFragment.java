@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -76,8 +77,9 @@ public class RelationshipFragment extends Fragment {
         }
         else
         {
-            alert.setTitle("Relationship found!");
+            alert.setTitle("Found relation!");
             alert.setMessage(name2.trim() + " is " + name1.trim() + "'s " + res);
+            //alert.setMessage(name1.trim()+ "'de " + res +" aanu "+name2.trim());
         }
         alert.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
@@ -423,6 +425,7 @@ public class RelationshipFragment extends Fragment {
                 //
                 {"illathe muthashan"      ,"wife",        "illathe muthashi"},
                 {"illathe muthashan"      ,"brother",     "illathe muthabhan"},
+                {"illathe muthashan"      ,"sister",      "achammal"},
                 //
                 {"ammathe muthashi"      ,"husband",      "ammathe muthashan"},
                 //
@@ -437,6 +440,10 @@ public class RelationshipFragment extends Fragment {
         // populate hash table
         for(int i=0; i<relations.length; i++) {
             // use first two strings of relations as key, third is the result
+            // allow breaking relationships (return an array rather than single)
+            // allow age comparison
+            // compare custom.age and simple.age and use the relationship in calculating
+            // the relationship
             ht.put(relations[i][0]+relations[i][1], relations[i][2]);
         }
 
@@ -556,8 +563,34 @@ public class RelationshipFragment extends Fragment {
             }
         }
 
+        // shorten sibling relations
+        String[] sibRelations = {"brother","sister","ettan","oppol","aniyan","aniyathi"};
+
         int oldLen;
         int newLen;
+        do {
+            oldLen = relationList.size();
+            for (int i = 0; i < oldLen - 1; i++) {
+                if(relationList.get(i) != null && relationList.get(i+1) != null) {
+                    if(Arrays.asList(sibRelations).contains(relationList.get(i).relation) &&
+                            Arrays.asList(sibRelations).contains(relationList.get(i+1).relation)) {
+                        relationList.set(i, relationList.get(i+1));
+                        relationList.set(i+1, null);
+                    }
+                }
+            }
+            // remove all elements set to null
+            relationList.remove(null);
+            newLen = relationList.size();
+        } while(newLen < oldLen);
+
+        // the relation represents two people A and B and defines the relationship
+        // B is A's "relation"
+        // defineCustomRelation must return an array of relations
+        // allows rewording certain relationships
+        // e.g. illathe muthashan sister = achan achammal
+
+
         do {
             oldLen = relationList.size();
             for (int i = 0; i < oldLen - 1; i++) {
@@ -573,7 +606,10 @@ public class RelationshipFragment extends Fragment {
         } while(newLen < oldLen);
 
         while(!relationList.isEmpty()) {
-            result = result+relationList.remove().relation;
+            if(relationList.size()==1)
+                result = result+relationList.remove().relation;
+            else
+                result = result+relationList.remove().relation+"'s ";
         }
 
         return result;
