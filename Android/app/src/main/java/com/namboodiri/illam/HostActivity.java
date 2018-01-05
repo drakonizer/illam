@@ -5,6 +5,9 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -18,6 +21,8 @@ public class HostActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_host);
+        Toolbar myToolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
         viewPager = findViewById(R.id.viewpager);
         setupViewPager(viewPager);
         tabLayout = findViewById(R.id.tabs);
@@ -54,6 +59,24 @@ public class HostActivity extends AppCompatActivity {
         TextView t1 = findViewById(R.id.rel1);
         TextView t2 = findViewById(R.id.rel2);
         temp.swap(t1, t2);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.about: {
+                Intent intent = new Intent(this, AboutActivity.class);
+                startActivity(intent);
+                break;
+            }
+        }
+        return false;
     }
 
     public void onDestroy()
