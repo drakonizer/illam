@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -14,6 +15,7 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.Set;
 
 public class ResultsActivity extends AppCompatActivity {
 
@@ -36,6 +38,8 @@ public class ResultsActivity extends AppCompatActivity {
         }catch(SQLException sqle){
             throw sqle;
         }
+
+
         TextView name = findViewById(R.id.name);
         TextView father = findViewById(R.id.father);
         TextView mother = findViewById(R.id.mother);
@@ -43,9 +47,38 @@ public class ResultsActivity extends AppCompatActivity {
         Hashtable<String, Person> persons = myDbHelper.getPersons();
         Person p = myDbHelper.getPerson(persons, searchKey);
 
+        //Find deepak
+        Set<String> keys = persons.keySet();
+        RelationshipFragment rf = new RelationshipFragment();
+
+        Person me = new Person();
+        Person dpk = me;
+        for(String key: keys) {
+            //Log.e("ILLAM","Person is "+key);
+            if(persons.containsKey(key)) {
+                //Log.e("ILLAM", "Key exists");
+                if(key.contains("Deepak Unnikrishnan")) {
+                    Log.e("ILLAM", "Found Deepak");
+                    me = persons.get(key);
+                    break;
+                }
+            } else {
+                Log.e("ILLAM", "Key does not exist");
+            }
+        }
+
+        RelationUtils utils = new RelationUtils();
         name.setText(p.name);
         father.setText(p.father);
         mother.setText(p.mother);
+
+        //name.setText(p.name+"("+utils.getRelation(me.name,p.name, myDbHelper)+")");
+        //father.setText(p.father+"("+utils.getRelation(me.name,p.father, myDbHelper)+")");
+        //mother.setText(p.mother+"("+utils.getRelation(me.name,p.mother, myDbHelper)+")");
+        Log.e("ILLAM",p.name+"("+utils.getRelation(me.name,p.name, myDbHelper)+")");
+        Log.e("ILLAM", p.father+"("+utils.getRelation(me.name,p.father, myDbHelper)+")");
+        Log.e("ILLAM", p.mother+"("+utils.getRelation(me.name,p.mother, myDbHelper)+")");
+
 
         // Set values of dynamic cards (spouse)
         RecyclerView spouse = findViewById(R.id.recycler_spouse);

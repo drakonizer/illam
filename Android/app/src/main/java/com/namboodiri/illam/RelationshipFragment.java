@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,17 +21,16 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.ArrayList;
 import java.util.Stack;
+import java.util.List;
+import java.util.Set;
 
-class Relation {
-    String relation;
-    Person record;
-    String thavazhi;
-}
 
 public class RelationshipFragment extends Fragment {
     public static String name1 = "Select Person 1";
     public static String name2 = "Select Person 2";
+
 
     public static void resetSearch()
     {
@@ -65,10 +65,73 @@ public class RelationshipFragment extends Fragment {
         return frag;
     }
 
+    private void unitTests() {
+        DatabaseHelper myDbHelper = new DatabaseHelper(getActivity());
+        Hashtable<String, Person> ht;
+        ht = myDbHelper.getPersons();
+
+        Person me = new Person();
+        Set<String> keys = ht.keySet();
+
+        ArrayList<Person> others = new ArrayList<Person>();
+        Queue<Person> searchQ = new LinkedList<Person>();
+
+        for(String key: keys) {
+            //Log.e("ILLAM","Person is "+key);
+            if(ht.containsKey(key)) {
+                //Log.e("ILLAM", "Key exists");
+                if(key.contains("Deepak Unnikrishnan")) {
+                    Log.e("ILLAM", "Found Deepak");
+                    me = ht.get(key);
+                    break;
+                }
+            } else {
+                Log.e("ILLAM", "Key does not exist");
+            }
+        }
+
+        Person dpk = me;
+
+        for(int k=0; k<2; k++) {
+            searchQ.add(ht.get(me.father));
+            searchQ.add(ht.get(me.mother));
+            for (int i = 0; i < me.siblings.size(); i++) {
+                searchQ.add(ht.get(me.siblings.get(i)));
+            }
+            for (int i = 0; i < me.children.size(); i++) {
+                searchQ.add(ht.get(me.children.get(i)));
+            }
+            for (int i = 0; i < me.spouses.size(); i++) {
+                searchQ.add(ht.get(me.spouses.get(i)));
+            }
+            me = ht.get(me.father);
+        }
+
+        while(!searchQ.isEmpty()) {
+            Person p = searchQ.remove();
+            Log.e("ILLAM: Calculating ", dpk.name+" and "+p.name);
+            //Log.e("ILLAM:", dpk.name+"'s "+getRelation(dpk.name,p.name)+" is "+p.name);
+        }
+
+        /*
+        String test = new String("Cholamana Diya Deepak");
+        if(ht.containsKey(test)) {
+            Log.e("ILLAM", "Key exists");
+        } else {
+            Log.e("ILLAM", "Key does not exist");
+        }
+        */
+        //Person a = ht.get("Cholamana Deepak Unnikrishnan");
+
+
+    }
+
     public void onSearchClick(View v)
     {
         // This is the function that gets executed when the search button is clicked
-        String res = getRelation(name1, name2);
+        RelationUtils utils = new RelationUtils();
+        DatabaseHelper myDbHelper = new DatabaseHelper(getActivity());
+        String res = utils.getRelation(name1, name2, myDbHelper);
         AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
         if (res == "")
         {
@@ -87,6 +150,7 @@ public class RelationshipFragment extends Fragment {
             }
         });
         alert.show();
+        //unitTests();
     }
 
     public void swap(TextView t1, TextView t2)
@@ -98,109 +162,6 @@ public class RelationshipFragment extends Fragment {
         t2.setText(name2);
     }
 
-    private Relation defineSimpleRelation(Person a, Person b, Hashtable<String, Person> persons)
-    {
-        Relation rel = new Relation();
-        if(a.father!=null) {
-            if(a.father.equals(b.name)) {
-                rel.relation = "achan";
-                rel.record = b;
-                return rel;
-            }
-        }
-
-        if(a.mother!=null) {
-            if(a.mother.equals(b.name)) {
-                rel.relation = "amma";
-                rel.record = b;
-                return rel;
-            }
-        }
-
-        if(!a.spouses.isEmpty()) {
-            Iterator<String> spouseIterator = a.spouses.iterator();
-            while (spouseIterator.hasNext()) {
-                Person spouse = persons.get(spouseIterator.next());
-                if(spouse.name.equals(b.name) && b.gender.equals("female")) {
-                    rel.relation = "wife";
-                    rel.record = b;
-                    return rel;
-                }
-                if(spouse.name.equals(b.name) && b.gender.equals("male")) {
-                    rel.relation = "husband";
-                    rel.record = b;
-                    return rel;
-                }
-            }
-        }
-
-        if(!a.children.isEmpty()) {
-            Iterator<String> childIterator = a.children.iterator();
-            while (childIterator.hasNext()) {
-                Person child = persons.get(childIterator.next());
-                if(child.name.equals(b.name) && b.gender.equals("female")) {
-                    rel.relation = "makal";
-                    rel.record = b;
-                    return rel;
-                }
-                if(child.name.equals(b.name) && b.gender.equals("male")) {
-                    rel.relation = "makan";
-                    rel.record = b;
-                    return rel;
-                }
-            }
-        }
-
-        if(!a.siblings.isEmpty()) {
-            Iterator<String> sibIterator = a.siblings.iterator();
-            while (sibIterator.hasNext()) {
-                Person sib = persons.get(sibIterator.next());
-                if(sib.name.equals(b.name) && b.gender.equals("female")) {
-                    if(sib.year != null && a.year != null) {
-                        if(isAOlderThanB(sib,a)) {
-                            rel.relation = "oppol";
-                            rel.record = b;
-                            return rel;
-                        } else {
-                            rel.relation = "aniyathi";
-                            rel.record = b;
-                            return rel;
-                        }
-                    } else {
-                        rel.relation = "sister";
-                        rel.record = b;
-                        return rel;
-                    }
-                }
-                if(sib.name.equals(b.name) && b.gender.equals("male")) {
-                    if(sib.year != null && a.year != null) {
-                        if(isAOlderThanB(sib,a)) {
-                            rel.relation = "ettan";
-                            rel.record = b;
-                            return rel;
-                        } else {
-                            rel.relation = "aniyan";
-                            rel.record = b;
-                            return rel;
-                        }
-                    } else {
-                        rel.relation = "brother";
-                        rel.record = b;
-                        return rel;
-                    }
-                }
-            }
-        }
-
-        return rel;
-    }
-
-    private Boolean isAOlderThanB(Person A, Person B) {
-        if(Integer.parseInt(B.year)-Integer.parseInt(A.year) > 0)
-            return true;
-        else
-            return false;
-    }
 
 
     private Relation defineCustomRelation(Relation custom, Relation simple)
@@ -212,7 +173,6 @@ public class RelationshipFragment extends Fragment {
             rel.relation = "none";
             return rel;
         }
-
 
         // Custom relations
         String[][] relations = {
@@ -453,166 +413,13 @@ public class RelationshipFragment extends Fragment {
             return rel;
         } else {
             rel.relation = "none";
+            ArrayList<Relation> complexList;
+            //complexList.add(a);
+            //complexList.add(b);
+            //return complexList;
             return rel;
         }
     }
 
-
-
-    public String getRelation(String A, String B)
-    {
-        String result = "";
-        LinkedList<Relation> customRelationList = new LinkedList<>();
-        LinkedList<Relation> relationList = new LinkedList<>();
-        Queue<Person> searchQ = new LinkedList<Person>();
-        boolean found = false;
-        DatabaseHelper myDbHelper = new DatabaseHelper(getActivity());
-
-        Hashtable<Person, Person> predecessor = new Hashtable<Person, Person>();
-        Hashtable<Person, Integer> visited = new Hashtable<>();
-
-        if(A.equals(B))
-            return "Please provide unique name for each person";
-
-        Hashtable<String, Person> persons = myDbHelper.getPersons();
-        Person a = myDbHelper.getPerson(persons, A);
-        Person b = myDbHelper.getPerson(persons, B);
-
-        searchQ.add(a);
-        predecessor.put(a,a);
-
-        // We will use a breadth-first-search algorithm to explore the family tree starting from record B
-        // If record A was found during the search process, stop. We will then back-track and print the relation
-        // Otherwise, we throw a message that says the relation was not found.
-        // a breadth-first-search strategy is used to find the closest relation.
-        // try to search in father, mother, all sons, all daughter, spouse's relations, mark visited
-
-        //  as we traverse the graph, we mark at each node the previous node from which we reached this node
-        //  we store this predecssor information in the hash-table %predecessor
-
-        while(!searchQ.isEmpty()) {
-            Person n = searchQ.remove();
-
-            if(!visited.containsKey(n)) {
-                visited.put(n,1);
-                if(n.name.equals(b.name)) {
-                    found = true;
-                    break;
-                }
-            }
-
-            if(!n.siblings.isEmpty()) {
-                Iterator<String> sibIterator = n.siblings.iterator();
-                while (sibIterator.hasNext()) {
-                    //System.out.println(crunchifyIterator.next());
-                    Person sib = persons.get(sibIterator.next());
-                    if(!visited.containsKey(sib)) {
-                        searchQ.add(sib);
-                        predecessor.put(sib,n);
-                    }
-                }
-            }
-
-            if(!n.spouses.isEmpty()) {
-                Iterator<String> spouseIterator = n.spouses.iterator();
-                while (spouseIterator.hasNext()) {
-                    //System.out.println(crunchifyIterator.next());
-                    Person spouse = persons.get(spouseIterator.next());
-                    if(!visited.containsKey(spouse)) {
-                        searchQ.add(spouse);
-                        predecessor.put(spouse,n);
-                    }
-                }
-            }
-
-            if(n.father != null) {
-                Person father = persons.get(n.father);
-                if(!visited.containsKey(father)) {
-                    searchQ.add(father);
-                    predecessor.put(father,n);
-                }
-            }
-
-            if(n.mother != null) {
-                Person mother = persons.get(n.mother);
-                if(!visited.containsKey(mother)) {
-                    searchQ.add(mother);
-                    predecessor.put(mother,n);
-                }
-            }
-
-            if(!n.children.isEmpty()) {
-                Iterator<String> childIterator = n.children.iterator();
-                while (childIterator.hasNext()) {
-                    Person child = persons.get(childIterator.next());
-                    if(!visited.containsKey(child)) {
-                        searchQ.add(child);
-                        predecessor.put(child,n);
-                    }
-                }
-            }
-
-        }
-
-        if(visited.get(b) == 1) {
-            Person n = b;
-            while(!n.name.equals(a.name)) {
-                Person pred = predecessor.get(n);
-                relationList.addFirst(defineSimpleRelation(pred,n,persons));
-                n = pred;
-            }
-        }
-
-        // shorten sibling relations
-        String[] sibRelations = {"brother","sister","ettan","oppol","aniyan","aniyathi"};
-
-        int oldLen;
-        int newLen;
-        do {
-            oldLen = relationList.size();
-            for (int i = 0; i < oldLen - 1; i++) {
-                if(relationList.get(i) != null && relationList.get(i+1) != null) {
-                    if(Arrays.asList(sibRelations).contains(relationList.get(i).relation) &&
-                            Arrays.asList(sibRelations).contains(relationList.get(i+1).relation)) {
-                        relationList.set(i, relationList.get(i+1));
-                        relationList.set(i+1, null);
-                    }
-                }
-            }
-            // remove all elements set to null
-            relationList.remove(null);
-            newLen = relationList.size();
-        } while(newLen < oldLen);
-
-        // the relation represents two people A and B and defines the relationship
-        // B is A's "relation"
-        // defineCustomRelation must return an array of relations
-        // allows rewording certain relationships
-        // e.g. illathe muthashan sister = achan achammal
-
-
-        do {
-            oldLen = relationList.size();
-            for (int i = 0; i < oldLen - 1; i++) {
-                Relation custom = defineCustomRelation(relationList.get(i), relationList.get(i + 1));
-                if (!custom.relation.equals("none")) {
-                    relationList.set(i, custom);
-                    relationList.set(i + 1, null);
-                }
-            }
-            // remove all elements set to null
-            relationList.remove(null);
-            newLen = relationList.size();
-        } while(newLen < oldLen);
-
-        while(!relationList.isEmpty()) {
-            if(relationList.size()==1)
-                result = result+relationList.remove().relation;
-            else
-                result = result+relationList.remove().relation+"'s ";
-        }
-
-        return result;
-    }
 
 }

@@ -239,6 +239,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             } while(cursor.moveToNext());
         }
 
+        db.close();
+        cursor.close();
         //return persons;
         return ht;
     }
