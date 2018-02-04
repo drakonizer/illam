@@ -213,6 +213,7 @@ public class RelationUtils {
         }
 
         if(a.relation.equals("amma") && b.relation.equals("brother")) {
+            Log.e("ILLAM","amma+brother"+a.record.year+","+b.record.year);
             if(a.record.year != null && b.record.year != null) {
                 if(isAOlderThanB(a.record,b.record)) {
                     rel = new Relation("ammaman", 1);
@@ -530,13 +531,16 @@ public class RelationUtils {
             return false;
     }
 
-    static void printList(ArrayList<Relation> list) {
+    static String printList(ArrayList<Relation> list) {
+        String ret = "";
         if(!list.isEmpty()) {
             for(int i=0; i<list.size(); i++) {
+                ret = ret+list.get(i).relation+",yr="+list.get(i).record.year+",name="+list.get(i).record.name;
                 //System.out.print();
                 //Log.e("",list.get(i).relation+",");
             }
         }
+        return ret;
     }
 
     // derive a complex relationship from a list of simple relations, when possible
@@ -599,12 +603,16 @@ public class RelationUtils {
         }
 
 
+        String line="";
         for(i=0; i<relations.size(); i++) {
             for(j=0; j<relations.size(); j++) {
-                //Log.e("",cost_matrix[i][j].cost+"(");
+                //Log.e("ILLAM:",cost_matrix[i][j].cost+"("+printList(cost_matrix[i][j].complexList)+"),");
+                line=line+cost_matrix[i][j].cost+"("+printList(cost_matrix[i][j].complexList)+"),";
                 //printList(cost_matrix[i][j].complexList);
                 //Log.e("",")");
             }
+            Log.e("ILLAM", line);
+            line="";
             //System.out.println("");
         }
 
@@ -713,7 +721,7 @@ public class RelationUtils {
 
         }
 
-        Relation dummy = new Relation("none",1);
+        Relation dummy = new Relation("self",1);
         dummy.record = a;
 
         if(visited.get(b) == 1) {
@@ -724,7 +732,7 @@ public class RelationUtils {
                 relationList.addFirst(defineSimpleRelation(pred,n,persons));
                 n = pred;
             }
-            //relationList.addFirst(dummy);
+            relationList.addFirst(dummy);
         }
 
         /*
@@ -782,8 +790,13 @@ public class RelationUtils {
         Iterator<Relation> it = t.iterator();
         while (it.hasNext()) {
             Relation r = it.next();
-            if(!r.relation.equals("none"))
-                result = result+r.relation+"'s ";
+            if(!r.relation.equals("self")) {
+                if(it.hasNext()) {
+                    result = result + r.relation + "'s ";
+                } else {
+                    result = result + r.relation;
+                }
+            }
         }
 
         return result;

@@ -15,6 +15,7 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Set;
 
 public class ResultsActivity extends AppCompatActivity {
@@ -27,7 +28,13 @@ public class ResultsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_results);
         String searchKey = getIntent().getStringExtra("KEY");
         key = searchKey;
-        // Log.e("ILLAM: SELECTED: ", searchKey);
+        Log.e("ILLAM: SELECTED: ", searchKey);
+
+        // remove relationship string from search key
+        // relationship string is enclosed in paranthesis
+        key = key.replaceAll("\\(.*?\\) ?", "");
+        Log.e("ILLAM: SELECTED: ", key);
+
         try {
             myDbHelper.createDataBase();
         } catch (IOException ioe) {
@@ -45,7 +52,8 @@ public class ResultsActivity extends AppCompatActivity {
         TextView mother = findViewById(R.id.mother);
 
         Hashtable<String, Person> persons = myDbHelper.getPersons();
-        Person p = myDbHelper.getPerson(persons, searchKey);
+        //Person p = myDbHelper.getPerson(persons, searchKey);
+        Person p = myDbHelper.getPerson(persons, key);
 
         //Find deepak
         Set<String> keys = persons.keySet();
@@ -72,15 +80,37 @@ public class ResultsActivity extends AppCompatActivity {
         father.setText(p.father);
         mother.setText(p.mother);
 
-        //name.setText(p.name+"("+utils.getRelation(me.name,p.name, myDbHelper)+")");
-        //father.setText(p.father+"("+utils.getRelation(me.name,p.father, myDbHelper)+")");
-        //mother.setText(p.mother+"("+utils.getRelation(me.name,p.mother, myDbHelper)+")");
-        Log.e("ILLAM",p.name+"("+utils.getRelation(me.name,p.name, myDbHelper)+")");
-        Log.e("ILLAM", p.father+"("+utils.getRelation(me.name,p.father, myDbHelper)+")");
-        Log.e("ILLAM", p.mother+"("+utils.getRelation(me.name,p.mother, myDbHelper)+")");
+        if(me.name.equals(p.name)) {
+            name.setText(p.name);
+        } else {
+            name.setText(p.name + "(Your " + utils.getRelation(me.name, p.name, myDbHelper) + ")");
+        }
 
+        if(p.father != null)
+            father.setText(p.father+"(Your "+utils.getRelation(me.name,p.father, myDbHelper)+")");
+        else
+            father.setText(p.father);
+
+        if(p.mother != null)
+            mother.setText(p.mother+"(Your "+utils.getRelation(me.name,p.mother, myDbHelper)+")");
+        else
+            father.setText(p.mother);
+
+        //mother.setText(p.mother+"("+utils.getRelation(me.name,p.mother, myDbHelper)+")");
+        //Log.e("ILLAM",p.name+"("+utils.getRelation(me.name,p.name, myDbHelper)+")");
+        //Log.e("ILLAM", p.father+"("+utils.getRelation(me.name,p.father, myDbHelper)+")");
+        //Log.e("ILLAM", p.mother+"("+utils.getRelation(me.name,p.mother, myDbHelper)+")");
 
         // Set values of dynamic cards (spouse)
+        ArrayList<String> spouseWithRels = new ArrayList<String>();
+        Iterator<String> spouseIterator = p.spouses.iterator();
+        while (spouseIterator.hasNext()) {
+            String sp = spouseIterator.next();
+            String rel = "(Your "+utils.getRelation(me.name, sp, myDbHelper)+")";
+        }
+
+
+
         RecyclerView spouse = findViewById(R.id.recycler_spouse);
         RecyclerViewAdapter adapter_spouse = new RecyclerViewAdapter(p.spouses);
         TextView sp = findViewById(R.id.spouse_head);

@@ -141,7 +141,7 @@ public class RelationshipFragment extends Fragment {
         else
         {
             alert.setTitle("Found relation!");
-            alert.setMessage(name2.trim() + " is " + name1.trim() + "'s " + res);
+            alert.setMessage(name2.trim() + " is " + name1.trim() + "'de " + res);
             //alert.setMessage(name1.trim()+ "'de " + res +" aanu "+name2.trim());
         }
         alert.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
